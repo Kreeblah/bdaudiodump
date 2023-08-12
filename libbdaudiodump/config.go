@@ -21,6 +21,7 @@ package libbdaudiodump
 
 import (
 	"encoding/json"
+	"errors"
 	"os"
 	"strings"
 )
@@ -40,11 +41,11 @@ type BluRayDiscConfig struct {
 	CoverType                  string `json:"cover_type"`
 	CoverFormat                string `json:"cover_format"`
 	Tracks                     []struct {
-		Number        int    `json:"number"`
-		TitleNumber   string `json:"title_number"`
-		ChapterNumber int    `json:"chapter_number"`
-		TrackTitle    string `json:"track_title"`
-		Artist        string `json:"artist"`
+		Number         int    `json:"number"`
+		TitleNumber    string `json:"title_number"`
+		ChapterNumbers []int  `json:"chapter_numbers"`
+		TrackTitle     string `json:"track_title"`
+		Artist         string `json:"artist"`
 	} `json:"tracks"`
 }
 
@@ -62,6 +63,10 @@ func ReadConfigFile(configPath string) (*[]BluRayDiscConfig, error) {
 	}
 
 	for i, _ := range *bluRayConfigs {
+		if (*bluRayConfigs)[i].TotalTracks != len((*bluRayConfigs)[i].Tracks) {
+			return nil, errors.New("number of tracks does not match total track value for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+
 		(*bluRayConfigs)[i].CoverContainerRelativePath = strings.ReplaceAll((*bluRayConfigs)[i].CoverContainerRelativePath, "/", string(os.PathSeparator))
 		(*bluRayConfigs)[i].CoverRelativePath = strings.ReplaceAll((*bluRayConfigs)[i].CoverRelativePath, "/", string(os.PathSeparator))
 	}

@@ -18,448 +18,640 @@
             {
                 "number": 1,
                 "title_number": "00",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Presentiment",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 2,
                 "title_number": "00",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Chrono Trigger",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 3,
                 "title_number": "00",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Morning Sunlight",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 4,
                 "title_number": "00",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Peaceful Days",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 5,
                 "title_number": "00",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "Memories of Green",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 6,
                 "title_number": "00",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "Guardia Millennial Fair",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 7,
                 "title_number": "00",
-                "chapter_number": 6,
+                "chapter_numbers":
+                [
+                    6
+                ],
                 "track_title": "Gato's Song",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 8,
                 "title_number": "00",
-                "chapter_number": 7,
+                "chapter_numbers":
+                [
+                    7
+                ],
                 "track_title": "A Strange Happening",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 9,
                 "title_number": "00",
-                "chapter_number": 8,
+                "chapter_numbers":
+                [
+                    8
+                ],
                 "track_title": "Wind Scene",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 10,
                 "title_number": "00",
-                "chapter_number": 9,
+                "chapter_numbers":
+                [
+                    9
+                ],
                 "track_title": "Goodnight",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 11,
                 "title_number": "00",
-                "chapter_number": 10,
+                "chapter_numbers":
+                [
+                    10
+                ],
                 "track_title": "Secret of the Forest",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 12,
                 "title_number": "00",
-                "chapter_number": 11,
+                "chapter_numbers":
+                [
+                    11
+                ],
                 "track_title": "Battle 1",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 13,
                 "title_number": "00",
-                "chapter_number": 12,
+                "chapter_numbers":
+                [
+                    12
+                ],
                 "track_title": "Courage and Pride",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 14,
                 "title_number": "00",
-                "chapter_number": 13,
+                "chapter_numbers":
+                [
+                    13
+                ],
                 "track_title": "Huh?!",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 15,
                 "title_number": "00",
-                "chapter_number": 14,
+                "chapter_numbers":
+                [
+                    14
+                ],
                 "track_title": "Manoria Cathedral",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 16,
                 "title_number": "00",
-                "chapter_number": 15,
+                "chapter_numbers":
+                [
+                    15
+                ],
                 "track_title": "A Prayer to the Road that Leads",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 17,
                 "title_number": "00",
-                "chapter_number": 16,
+                "chapter_numbers":
+                [
+                    16
+                ],
                 "track_title": "Silent Light",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 18,
                 "title_number": "00",
-                "chapter_number": 17,
+                "chapter_numbers":
+                [
+                    17
+                ],
                 "track_title": "Boss Battle 1",
                 "artist": "Noriko Matsueda"
             },
             {
                 "number": 19,
                 "title_number": "00",
-                "chapter_number": 18,
+                "chapter_numbers":
+                [
+                    18
+                ],
                 "track_title": "Frog's Theme",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 20,
                 "title_number": "00",
-                "chapter_number": 19,
+                "chapter_numbers":
+                [
+                    19
+                ],
                 "track_title": "Fanfare 1",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 21,
                 "title_number": "00",
-                "chapter_number": 20,
+                "chapter_numbers":
+                [
+                    20
+                ],
                 "track_title": "Kingdom Trial",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 22,
                 "title_number": "00",
-                "chapter_number": 21,
+                "chapter_numbers":
+                [
+                    21
+                ],
                 "track_title": "The Hidden Truth",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 23,
                 "title_number": "00",
-                "chapter_number": 22,
+                "chapter_numbers":
+                [
+                    22
+                ],
                 "track_title": "A Shot of Crisis",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 24,
                 "title_number": "00",
-                "chapter_number": 23,
+                "chapter_numbers":
+                [
+                    23
+                ],
                 "track_title": "Ruined World",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 25,
                 "title_number": "00",
-                "chapter_number": 24,
+                "chapter_numbers":
+                [
+                    24
+                ],
                 "track_title": "Mystery of the Past",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 26,
                 "title_number": "00",
-                "chapter_number": 25,
+                "chapter_numbers":
+                [
+                    25
+                ],
                 "track_title": "Lab 16's Ruin",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 27,
                 "title_number": "00",
-                "chapter_number": 26,
+                "chapter_numbers":
+                [
+                    26
+                ],
                 "track_title": "People Without Hope",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 28,
                 "title_number": "00",
-                "chapter_number": 27,
+                "chapter_numbers":
+                [
+                    27
+                ],
                 "track_title": "Lavos' Theme",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 29,
                 "title_number": "00",
-                "chapter_number": 28,
+                "chapter_numbers":
+                [
+                    28
+                ],
                 "track_title": "The Day the World Revived",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 30,
                 "title_number": "00",
-                "chapter_number": 29,
+                "chapter_numbers":
+                [
+                    29
+                ],
                 "track_title": "Robo Gang Johnny",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 31,
                 "title_number": "00",
-                "chapter_number": 30,
+                "chapter_numbers":
+                [
+                    30
+                ],
                 "track_title": "Bike Chase",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 32,
                 "title_number": "00",
-                "chapter_number": 31,
+                "chapter_numbers":
+                [
+                    31
+                ],
                 "track_title": "Robo's Theme",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 33,
                 "title_number": "00",
-                "chapter_number": 32,
+                "chapter_numbers":
+                [
+                    32
+                ],
                 "track_title": "Remains of the Factory",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 34,
                 "title_number": "00",
-                "chapter_number": 33,
+                "chapter_numbers":
+                [
+                    33
+                ],
                 "track_title": "Battle 2",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 35,
                 "title_number": "00",
-                "chapter_number": 34,
+                "chapter_numbers":
+                [
+                    34
+                ],
                 "track_title": "Fanfare 2",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 36,
                 "title_number": "00",
-                "chapter_number": 35,
+                "chapter_numbers":
+                [
+                    35
+                ],
                 "track_title": "Brink of Time",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 37,
                 "title_number": "00",
-                "chapter_number": 36,
+                "chapter_numbers":
+                [
+                    36
+                ],
                 "track_title": "Delightful Spekkio",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 38,
                 "title_number": "00",
-                "chapter_number": 37,
+                "chapter_numbers":
+                [
+                    37
+                ],
                 "track_title": "Fanfare 3",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 39,
                 "title_number": "00",
-                "chapter_number": 38,
+                "chapter_numbers":
+                [
+                    38
+                ],
                 "track_title": "Underground Sewer",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 40,
                 "title_number": "00",
-                "chapter_number": 39,
+                "chapter_numbers":
+                [
+                    39
+                ],
                 "track_title": "Boss Battle 2",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 41,
                 "title_number": "00",
-                "chapter_number": 40,
+                "chapter_numbers":
+                [
+                    40
+                ],
                 "track_title": "Primitive Mountain",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 42,
                 "title_number": "00",
-                "chapter_number": 41,
+                "chapter_numbers":
+                [
+                    41
+                ],
                 "track_title": "Ayla's Theme",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 43,
                 "title_number": "00",
-                "chapter_number": 42,
+                "chapter_numbers":
+                [
+                    42
+                ],
                 "track_title": "Rhythm of Wind, Sky and Earth",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 44,
                 "title_number": "00",
-                "chapter_number": 43,
+                "chapter_numbers":
+                [
+                    43
+                ],
                 "track_title": "Burn! Bobonga!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 45,
                 "title_number": "00",
-                "chapter_number": 44,
+                "chapter_numbers":
+                [
+                    44
+                ],
                 "track_title": "Magus' Castle",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 46,
                 "title_number": "00",
-                "chapter_number": 45,
+                "chapter_numbers":
+                [
+                    45
+                ],
                 "track_title": "Confusing Melody",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 47,
                 "title_number": "00",
-                "chapter_number": 46,
+                "chapter_numbers":
+                [
+                    46
+                ],
                 "track_title": "Battle with Magus",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 48,
                 "title_number": "00",
-                "chapter_number": 47,
+                "chapter_numbers":
+                [
+                    47
+                ],
                 "track_title": "Singing Mountain",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 49,
                 "title_number": "00",
-                "chapter_number": 48,
+                "chapter_numbers":
+                [
+                    48
+                ],
                 "track_title": "Tyran Castle",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 50,
                 "title_number": "00",
-                "chapter_number": 49,
+                "chapter_numbers":
+                [
+                    49
+                ],
                 "track_title": "At the Bottom of Night",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 51,
                 "title_number": "00",
-                "chapter_number": 50,
+                "chapter_numbers":
+                [
+                    50
+                ],
                 "track_title": "Corridors of Time",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 52,
                 "title_number": "00",
-                "chapter_number": 51,
+                "chapter_numbers":
+                [
+                    51
+                ],
                 "track_title": "Zeal Palace",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 53,
                 "title_number": "00",
-                "chapter_number": 52,
+                "chapter_numbers":
+                [
+                    52
+                ],
                 "track_title": "Schala's Theme",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 54,
                 "title_number": "00",
-                "chapter_number": 53,
+                "chapter_numbers":
+                [
+                    53
+                ],
                 "track_title": "Sealed Door",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 55,
                 "title_number": "00",
-                "chapter_number": 54,
+                "chapter_numbers":
+                [
+                    54
+                ],
                 "track_title": "Undersea Palace",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 56,
                 "title_number": "00",
-                "chapter_number": 55,
+                "chapter_numbers":
+                [
+                    55
+                ],
                 "track_title": "Far Off Promise",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 57,
                 "title_number": "00",
-                "chapter_number": 56,
+                "chapter_numbers":
+                [
+                    56
+                ],
                 "track_title": "Wings That Cross Time",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 58,
                 "title_number": "00",
-                "chapter_number": 57,
+                "chapter_numbers":
+                [
+                    57
+                ],
                 "track_title": "Black Omen",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 59,
                 "title_number": "00",
-                "chapter_number": 58,
+                "chapter_numbers":
+                [
+                    58
+                ],
                 "track_title": "Determination",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 60,
                 "title_number": "00",
-                "chapter_number": 59,
+                "chapter_numbers":
+                [
+                    59
+                ],
                 "track_title": "World Revolution",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 61,
                 "title_number": "00",
-                "chapter_number": 60,
+                "chapter_numbers":
+                [
+                    60
+                ],
                 "track_title": "Last Battle",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 62,
                 "title_number": "00",
-                "chapter_number": 61,
+                "chapter_numbers":
+                [
+                    61
+                ],
                 "track_title": "First Festival of Stars",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 63,
                 "title_number": "00",
-                "chapter_number": 62,
+                "chapter_numbers":
+                [
+                    62
+                ],
                 "track_title": "Epilogue ~ To Good Friends",
                 "artist": "Yasunori Mitsuda"
             },
             {
                 "number": 64,
                 "title_number": "00",
-                "chapter_number": 63,
+                "chapter_numbers":
+                [
+                    63
+                ],
                 "track_title": "To Far Away Times",
                 "artist": "Yasunori Mitsuda"
             }
@@ -484,638 +676,1532 @@
             {
                 "number": 1,
                 "title_number": "00",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Prelude",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 2,
                 "title_number": "00",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Opening Theme",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 3,
                 "title_number": "00",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Castle Cornelia",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 4,
                 "title_number": "00",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "Main Theme",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 5,
                 "title_number": "00",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "Chaos Shrine",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 6,
                 "title_number": "00",
-                "chapter_number": 6,
+                "chapter_numbers":
+                [
+                    6
+                ],
                 "track_title": "Matoya's Cave",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 7,
                 "title_number": "00",
-                "chapter_number": 7,
+                "chapter_numbers":
+                [
+                    7
+                ],
                 "track_title": "Town",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 8,
                 "title_number": "00",
-                "chapter_number": 8,
+                "chapter_numbers":
+                [
+                    8
+                ],
                 "track_title": "Shop",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 9,
                 "title_number": "00",
-                "chapter_number": 9,
+                "chapter_numbers":
+                [
+                    9
+                ],
                 "track_title": "Sailing Ship",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 10,
                 "title_number": "00",
-                "chapter_number": 10,
+                "chapter_numbers":
+                [
+                    10
+                ],
                 "track_title": "Sunken Shrine",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 11,
                 "title_number": "00",
-                "chapter_number": 11,
+                "chapter_numbers":
+                [
+                    11
+                ],
                 "track_title": "Dungeon",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 12,
                 "title_number": "00",
-                "chapter_number": 12,
+                "chapter_numbers":
+                [
+                    12
+                ],
                 "track_title": "Menu Screen",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 13,
                 "title_number": "00",
-                "chapter_number": 13,
+                "chapter_numbers":
+                [
+                    13
+                ],
                 "track_title": "Airship",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 14,
                 "title_number": "00",
-                "chapter_number": 14,
+                "chapter_numbers":
+                [
+                    14
+                ],
                 "track_title": "Mt. Gulg",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 15,
                 "title_number": "00",
-                "chapter_number": 15,
+                "chapter_numbers":
+                [
+                    15
+                ],
                 "track_title": "Flying Fortress",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 16,
                 "title_number": "00",
-                "chapter_number": 16,
+                "chapter_numbers":
+                [
+                    16
+                ],
                 "track_title": "Battle",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 17,
                 "title_number": "00",
-                "chapter_number": 17,
+                "chapter_numbers":
+                [
+                    17
+                ],
                 "track_title": "Victory",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 18,
                 "title_number": "00",
-                "chapter_number": 18,
+                "chapter_numbers":
+                [
+                    18
+                ],
                 "track_title": "End Theme",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 19,
                 "title_number": "00",
-                "chapter_number": 19,
+                "chapter_numbers":
+                [
+                    19
+                ],
                 "track_title": "Game Over",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 20,
                 "title_number": "00",
-                "chapter_number": 20,
+                "chapter_numbers":
+                [
+                    20
+                ],
                 "track_title": "Save Jingle",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 21,
                 "title_number": "00",
-                "chapter_number": 21,
+                "chapter_numbers":
+                [
+                    21
+                ],
                 "track_title": "Prelude",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 22,
                 "title_number": "00",
-                "chapter_number": 22,
+                "chapter_numbers":
+                [
+                    22
+                ],
                 "track_title": "Battle Theme 1",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 23,
                 "title_number": "00",
-                "chapter_number": 23,
+                "chapter_numbers":
+                [
+                    23
+                ],
                 "track_title": "Revival",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 24,
                 "title_number": "00",
-                "chapter_number": 24,
+                "chapter_numbers":
+                [
+                    24
+                ],
                 "track_title": "Reunion",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 25,
                 "title_number": "00",
-                "chapter_number": 25,
+                "chapter_numbers":
+                [
+                    25
+                ],
                 "track_title": "The Rebel Army",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 26,
                 "title_number": "00",
-                "chapter_number": 26,
+                "chapter_numbers":
+                [
+                    26
+                ],
                 "track_title": "Town",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 27,
                 "title_number": "00",
-                "chapter_number": 27,
+                "chapter_numbers":
+                [
+                    27
+                ],
                 "track_title": "Main Theme",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 28,
                 "title_number": "00",
-                "chapter_number": 28,
+                "chapter_numbers":
+                [
+                    28
+                ],
                 "track_title": "Castle Pandemonium",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 29,
                 "title_number": "00",
-                "chapter_number": 29,
+                "chapter_numbers":
+                [
+                    29
+                ],
                 "track_title": "The Imperial Army",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 30,
                 "title_number": "00",
-                "chapter_number": 30,
+                "chapter_numbers":
+                [
+                    30
+                ],
                 "track_title": "Chocobo Theme",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 31,
                 "title_number": "00",
-                "chapter_number": 31,
+                "chapter_numbers":
+                [
+                    31
+                ],
                 "track_title": "Tower of the Magi",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 32,
                 "title_number": "00",
-                "chapter_number": 32,
+                "chapter_numbers":
+                [
+                    32
+                ],
                 "track_title": "Escape!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 33,
                 "title_number": "00",
-                "chapter_number": 33,
+                "chapter_numbers":
+                [
+                    33
+                ],
                 "track_title": "Ancient Castle",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 34,
                 "title_number": "00",
-                "chapter_number": 34,
+                "chapter_numbers":
+                [
+                    34
+                ],
                 "track_title": "Dungeon",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 35,
                 "title_number": "00",
-                "chapter_number": 35,
+                "chapter_numbers":
+                [
+                    35
+                ],
                 "track_title": "The Emperor's Rebirth",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 36,
                 "title_number": "00",
-                "chapter_number": 36,
+                "chapter_numbers":
+                [
+                    36
+                ],
                 "track_title": "Battle Theme 2",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 37,
                 "title_number": "00",
-                "chapter_number": 37,
+                "chapter_numbers":
+                [
+                    37
+                ],
                 "track_title": "Victory",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 38,
                 "title_number": "00",
-                "chapter_number": 38,
+                "chapter_numbers":
+                [
+                    38
+                ],
                 "track_title": "Finale",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 39,
                 "title_number": "00",
-                "chapter_number": 39,
+                "chapter_numbers":
+                [
+                    39
+                ],
                 "track_title": "Waltz",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 40,
                 "title_number": "00",
-                "chapter_number": 40,
+                "chapter_numbers":
+                [
+                    40
+                ],
                 "track_title": "The Princess's Seduction",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 41,
                 "title_number": "00",
-                "chapter_number": 41,
+                "chapter_numbers":
+                [
+                    41
+                ],
                 "track_title": "Game Over",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 42,
                 "title_number": "00",
-                "chapter_number": 42,
+                "chapter_numbers":
+                [
+                    42
+                ],
                 "track_title": "Fanfare",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 43,
                 "title_number": "00",
-                "chapter_number": 43,
+                "chapter_numbers":
+                [
+                    43
+                ],
                 "track_title": "Join the Party!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 44,
                 "title_number": "00",
-                "chapter_number": 44,
+                "chapter_numbers":
+                [
+                    44
+                ],
                 "track_title": "Shop",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 45,
                 "title_number": "00",
-                "chapter_number": 45,
+                "chapter_numbers":
+                [
+                    45
+                ],
                 "track_title": "Airship",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 46,
                 "title_number": "00",
-                "chapter_number": 46,
+                "chapter_numbers":
+                [
+                    46
+                ],
                 "track_title": "Battle Theme 3",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 47,
                 "title_number": "00",
-                "chapter_number": 47,
+                "chapter_numbers":
+                [
+                    47
+                ],
                 "track_title": "Dungeon",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 48,
                 "title_number": "00",
-                "chapter_number": 48,
+                "chapter_numbers":
+                [
+                    48
+                ],
                 "track_title": "The Prelude",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 49,
                 "title_number": "00",
-                "chapter_number": 49,
+                "chapter_numbers":
+                [
+                    49
+                ],
                 "track_title": "Crystal Cave",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 50,
                 "title_number": "00",
-                "chapter_number": 50,
+                "chapter_numbers":
+                [
+                    50
+                ],
                 "track_title": "Battle 1 ~Fanfare",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 51,
                 "title_number": "00",
-                "chapter_number": 51,
+                "chapter_numbers":
+                [
+                    51
+                ],
                 "track_title": "Crystal Room",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 52,
                 "title_number": "00",
-                "chapter_number": 52,
+                "chapter_numbers":
+                [
+                    52
+                ],
                 "track_title": "Opening Theme",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 53,
                 "title_number": "00",
-                "chapter_number": 53,
+                "chapter_numbers":
+                [
+                    53
+                ],
                 "track_title": "My Home Town",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 54,
                 "title_number": "00",
-                "chapter_number": 54,
+                "chapter_numbers":
+                [
+                    54
+                ],
                 "track_title": "Eternal Wind",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 55,
                 "title_number": "00",
-                "chapter_number": 55,
+                "chapter_numbers":
+                [
+                    55
+                ],
                 "track_title": "Jinn, the Fire",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 56,
                 "title_number": "00",
-                "chapter_number": 56,
+                "chapter_numbers":
+                [
+                    56
+                ],
                 "track_title": "The Dungeon",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 57,
                 "title_number": "00",
-                "chapter_number": 57,
+                "chapter_numbers":
+                [
+                    57
+                ],
                 "track_title": "Return of the Warrior",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 58,
                 "title_number": "00",
-                "chapter_number": 58,
+                "chapter_numbers":
+                [
+                    58
+                ],
                 "track_title": "The Way to the Top",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 59,
                 "title_number": "00",
-                "chapter_number": 59,
+                "chapter_numbers":
+                [
+                    59
+                ],
                 "track_title": "Tozus",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 60,
                 "title_number": "00",
-                "chapter_number": 60,
+                "chapter_numbers":
+                [
+                    60
+                ],
                 "track_title": "Shrine of Nept",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 61,
                 "title_number": "00",
-                "chapter_number": 61,
+                "chapter_numbers":
+                [
+                    61
+                ],
                 "track_title": "Sailing Enterprise",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 62,
                 "title_number": "00",
-                "chapter_number": 62,
+                "chapter_numbers":
+                [
+                    62
+                ],
                 "track_title": "Living Forest",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 63,
                 "title_number": "00",
-                "chapter_number": 63,
+                "chapter_numbers":
+                [
+                    63
+                ],
                 "track_title": "Time Remains",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 64,
                 "title_number": "00",
-                "chapter_number": 64,
+                "chapter_numbers":
+                [
+                    64
+                ],
                 "track_title": "Chocobos!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 65,
                 "title_number": "00",
-                "chapter_number": 65,
+                "chapter_numbers":
+                [
+                    65
+                ],
                 "track_title": "Big Chocobo!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 66,
                 "title_number": "00",
-                "chapter_number": 66,
+                "chapter_numbers":
+                [
+                    66
+                ],
                 "track_title": "Tower of Owen",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 67,
                 "title_number": "00",
-                "chapter_number": 67,
+                "chapter_numbers":
+                [
+                    67
+                ],
                 "track_title": "Vegies of Geasal",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 68,
                 "title_number": "00",
-                "chapter_number": 68,
+                "chapter_numbers":
+                [
+                    68
+                ],
                 "track_title": "Castle of Hain",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 69,
                 "title_number": "00",
-                "chapter_number": 69,
+                "chapter_numbers":
+                [
+                    69
+                ],
                 "track_title": "Battle 2",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 70,
                 "title_number": "00",
-                "chapter_number": 70,
+                "chapter_numbers":
+                [
+                    70
+                ],
                 "track_title": "The Requiem",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 71,
                 "title_number": "00",
-                "chapter_number": 71,
+                "chapter_numbers":
+                [
+                    71
+                ],
                 "track_title": "Go above the Clouds!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 72,
                 "title_number": "00",
-                "chapter_number": 72,
+                "chapter_numbers":
+                [
+                    72
+                ],
                 "track_title": "The Boundless Ocean",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 73,
                 "title_number": "00",
-                "chapter_number": 73,
+                "chapter_numbers":
+                [
+                    73
+                ],
                 "track_title": "Elia, the Maiden of Water",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 74,
                 "title_number": "00",
-                "chapter_number": 74,
+                "chapter_numbers":
+                [
+                    74
+                ],
                 "track_title": "Town of Water",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 75,
                 "title_number": "00",
-                "chapter_number": 75,
+                "chapter_numbers":
+                [
+                    75
+                ],
                 "track_title": "Let's Play the Piano!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 76,
                 "title_number": "00",
-                "chapter_number": 76,
+                "chapter_numbers":
+                [
+                    76
+                ],
                 "track_title": "Let's Play the Piano Again!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 77,
                 "title_number": "00",
-                "chapter_number": 77,
+                "chapter_numbers":
+                [
+                    77
+                ],
                 "track_title": "Swift Twist",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 78,
                 "title_number": "00",
-                "chapter_number": 78,
+                "chapter_numbers":
+                [
+                    78
+                ],
                 "track_title": "Good Ol' Fellows",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 79,
                 "title_number": "00",
-                "chapter_number": 79,
+                "chapter_numbers":
+                [
+                    79
+                ],
                 "track_title": "In the Covert Town",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 80,
                 "title_number": "00",
-                "chapter_number": 80,
+                "chapter_numbers":
+                [
+                    80
+                ],
                 "track_title": "Salonia",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 81,
                 "title_number": "00",
-                "chapter_number": 81,
+                "chapter_numbers":
+                [
+                    81
+                ],
                 "track_title": "Deep under the Water",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 82,
                 "title_number": "00",
-                "chapter_number": 82,
+                "chapter_numbers":
+                [
+                    82
+                ],
                 "track_title": "Beneath the Horizon",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 83,
                 "title_number": "00",
-                "chapter_number": 83,
+                "chapter_numbers":
+                [
+                    83
+                ],
                 "track_title": "Let Me Know the Truth",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 84,
                 "title_number": "00",
-                "chapter_number": 84,
+                "chapter_numbers":
+                [
+                    84
+                ],
                 "track_title": "Lute of Noah",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 85,
                 "title_number": "00",
-                "chapter_number": 85,
+                "chapter_numbers":
+                [
+                    85
+                ],
                 "track_title": "Good Morning!",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 86,
                 "title_number": "00",
-                "chapter_number": 86,
+                "chapter_numbers":
+                [
+                    86
+                ],
                 "track_title": "The Invincible",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 87,
                 "title_number": "00",
-                "chapter_number": 87,
+                "chapter_numbers":
+                [
+                    87
+                ],
                 "track_title": "Forbidden Land",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 88,
                 "title_number": "00",
-                "chapter_number": 88,
+                "chapter_numbers":
+                [
+                    88
+                ],
                 "track_title": "The Crystal Tower",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 89,
                 "title_number": "00",
-                "chapter_number": 89,
+                "chapter_numbers":
+                [
+                    89
+                ],
                 "track_title": "The Dark Crystals",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 90,
                 "title_number": "00",
-                "chapter_number": 90,
+                "chapter_numbers":
+                [
+                    90
+                ],
                 "track_title": "This is the Last Battle",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 91,
                 "title_number": "00",
-                "chapter_number": 91,
+                "chapter_numbers":
+                [
+                    91
+                ],
                 "track_title": "The Everlasting World",
+                "artist": "Nobuo Uematsu"
+            }
+        ]
+    },
+    {
+        "disc_volume_key_sha1": "579ed2aae4591bc66217f15b46ead110abf1a3be",
+        "disc_title": "FINAL FANTASY IV ORIGINAL SOUNDTRACK REVIVAL DISC",
+        "makemkv_prefix": "FINAL FANTASY IV Original Soundtrack Revival Disc",
+        "album_artist": "SQUARE ENIX",
+        "genre": "Game",
+        "release_date": "2018-10-17",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 60,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/FF4.jpg",
+        "cover_type": "plain",
+        "cover_format": "jpg",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "The Prelude",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "The Red Wings",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Kingdom of Baron",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Theme of Love",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 5,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Prologue",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 6,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Welcome to Our Town!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 7,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Main Theme of FINAL FANTASY IV",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Battle 1",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Fanfare",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Enter Fat Chocobo!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Chocobo Chocobo",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "Into the Darkness",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Battle 2",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "Bomb Ring",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "Rydia",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "Damcyan Castle",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Sorrow and Loss",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Edward's Harp",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "Mt. Ordeals",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 20,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "Fabul",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 21,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "Run!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 22,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "Suspicion",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 23,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Golbez, Clad In Darkness",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 24,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "Hey, Cid!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 25,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "Mystic Mysidia",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 26,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "A Long Way to Go",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 27,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Palom & Porom",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 28,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Battle With the Four Fiends",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 29,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "The Airship",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 30,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Troian Beauty",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 31,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "Samba de Chocobo!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 32,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Tower of Bab-il",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 33,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Somewhere In the World...",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 34,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "Land of Dwarves",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 35,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "Giott, King of the Dwarves",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 36,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "Dancing Calbrena",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 37,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "Tower of Zot",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 38,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "The Land of Summons",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 39,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "Lunar Whale",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 40,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "Another Moon",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 41,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "The Lunarians",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 42,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "Within the Giant",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 43,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "The Final Battle",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 44,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "Epilogue -1-",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 45,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "Epilogue -2-",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 46,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "Epilogue -3-",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 47,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "The Paladin",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 48,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Chocobo Forest",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 49,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "The Dancer",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 50,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    50
+                ],
+                "track_title": "Inn",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 51,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    51
+                ],
+                "track_title": "Surprise",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 52,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    52
+                ],
+                "track_title": "More Tears",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 53,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    53
+                ],
+                "track_title": "Fanfare 1",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 54,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    54
+                ],
+                "track_title": "Gysahl Whistle",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 55,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    55
+                ],
+                "track_title": "Hummingway's Tune",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 56,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    56
+                ],
+                "track_title": "The Serpent Road",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 57,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    57
+                ],
+                "track_title": "Fanfare 2",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 58,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    60,
+                    61
+                ],
+                "track_title": "Hey, Cid! (EXTRA Ver.)",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 59,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    62,
+                    63
+                ],
+                "track_title": "Battle 1 (EXTRA Ver.)",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 60,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    64,
+                    65
+                ],
+                "track_title": "Fanfare 1 (EXTRA Ver.)",
                 "artist": "Nobuo Uematsu"
             }
         ]
@@ -1139,735 +2225,1050 @@
             {
                 "number": 1,
                 "title_number": "01",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Storm of Blood",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 2,
                 "title_number": "01",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Prelude - Long March Home",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 3,
                 "title_number": "02",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Impact",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 4,
                 "title_number": "02",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Beyond the Wall",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 5,
                 "title_number": "02",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Looping in the Deepest Fringes",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 6,
                 "title_number": "02",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Afterglow",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 7,
                 "title_number": "02",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "Their Deadly Mission",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 8,
                 "title_number": "02",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "On High",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 9,
                 "title_number": "03",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "With Giants Watching",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 10,
                 "title_number": "03",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "The Garlean Territorial Anthem for Gyr Abania and Surrounding States - The Measure of Our Reach",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 11,
                 "title_number": "03",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Procedamus in Pace",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 12,
                 "title_number": "04",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Dawnbound",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 13,
                 "title_number": "04",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Triumph",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 14,
                 "title_number": "04",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Crimson Sunrise",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 15,
                 "title_number": "04",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Liquid Flame",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 16,
                 "title_number": "05",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Wing and a Prayer",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 17,
                 "title_number": "05",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Cradle",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 18,
                 "title_number": "06",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "The Open Box",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 19,
                 "title_number": "06",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Westward Tide",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 20,
                 "title_number": "07",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Far East of Eorzea",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 21,
                 "title_number": "07",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Shell-shocked",
                 "artist": "Yukiko Takada"
             },
             {
                 "number": 22,
                 "title_number": "08",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Revelation",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 23,
                 "title_number": "08",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Riot",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 24,
                 "title_number": "08",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "At Both Ends",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 25,
                 "title_number": "44",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Harmony",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 26,
                 "title_number": "09",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "A Father's Pride",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 27,
                 "title_number": "09",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Drowning in the Horizon",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 28,
                 "title_number": "31",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Cyan's Theme",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 29,
                 "title_number": "10",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "He Rises Above",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 30,
                 "title_number": "10",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Most Unworthy",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 31,
                 "title_number": "34",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Heroes of Stormblood",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 32,
                 "title_number": "11",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "A Mother's Pride",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 33,
                 "title_number": "11",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Gates of the Moon",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 34,
                 "title_number": "43",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Parting Ways",
                 "artist": "Yukiko Takada"
             },
             {
                 "number": 35,
                 "title_number": "12",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Crimson Sunset",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 36,
                 "title_number": "12",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Deception",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 37,
                 "title_number": "12",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Hope Forgotten",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 38,
                 "title_number": "12",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Beauty's Wicked Wiles",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 39,
                 "title_number": "12",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "The Stone Remembers",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 40,
                 "title_number": "12",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "Alienus",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 41,
                 "title_number": "12",
-                "chapter_number": 6,
+                "chapter_numbers":
+                [
+                    6
+                ],
                 "track_title": "Old Wounds",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 42,
                 "title_number": "12",
-                "chapter_number": 7,
+                "chapter_numbers":
+                [
+                    7
+                ],
                 "track_title": "Songs of Salt and Suffering",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 43,
                 "title_number": "12",
-                "chapter_number": 8,
+                "chapter_numbers":
+                [
+                    8
+                ],
                 "track_title": "Liberty or Death",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 44,
                 "title_number": "12",
-                "chapter_number": 9,
+                "chapter_numbers":
+                [
+                    9
+                ],
                 "track_title": "The Worm's Tail",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 45,
                 "title_number": "13",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "The Measure of His Reach",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 46,
                 "title_number": "13",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Revolutions",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 47,
                 "title_number": "14",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Deltascape",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 48,
                 "title_number": "14",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Omega²",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 49,
                 "title_number": "14",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Decisions",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 50,
                 "title_number": "14",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Final, Not Final",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 51,
                 "title_number": "15",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Wizardly",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 52,
                 "title_number": "15",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Starlit Gateway",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 53,
                 "title_number": "16",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Beauty's Wicked Wiles (Oasis Mix)",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 54,
                 "title_number": "16",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Far From Home",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 55,
                 "title_number": "16",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Indomitable",
                 "artist": "Yukiko Takada"
             },
             {
                 "number": 56,
                 "title_number": "16",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Rival Wings",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 57,
                 "title_number": "16",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "Birds of Prey",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 58,
                 "title_number": "16",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "Forever in Flames",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 59,
                 "title_number": "16",
-                "chapter_number": 6,
+                "chapter_numbers":
+                [
+                    6
+                ],
                 "track_title": "Beyond Redemption",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 60,
                 "title_number": "17",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Character Creation",
                 "artist": "Masaharu Iwata"
             },
             {
                 "number": 61,
                 "title_number": "17",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Save / Load Screen",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 62,
                 "title_number": "17",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Protagonist's Theme",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 63,
                 "title_number": "17",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Background Story",
                 "artist": "Masaharu Iwata"
             },
             {
                 "number": 64,
                 "title_number": "18",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Trisection",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 65,
                 "title_number": "18",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Precipitous Combat",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 66,
                 "title_number": "33",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "The Enemy Approaches",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 67,
                 "title_number": "19",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Ultima's Transformation",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 68,
                 "title_number": "19",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Victory",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 69,
                 "title_number": "19",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Down Where Demons Dwell",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 70,
                 "title_number": "32",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Iroha",
                 "artist": "Naoshi Mizuta"
             },
             {
                 "number": 71,
                 "title_number": "20",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Answer on High",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 72,
                 "title_number": "20",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Todoroki",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 73,
                 "title_number": "20",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Amatsu Kaze",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 74,
                 "title_number": "20",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Keepers of the Lock",
                 "artist": "Yukiko Takada"
             },
             {
                 "number": 75,
                 "title_number": "20",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "Unbreakable (Duality)",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 76,
                 "title_number": "20",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "The Phantom Train to Sigmascape",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 77,
                 "title_number": "20",
-                "chapter_number": 6,
+                "chapter_numbers":
+                [
+                    6
+                ],
                 "track_title": "A Battle Decisively",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 78,
                 "title_number": "20",
-                "chapter_number": 7,
+                "chapter_numbers":
+                [
+                    7
+                ],
                 "track_title": "Dancing Mad - Movement I",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 79,
                 "title_number": "20",
-                "chapter_number": 8,
+                "chapter_numbers":
+                [
+                    8
+                ],
                 "track_title": "Dancing Mad - Movement II",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 80,
                 "title_number": "20",
-                "chapter_number": 9,
+                "chapter_numbers":
+                [
+                    9
+                ],
                 "track_title": "Dancing Mad - Movement III",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 81,
                 "title_number": "20",
-                "chapter_number": 10,
+                "chapter_numbers":
+                [
+                    10
+                ],
                 "track_title": "Dancing Mad - Movement IV",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 82,
                 "title_number": "20",
-                "chapter_number": 11,
+                "chapter_numbers":
+                [
+                    11
+                ],
                 "track_title": "Wicked Winds Whisper",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 83,
                 "title_number": "20",
-                "chapter_number": 12,
+                "chapter_numbers":
+                [
+                    12
+                ],
                 "track_title": "Magicked Skulls",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 84,
                 "title_number": "20",
-                "chapter_number": 13,
+                "chapter_numbers":
+                [
+                    13
+                ],
                 "track_title": "No Quarter",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 85,
                 "title_number": "21",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Siren Song",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 86,
                 "title_number": "21",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Pa-Paya Demastered",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 87,
                 "title_number": "26",
-                "chapter_number": 11,
+                "chapter_numbers":
+                [
+                    11
+                ],
                 "track_title": "Seven Hundred Seventy-Seven Whiskers",
                 "artist": "Yukiko Takada"
             },
             {
                 "number": 88,
                 "title_number": "35",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Wasshoi, Wasshoi!",
                 "artist": "Yukiko Takada"
             },
             {
                 "number": 89,
                 "title_number": "22",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Dangertek",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 90,
                 "title_number": "22",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Earth, Wind, and Water",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 91,
                 "title_number": "22",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "Fallen Angel (From Astral to Umbral)",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 92,
                 "title_number": "22",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Primal Judgment (From Astral to Umbral)",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 93,
                 "title_number": "22",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "Under the Weight (From Astral to Umbral)",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 94,
                 "title_number": "22",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "Ultima (Orchestral Version)",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 95,
                 "title_number": "23",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "World Map",
                 "artist": "Masaharu Iwata"
             },
             {
                 "number": 96,
                 "title_number": "23",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "A Chapel",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 97,
                 "title_number": "24",
-                "chapter_number": 0,
+                "chapter_numbers":
+                [
+                    0
+                ],
                 "track_title": "Ascent",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 98,
                 "title_number": "24",
-                "chapter_number": 1,
+                "chapter_numbers":
+                [
+                    1
+                ],
                 "track_title": "Boss Battle",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 99,
                 "title_number": "24",
-                "chapter_number": 2,
+                "chapter_numbers":
+                [
+                    2
+                ],
                 "track_title": "The Mystery of Giruvegan",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 100,
                 "title_number": "24",
-                "chapter_number": 3,
+                "chapter_numbers":
+                [
+                    3
+                ],
                 "track_title": "Apoplexy",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 101,
                 "title_number": "24",
-                "chapter_number": 4,
+                "chapter_numbers":
+                [
+                    4
+                ],
                 "track_title": "Flash of Steel",
                 "artist": "Hitoshi Sakimoto"
             },
             {
                 "number": 102,
                 "title_number": "24",
-                "chapter_number": 5,
+                "chapter_numbers":
+                [
+                    5
+                ],
                 "track_title": "Victory Fanfare (FFXII Version)",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 103,
                 "title_number": "24",
-                "chapter_number": 6,
+                "chapter_numbers":
+                [
+                    6
+                ],
                 "track_title": "Nightbloom",
                 "artist": "Nobuo Uematsu"
             },
             {
                 "number": 104,
                 "title_number": "24",
-                "chapter_number": 7,
+                "chapter_numbers":
+                [
+                    7
+                ],
                 "track_title": "Lunacy",
                 "artist": "Masayoshi Soken"
             },
             {
                 "number": 105,
                 "title_number": "24",
-                "chapter_number": 8,
+                "chapter_numbers":
+                [
+                    8
+                ],
                 "track_title": "Wayward Daughter",
                 "artist": "Masayoshi Soken"
             }

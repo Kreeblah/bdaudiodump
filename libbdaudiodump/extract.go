@@ -21,6 +21,7 @@ package libbdaudiodump
 
 import (
 	"archive/zip"
+	"bufio"
 	"bytes"
 	"errors"
 	"fmt"
@@ -113,6 +114,10 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 		}
 	}
 
+	if len(discConfig.Tracks) < trackNumber {
+		return errors.New("found track number greater than number of tracks in config list for this disc")
+	}
+
 	mkvPath, err := GetMkvPathByTrackNumber(mkvBasePath, trackNumber, discConfig)
 	if err != nil {
 		return err
@@ -123,23 +128,77 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 		return err
 	}
 
+	flacPieces := 0
 	ffmpegParametersForMkv := ffProbeData[discConfig.Tracks[trackNumber-1].TitleNumber]
-	for _, title := range ffmpegParametersForMkv {
-		if title.ChapterIndex == discConfig.Tracks[trackNumber-1].ChapterNumber {
-			if title.IsChapter {
-				output, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", flacPath).CombinedOutput()
-				if err != nil {
-					println(string(output))
-					return err
-				}
-			} else {
-				output, err := exec.Command(ffmpegExecPath, "-y", "-i", mkvPath, "-c:a", "flac", flacPath).CombinedOutput()
-				if err != nil {
-					println(string(output))
-					return err
+	for _, chapterNumber := range discConfig.Tracks[trackNumber-1].ChapterNumbers {
+		for _, title := range ffmpegParametersForMkv {
+			if title.ChapterIndex == chapterNumber {
+				if len(discConfig.Tracks[trackNumber-1].ChapterNumbers) == 1 {
+					if title.IsChapter {
+						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", flacPath).CombinedOutput()
+						if err != nil {
+							return err
+						}
+					} else {
+						_, err := exec.Command(ffmpegExecPath, "-y", "-i", mkvPath, "-c:a", "flac", flacPath).CombinedOutput()
+						if err != nil {
+							return err
+						}
+					}
+				} else {
+					if title.IsChapter {
+						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator))+string(os.PathSeparator)+strconv.Itoa(trackNumber)+"_piece_"+strconv.Itoa(flacPieces)+".flac").CombinedOutput()
+						if err != nil {
+							return err
+						}
+
+						defer os.Remove(strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator)) + string(os.PathSeparator) + strconv.Itoa(trackNumber) + "_piece_" + strconv.Itoa(flacPieces) + ".flac")
+
+						flacPieces = flacPieces + 1
+					} else {
+						_, err := exec.Command(ffmpegExecPath, "-y", "-i", mkvPath, "-c:a", "flac", strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator))+string(os.PathSeparator)+strconv.Itoa(trackNumber)+"_piece_"+strconv.Itoa(flacPieces)+".flac").CombinedOutput()
+						if err != nil {
+							return err
+						}
+
+						defer os.Remove(strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator)) + string(os.PathSeparator) + strconv.Itoa(trackNumber) + "_piece_" + strconv.Itoa(flacPieces) + ".flac")
+
+						flacPieces = flacPieces + 1
+					}
 				}
 			}
 		}
+	}
+
+	if flacPieces > 0 {
+		flacConcatFileContents := ""
+		for i := 0; i < flacPieces; i++ {
+			flacConcatFileContents = flacConcatFileContents + "file '" + strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator)) + string(os.PathSeparator) + strconv.Itoa(trackNumber) + "_piece_" + strconv.Itoa(i) + ".flac'" + "\n"
+		}
+
+		concatPath := strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator)) + string(os.PathSeparator) + "concatList.txt"
+
+		var concatFile *os.File
+		concatFile, err = os.Create(concatPath)
+		if err != nil {
+			return err
+		}
+
+		concatFileWriter := bufio.NewWriter(concatFile)
+		_, err := concatFileWriter.WriteString(flacConcatFileContents)
+		if err != nil {
+			return err
+		}
+
+		concatFileWriter.Flush()
+		concatFile.Close()
+
+		_, err = exec.Command(ffmpegExecPath, "-f", "concat", "-safe", "0", "-i", concatPath, "-c:a", "flac", flacPath).CombinedOutput()
+		if err != nil {
+			return err
+		}
+
+		os.Remove(concatPath)
 	}
 
 	return nil
