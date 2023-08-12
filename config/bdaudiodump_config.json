@@ -1586,6 +1586,627 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "e25ff24f3a7acd7581a8ca1bd28fcb28710e6a88",
+        "disc_title": "FINAL FANTASY IV ORIGINAL SOUNDTRACK REVIVAL DISC",
+        "makemkv_prefix": "FINAL FANTASY IV Original Soundtrack Revival Disc",
+        "album_artist": "SQUARE ENIX",
+        "genre": "Game",
+        "release_date": "2018-10-17",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 60,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/FF4.jpg",
+        "cover_type": "plain",
+        "cover_format": "jpg",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "The Prelude",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "The Red Wings",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Kingdom of Baron",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Theme of Love",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 5,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Prologue",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 6,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Welcome to Our Town!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 7,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Main Theme of FINAL FANTASY IV",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Battle 1",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Fanfare",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Enter Fat Chocobo!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Chocobo Chocobo",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "Into the Darkness",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Battle 2",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "Bomb Ring",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "Rydia",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "Damcyan Castle",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Sorrow and Loss",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Edward's Harp",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "Mt. Ordeals",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 20,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "Fabul",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 21,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "Run!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 22,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "Suspicion",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 23,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Golbez, Clad In Darkness",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 24,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "Hey, Cid!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 25,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "Mystic Mysidia",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 26,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "A Long Way to Go",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 27,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Palom & Porom",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 28,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Battle With the Four Fiends",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 29,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "The Airship",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 30,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Troian Beauty",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 31,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "Samba de Chocobo!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 32,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Tower of Bab-il",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 33,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Somewhere In the World...",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 34,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "Land of Dwarves",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 35,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "Giott, King of the Dwarves",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 36,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "Dancing Calbrena",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 37,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "Tower of Zot",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 38,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "The Land of Summons",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 39,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "Lunar Whale",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 40,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "Another Moon",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 41,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "The Lunarians",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 42,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "Within the Giant",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 43,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "The Final Battle",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 44,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "Epilogue -1-",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 45,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "Epilogue -2-",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 46,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "Epilogue -3-",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 47,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "The Paladin",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 48,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Chocobo Forest",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 49,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "The Dancer",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 50,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    50
+                ],
+                "track_title": "Inn",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 51,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    51
+                ],
+                "track_title": "Surprise",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 52,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    52
+                ],
+                "track_title": "More Tears",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 53,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    53
+                ],
+                "track_title": "Fanfare 1",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 54,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    54
+                ],
+                "track_title": "Gysahl Whistle",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 55,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    55
+                ],
+                "track_title": "Hummingway's Tune",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 56,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    56
+                ],
+                "track_title": "The Serpent Road",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 57,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    57
+                ],
+                "track_title": "Fanfare 2",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 58,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    60,
+                    61
+                ],
+                "track_title": "Hey, Cid! (EXTRA Ver.)",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 59,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    62,
+                    63
+                ],
+                "track_title": "Battle 1 (EXTRA Ver.)",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 60,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    64,
+                    65
+                ],
+                "track_title": "Fanfare 1 (EXTRA Ver.)",
+                "artist": "Nobuo Uematsu"
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "579ed2aae4591bc66217f15b46ead110abf1a3be",
         "disc_title": "FINAL FANTASY IV ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY IV Original Soundtrack Revival Disc",
