@@ -39,8 +39,8 @@ func CompressFlac(flacPath string) error {
 	return nil
 }
 
-func TagFlac(basePath string, trackNumber int, coverPath string, discConfig BluRayDiscConfig) error {
-	flacPath, err := GetFlacPathByTrackNumber(basePath, trackNumber, discConfig)
+func TagFlac(basePath string, trackNumber int, coverPath string, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) error {
+	flacPath, err := GetFlacPathByTrackNumber(basePath, trackNumber, discConfig, replaceSpaceWithUnderscore)
 	if err != nil {
 		return err
 	}

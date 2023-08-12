@@ -22,20 +22,24 @@ package libbdaudiodump
 import (
 	"encoding/json"
 	"os"
+	"strings"
 )
 
 type BluRayDiscConfig struct {
-	VolumeTitle       string `json:"volume_title"`
-	DiscTitle         string `json:"disc_title"`
-	MakemkvPrefix     string `json:"makemkv_prefix"`
-	AlbumArtist       string `json:"album_artist"`
-	Genre             string `json:"genre"`
-	ReleaseDate       string `json:"release_date"`
-	DiscNumber        int    `json:"disc_number"`
-	TotalDiscs        int    `json:"total_discs"`
-	TotalTracks       int    `json:"total_tracks"`
-	CoverRelativePath string `json:"cover_relative_path"`
-	Tracks            []struct {
+	DiscVolumeKeySha1          string `json:"disc_volume_key_sha1"`
+	DiscTitle                  string `json:"disc_title"`
+	MakemkvPrefix              string `json:"makemkv_prefix"`
+	AlbumArtist                string `json:"album_artist"`
+	Genre                      string `json:"genre"`
+	ReleaseDate                string `json:"release_date"`
+	DiscNumber                 int    `json:"disc_number"`
+	TotalDiscs                 int    `json:"total_discs"`
+	TotalTracks                int    `json:"total_tracks"`
+	CoverContainerRelativePath string `json:"cover_container_relative_path"`
+	CoverRelativePath          string `json:"cover_relative_path"`
+	CoverType                  string `json:"cover_type"`
+	CoverFormat                string `json:"cover_format"`
+	Tracks                     []struct {
 		Number        int    `json:"number"`
 		TitleNumber   string `json:"title_number"`
 		ChapterNumber int    `json:"chapter_number"`
@@ -45,13 +49,21 @@ type BluRayDiscConfig struct {
 }
 
 func ReadConfigFile(configPath string) (*[]BluRayDiscConfig, error) {
-	config := &[]BluRayDiscConfig{}
+	bluRayConfigs := &[]BluRayDiscConfig{}
 
 	configData, err := os.ReadFile(configPath)
 	if err != nil {
 		return nil, err
 	}
 
-	json.Unmarshal(configData, config)
-	return config, nil
+	err = json.Unmarshal(configData, bluRayConfigs)
+	if err != nil {
+		return nil, err
+	}
+
+	for i, _ := range *bluRayConfigs {
+		(*bluRayConfigs)[i].CoverContainerRelativePath = strings.ReplaceAll((*bluRayConfigs)[i].CoverContainerRelativePath, "/", string(os.PathSeparator))
+		(*bluRayConfigs)[i].CoverRelativePath = strings.ReplaceAll((*bluRayConfigs)[i].CoverRelativePath, "/", string(os.PathSeparator))
+	}
+	return bluRayConfigs, nil
 }

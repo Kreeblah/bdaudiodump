@@ -21,7 +21,6 @@ package main
 
 import (
 	"bdaudiodump/libbdaudiodump"
-	"errors"
 	"flag"
 	"math"
 	"os"
@@ -34,10 +33,12 @@ func main() {
 	// Parse CLI options
 	makemkvconDiscId := flag.Int("makemkvcon-disc-id", math.MaxInt, "The disc ID (for the disc: identifier) to pass to makemkvcon")
 	outputDirectory := flag.String("output-directory", "", "The directory to store output in")
-	volumeTitle := flag.String("volume-title", "", "The title of the disc volume")
+	volumeKeySha1 := flag.String("volume-key-sha1", "", "Use the specified SHA1 sum for detecting the disc instead of analyzing it")
+	replaceSpacesWithUnderscores := flag.Bool("replace-spaces-with-underscores", false, "Replace spaces with underscores in FLAC files and directory")
 	mkvSourcePath := flag.String("mkv-source-path", "", "Path to pre-extracted MKV files")
+	copyDiscBeforeMkvExtraction := flag.Bool("copy-disc-before-mkv-extraction", true, "Copy disc contents to destination before MKV extraction")
 	configPath := flag.String("config-path", "", "An explicit path to a configuration JSON file")
-	coverArtBasePath := flag.String("cover-art-base-path", "", "The base path to the disc for extracting known cover art")
+	discBasePath := flag.String("disc-base-path", "", "The base path to the mounted disc")
 	coverArtFullPath := flag.String("cover-art-full-path", "", "An explicit path to a cover art file")
 
 	flag.Parse()
@@ -52,20 +53,14 @@ func main() {
 		os.Exit(1)
 	}
 
-	if *coverArtBasePath != "" && *coverArtFullPath != "" {
-		printUsage()
-		os.Exit(1)
-	}
-
-	parsedConfig := &[]libbdaudiodump.BluRayDiscConfig{}
-	err := errors.New("placeholder") // To prevent an unused variable error with parsedConfig
+	var parsedConfig *[]libbdaudiodump.BluRayDiscConfig
+	var err error
 
 	if *configPath != "" {
 		parsedConfig, err = libbdaudiodump.ReadConfigFile(*configPath)
 		if err != nil {
 			println("Unable to read config from: " + *configPath)
-			println("Error: ")
-			println(err)
+			println(err.Error())
 			os.Exit(1)
 		}
 	} else {
@@ -74,49 +69,135 @@ func main() {
 			println("Unable to get your home directory to read config from")
 			os.Exit(1)
 		}
-		parsedConfig, err = libbdaudiodump.ReadConfigFile(homeDir + "/.config/bdaudiodump_config.json")
+		parsedConfig, err = libbdaudiodump.ReadConfigFile(homeDir + string(os.PathSeparator) + ".config" + string(os.PathSeparator) + "bdaudiodump_config.json")
 		if err != nil {
-			println("Unable to open config file at default location: " + homeDir + "/.config/bdaudiodump_config.json")
+			println("Unable to open config file at default location: " + homeDir + string(os.PathSeparator) + ".config" + string(os.PathSeparator) + "bdaudiodump_config.json")
 			os.Exit(1)
 		}
 	}
 
-	discTitle := ""
+	var discVolumeKeySha1Hash string
+	var discMountPoint string
 
-	if *volumeTitle != "" {
-		println("Using disc title from CLI parameters: " + *volumeTitle)
-		discTitle = *volumeTitle
+	if *discBasePath != "" {
+		println("Using disc base path from CLI for filesystem access: " + *discBasePath)
+		discMountPoint = *discBasePath
+	} else if *mkvSourcePath == "" {
+		println("Detecting volume mount point for disc")
+		discMountPoint, err = libbdaudiodump.GetMountPointForMakemkvconDiscId(*makemkvconDiscId)
+		if err != nil {
+			println("Error detecting volume mount point")
+			println(err.Error())
+			os.Exit(1)
+		}
+	}
+
+	var discConfig *libbdaudiodump.BluRayDiscConfig
+
+	if *volumeKeySha1 != "" {
+		println("Using volume key SHA1 hash from CLI parameters: " + *volumeKeySha1)
+		discVolumeKeySha1Hash = *volumeKeySha1
+
+		println("Looking up disc volume key SHA1 hash: " + discVolumeKeySha1Hash)
+
+		discConfig, err = libbdaudiodump.GetDiscConfigByVolumeKeySha1Hash(discVolumeKeySha1Hash, parsedConfig)
 	} else {
-		println("Getting disc title information from disc")
-
-		discTitle, err = libbdaudiodump.GetDiscTitleFromMakemkvcon(*makemkvconDiscId)
+		println("Getting disc volume key SHA1 hash from disc")
+		discVolumeKeySha1Hash, err = libbdaudiodump.GetDiscVolumeKeySha1Hash(discMountPoint)
 		if err != nil {
-			println("Error getting disc title from makemkvcon")
-			println(err)
+			println("Error getting disc volume key SHA1 hash from makemkvcon")
+			println(err.Error())
 			os.Exit(1)
 		}
+
+		println("Looking up disc volume key SHA1 hash: " + discVolumeKeySha1Hash)
+
+		discConfig, err = libbdaudiodump.GetDiscConfigByVolumeKeySha1HashFromKeyFile(discMountPoint, parsedConfig)
 	}
 
-	println("Using disc title: " + discTitle)
+	if err != nil {
+		println("Unable to find matching disc in config")
+		println(err.Error())
+		os.Exit(1)
+	}
 
-	discConfig, err := libbdaudiodump.GetDiscConfigByDiscVolumeTitle(discTitle, parsedConfig)
+	println("Found matching disc in config: " + discConfig.DiscTitle)
 
-	mkvPath := ""
+	var mkvPath string
+	var mkvBasePath string
 
 	if *mkvSourcePath == "" {
-		println("Dumping disc to MKV in: " + *outputDirectory)
+		if *copyDiscBeforeMkvExtraction {
+			println("Creating temp directory for disc copy")
+			discCopyTempDir, err := os.MkdirTemp(*outputDirectory, "discFiles")
+			if err != nil {
+				println("Error creating temporary directory for disc copy")
+				println(err.Error())
+				os.Exit(1)
+			}
 
-		err = libbdaudiodump.ExtractDisc(*makemkvconDiscId, *outputDirectory)
-		if err != nil {
-			println("Error using makemkv to extract disc.")
-			println(err)
-			os.Exit(1)
+			println("Created temp directory: " + discCopyTempDir)
+			println("Copying disc to temp directory")
+
+			err = libbdaudiodump.BackupDisc(*makemkvconDiscId, discCopyTempDir)
+			if err != nil {
+				os.RemoveAll(discCopyTempDir)
+				println("Error copying disc contents to temp directory")
+				println(err.Error())
+				os.Exit(1)
+			}
+
+			println("Creating temp directory for MKV files")
+
+			mkvBasePath, err = os.MkdirTemp(*outputDirectory, "mkvFiles")
+			if err != nil {
+				os.RemoveAll(discCopyTempDir)
+				println("Error creating temp directory for MKV files")
+				println(err.Error())
+				os.Exit(1)
+			}
+
+			defer os.RemoveAll(mkvBasePath)
+
+			println("Dumping copied disc to MKV files in: " + mkvBasePath)
+
+			err = libbdaudiodump.ExtractMkvFromBackup(discCopyTempDir, mkvBasePath)
+			if err != nil {
+				os.RemoveAll(discCopyTempDir)
+				println("Error extracting MKVs from disc copy")
+				println(err.Error())
+				os.Exit(1)
+			}
+
+			println("Cleaning up copied disc files")
+
+			os.RemoveAll(discCopyTempDir)
+		} else {
+			println("Creating temp directory for MKV files")
+
+			mkvBasePath, err = os.MkdirTemp(*outputDirectory, "mkvFiles")
+			if err != nil {
+				println("Error creating temp directory for MKV files")
+				println(err.Error())
+				os.Exit(1)
+			}
+
+			defer os.RemoveAll(mkvBasePath)
+
+			println("Dumping copied disc to MKV files in: " + mkvBasePath)
+
+			err = libbdaudiodump.ExtractDiscToMkv(*makemkvconDiscId, mkvBasePath)
+			if err != nil {
+				println("Error using makemkv to extract disc.")
+				println(err.Error())
+				os.Exit(1)
+			}
 		}
 
-		mkvPath, err = libbdaudiodump.GetMkvPathByTrackNumber(*outputDirectory, 1, *discConfig)
+		mkvPath, err = libbdaudiodump.GetMkvPathByTrackNumber(mkvBasePath, 1, *discConfig)
 		if err != nil {
 			println("Error setting MKV destination path.")
-			println(err)
+			println(err.Error())
 			os.Exit(1)
 		}
 
@@ -133,39 +214,69 @@ func main() {
 	ffProbeData, err := libbdaudiodump.GetFfprobeDataFromAllMkvs(mkvPath, *discConfig)
 	if err != nil {
 		println("Error reading data from generated MKV files.")
-		println(err)
+		println(err.Error())
 		os.Exit(1)
 	}
 
 	println("Finished collecting ffprobe data.")
 
-	coverArtPath := ""
+	var coverArtPath string
 
-	if *coverArtBasePath != "" {
+	if *coverArtFullPath != "" {
 		println("Copying cover art.")
-		expandedCoverArtSourcePath := libbdaudiodump.GetExpandedCoverArtSourcePath(*outputDirectory, *discConfig)
-		coverArtExtension := path.Ext(expandedCoverArtSourcePath)
-		coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, coverArtExtension, *discConfig)
-		println("Cover art source: " + expandedCoverArtSourcePath)
+		coverArtExtension := path.Ext(*coverArtFullPath)
+		coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, coverArtExtension, *discConfig, *replaceSpacesWithUnderscores)
+		println("Cover art source: " + *coverArtFullPath)
 		println("Cover art destination: " + coverArtPath)
-		err = libbdaudiodump.CopyCoverImageToDestinationDirectory(expandedCoverArtSourcePath, filepath.Dir(coverArtPath))
+		err = libbdaudiodump.CopyCoverImageFromFileToDestinationDirectory(*coverArtFullPath, filepath.Dir(coverArtPath), discConfig.CoverFormat)
 		if err != nil {
 			println("Error copying cover art to destination.")
-			println(err)
+			println(err.Error())
 			os.Exit(1)
 		}
 		println("Cover art copied.")
-	} else if *coverArtFullPath != "" {
+	} else if discMountPoint != "" {
 		println("Copying cover art.")
-		coverArtExtension := path.Ext(*coverArtFullPath)
-		coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, coverArtExtension, *discConfig)
-		println("Cover art source: " + *coverArtFullPath)
-		println("Cover art destination: " + coverArtPath)
-		err = libbdaudiodump.CopyCoverImageToDestinationDirectory(*coverArtFullPath, coverArtPath)
-		if err != nil {
-			println("Error copying cover art to destination.")
-			println(err)
-			os.Exit(1)
+		coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, discConfig.CoverFormat, *discConfig, *replaceSpacesWithUnderscores)
+		expandedCoverArtSourcePath := libbdaudiodump.GetExpandedCoverArtSourcePath(discMountPoint, *discConfig)
+		if discConfig.CoverType == "plain" {
+			println("Cover art source: " + expandedCoverArtSourcePath)
+			println("Cover art destination: " + coverArtPath)
+			err = libbdaudiodump.CopyCoverImageFromFileToDestinationDirectory(expandedCoverArtSourcePath, filepath.Dir(coverArtPath), discConfig.CoverFormat)
+			if err != nil {
+				println("Error copying cover art to destination.")
+				println(err.Error())
+				os.Exit(1)
+			}
+		} else if discConfig.CoverType == "zip" {
+			println("Cover art ZIP file: " + expandedCoverArtSourcePath)
+			println("File in ZIP to copy from: " + discConfig.CoverContainerRelativePath)
+			println("Cover art destination: " + coverArtPath)
+			err = libbdaudiodump.CopyCoverImageFromZipFileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
+			if err != nil {
+				println("Error copying cover art to destination.")
+				println(err.Error())
+				os.Exit(1)
+			}
+		} else if discConfig.CoverType == "mp3" {
+			println("Cover art source (extracting from MP3): " + expandedCoverArtSourcePath)
+			println("Cover art destination: " + coverArtPath)
+			err = libbdaudiodump.CopyCoverImageFromMp3FileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
+			if err != nil {
+				println("Error copying cover art to destination.")
+				println(err.Error())
+				os.Exit(1)
+			}
+		} else if discConfig.CoverType == "zip_mp3" {
+			println("Cover art ZIP file: " + expandedCoverArtSourcePath)
+			println("File in ZIP to copy from (extracting from MP3): " + discConfig.CoverContainerRelativePath)
+			println("Cover art destination: " + coverArtPath)
+			err = libbdaudiodump.CopyCoverImageFromZippedMp3FileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
+			if err != nil {
+				println("Error copying cover art to destination.")
+				println(err.Error())
+				os.Exit(1)
+			}
 		}
 		println("Cover art copied.")
 	}
@@ -174,19 +285,19 @@ func main() {
 
 	for _, track := range discConfig.Tracks {
 		println("Extracting track: " + strconv.Itoa(track.Number))
-		err = libbdaudiodump.ExtractFlacFromMkv(mkvPath, *outputDirectory, track.Number, ffProbeData, *discConfig)
+		err = libbdaudiodump.ExtractFlacFromMkv(mkvPath, *outputDirectory, track.Number, ffProbeData, *discConfig, *replaceSpacesWithUnderscores)
 		if err != nil {
 			println("Error extracting FLAC from MKV.")
-			println(err)
+			println(err.Error())
 			os.Exit(1)
 		}
 
 		println("Getting path for track: " + strconv.Itoa(track.Number))
 
-		flacPath, err := libbdaudiodump.GetFlacPathByTrackNumber(*outputDirectory, track.Number, *discConfig)
+		flacPath, err := libbdaudiodump.GetFlacPathByTrackNumber(*outputDirectory, track.Number, *discConfig, *replaceSpacesWithUnderscores)
 		if err != nil {
 			println("Error getting FLAC output path.")
-			println(err)
+			println(err.Error())
 			os.Exit(1)
 		}
 
@@ -195,16 +306,16 @@ func main() {
 		err = libbdaudiodump.CompressFlac(flacPath)
 		if err != nil {
 			println("Error compressing FLAC file: " + flacPath)
-			println(err)
+			println(err.Error())
 			os.Exit(1)
 		}
 
 		println("Tagging track: " + flacPath)
 
-		err = libbdaudiodump.TagFlac(*outputDirectory, track.Number, coverArtPath, *discConfig)
+		err = libbdaudiodump.TagFlac(*outputDirectory, track.Number, coverArtPath, *discConfig, *replaceSpacesWithUnderscores)
 		if err != nil {
 			println("Error tagging FLAC file: " + flacPath)
-			println(err)
+			println(err.Error())
 			os.Exit(1)
 		}
 
@@ -219,27 +330,43 @@ func printUsage() {
 	println("")
 	println("Usage:")
 	println("bdaudiodump [arguments]")
-	println("--makemkvcon-disc-id           Required if not using an MKV source path. The")
-	println("                               disc ID (for the disc: identifier) to pass")
-	println("                               to makemkvcon")
-	println("")
-	println("--output-directory             Required. The directory to store output in")
-	println("")
-	println("--volume-title                 The title of the Blu-Ray volume.  If provided,")
-	println("                               this skips the analysis phase, to avoid errors")
-	println("                               with some drives.")
-	println("")
-	println("--mkv-source-path              Path to pre-extracted MKVs, if MakeMKV has")
-	println("                               already been used to rip them from the disc")
-	println("")
-	println("--config-path                  An explicit path to a disc configuration JSON")
-	println("                               file. If not specified, it defaults to:")
-	println("                               ~/.config/bdaudiodump_config.json")
-	println("")
-	println("--cover-art-base-path          The path to a mounted Blu-Ray disc with a known")
-	println("                               cover art location. Cannot be used with")
-	println("                               --cover-art-full-path")
-	println("")
-	println("--cover-art-full-path          An explicit path to a cover art file.  Cannot")
-	println("                               be used with --cover-art-base-path")
+	println("--makemkvcon-disc-id")
+	println("    Type: Integer")
+	println("    Required if not using an MKV source path. The disc ID")
+	println("    for the disc: identifier) to pass to makemkvcon.")
+	println("--output-directory")
+	println("    Type: String")
+	println("    Required. The directory to store output in.  FLAC files will be created")
+	println("    in a directory named for the disc.  Also, the directory will be used")
+	println("    for temporary files created as part of the process.")
+	println("--volume-key-sha1")
+	println("    Type: String")
+	println("    Skip detection of the SHA1 sum of /AACS/Unit_Key_RO.inf on the disc,")
+	println("    and use the specified SHA1 sum instead.")
+	println("--replace-spaces-with-underscores")
+	println("    Type: Boolean")
+	println("    Replace spaces in directory names and FLAC file names with underscores.")
+	println("    Defaults to false.")
+	println("--mkv-source-path")
+	println("    Type: String")
+	println("    Path to pre-extracted MKVs, if MakeMKV has already been used to rip")
+	println("    them from the disc.  Minimum segment length of 0 should be used for")
+	println("    pre-extractd MKV files.")
+	println("--copy-disc-before-mkv-extraction")
+	println("    Type: Boolean")
+	println("    Some discs cause frequent seeks during MKV extraction, causing extraction")
+	println("    to fail.  This works around that by copying the disc contents and key")
+	println("    information prior to MKV extraction.  Defaults to true.")
+	println("--config-path")
+	println("    Type: String")
+	println("    An explicit path to a disc configuration JSON file. If not specified,")
+	println("    it defaults to: ~/.config/bdaudiodump_config.json")
+	println("--disc-base-path")
+	println("    Type: String")
+	println("    The path to a mounted Blu-Ray disc, used for disc identification and")
+	println("    known cover art locations.  This overrides detected path locations.")
+	println("--cover-art-full-path")
+	println("    Type: String")
+	println("    An explicit path to a cover art file.  Overrides art locations")
+	println("    derived from the disc path.")
 }

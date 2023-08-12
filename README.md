@@ -17,47 +17,58 @@ Once you have these tools installed, you can use `bdaudiodump`.  The syntax is r
 ```
 Usage:
 bdaudiodump [arguments]
---makemkvcon-disc-id           Required if not using an MKV source path. The
-                               disc ID (for the disc: identifier) to pass
-                               to makemkvcon
-
---output-directory             Required. The directory to store output in
-
---volume-title                 The title of the Blu-Ray volume.  If provided,
-                               this skips the analysis phase, to avoid errors
-                               with some drives.
-
---mkv-source-path              Path to pre-extracted MKVs, if MakeMKV has
-                               already been used to rip them from the disc
-
---config-path                  An explicit path to a disc configuration JSON
-                               file. If not specified, it defaults to:
-                               ~/.config/bdaudiodump_config.json
-
---cover-art-base-path          The path to a mounted Blu-Ray disc with a known
-                               cover art location. Cannot be used with
-                               --cover-art-full-path
-
---cover-art-full-path          An explicit path to a cover art file.  Cannot
-                               be used with --cover-art-base-path
-
+--makemkvcon-disc-id
+    Type: Integer
+    Required if not using an MKV source path. The disc ID
+    for the disc: identifier) to pass to makemkvcon.
+--output-directory
+    Type: String
+    Required. The directory to store output in.  FLAC files will be created
+    in a directory named for the disc.  Also, the directory will be used
+    for temporary files created as part of the process.
+--volume-key-sha1
+    Type: String
+    Skip detection of the SHA1 sum of /AACS/Unit_Key_RO.inf on the disc,
+    and use the specified SHA1 sum instead.
+--replace-spaces-with-underscores
+    Type: Boolean
+    Replace spaces in directory names and FLAC file names with underscores.
+    Defaults to false.
+--mkv-source-path
+    Type: String
+    Path to pre-extracted MKVs, if MakeMKV has already been used to rip
+    them from the disc.  Minimum segment length of 0 should be used for
+    pre-extractd MKV files.
+--copy-disc-before-mkv-extraction
+    Type: Boolean
+    Some discs cause frequent seeks during MKV extraction, causing extraction
+    to fail.  This works around that by copying the disc contents and key
+    information prior to MKV extraction.  Defaults to true.
+--config-path
+    Type: String
+    An explicit path to a disc configuration JSON file. If not specified,
+    it defaults to: ~/.config/bdaudiodump_config.json
+--disc-base-path
+    Type: String
+    The path to a mounted Blu-Ray disc, used for disc identification and
+    known cover art locations.  This overrides detected path locations.
+--cover-art-full-path
+    Type: String
+    An explicit path to a cover art file.  Overrides art locations
+    derived from the disc path.
 ```
 
 So, to dump a disc that shows up with `makemkvcon` as disc 0, you could do the following:
 
-`bdaudiodump --makemkvcon-disc-id 0 --output-directory /Users/myuser/myblurayoutput`
+`bdaudiodump --makemkvcon-disc-id=0 --output-directory=/Users/myuser/myblurayoutput`
 
-By default, this will not include cover art.  If the disc has cover art in a known location (in the JSON configuration file) that you'd like to use, you can use the `--cover-art-base-path` parameter to point to the root of the mounted Blu-Ray disc:
+By default, this will use the cover art specified in the disc config, relative to the base path of the disc.  If you have other cover art that you'd like to use, you can use the `--cover-art-full-path` parameter to point directly to the name of the file you'd like to use:
 
-`bdaudiodump --makemkvcon-disc-id 0 --output-directory /Users/myuser/myblurayoutput --cover-art-base-path /Volumes/MY_BLURAY_DISC`
+`bdaudiodump --makemkvcon-disc-id 0 --output-directory=/Users/myuser/myblurayoutput --cover-art-full-path /Users/myuser/Documents/BluRayCover.png`
 
-On the other hand, if you have cover art at a different location you'd like to use, you can use `--cover-art-full-path` to refer to the exact file:
+If you've already used MakeMKV to dump all of the MKV files (specifically, if you've created them the same way that `makemkvcon` creates them using the `all` option), you can skip the dumping process by pointing `bdaudiodump` to the directory where they're located.  This also requires specifying the SHA1 hash of `/AACS/Unit_Key_RO.inf` (used to uniquely identify a Blu-Ray disc):
 
-`bdaudiodump --makemkvcon-disc-id 0 --output-directory /Users/myuser/myblurayoutput --cover-art-full-path /Users/myuser/Documents/BluRayCover.png`
-
-If you've already used MakeMKV to dump all of the MKV files (specifically, if you've created them the same way that `makemkvcon` creates them using the `all` option), you can skip the dumping process by pointing `bdaudiodump` to the directory where they're located:
-
-`bdaudiodump --mkv-source-path /Users/myuser/Movies/MY_BLURAY_MOVIE --output-directory /Users/myuser/myblurayoutput --cover-art-base-path /Volumes/MY_BLURAY_DISC`
+`bdaudiodump --mkv-source-path /Users/myuser/Movies/MY_BLURAY_MOVIE --volume-key-sha1=0123456789abcdef0123456789abcdef01234567 --output-directory /Users/myuser/myblurayoutput --cover-art-base-path /Volumes/MY_BLURAY_DISC`
 
 ## Building
 
