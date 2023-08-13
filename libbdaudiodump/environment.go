@@ -174,12 +174,16 @@ func GetMountPointForMakemkvconDiscId(makemkvconDiscId int) (string, error) {
 		return "", err
 	}
 
-	mountPoint, err := GetMountPointForDevicePath(devicePath)
-	if err != nil {
-		return "", err
-	}
+	if runtime.GOOS != "windows" {
+		mountPoint, err := GetMountPointForDevicePath(devicePath)
+		if err != nil {
+			return "", err
+		}
 
-	return mountPoint, nil
+		return mountPoint, nil
+	} else { // The Windows version just returns the drive letter (e.g., "D:")
+		return devicePath + string(os.PathSeparator), nil
+	}
 }
 
 func GetDiscVolumeKeySha1Hash(basePath string) (string, error) {

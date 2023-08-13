@@ -4150,6 +4150,874 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "8e24f42f501ea073a2719b606fbffcc1f50e1cb3",
+        "disc_title": "FINAL FANTASY VII ORIGINAL SOUNDTRACK REVIVAL DISC",
+        "makemkv_prefix": "FINAL FANTASY VII ORIGINAL SOUNDTRACK REVIVAL DISC",
+        "album_artist": "SQUARE ENIX",
+        "genre": "Game",
+        "release_date": "2019-07-24",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 85,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/FF7.jpg",
+        "cover_type": "plain",
+        "cover_format": "jpg",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Prelude",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Opening - Bombing Mission",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Mako Reactor",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Anxiety",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 5,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Tifa's Theme",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 6,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Barret's Theme",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 7,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Hurry!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Lurking in the Darkness",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Shinra, Inc.",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Let the Battles Begin!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Fanfare",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Flowers Blooming in the Church",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "Turks' Theme",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Under the Rotting Pizza",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "The Oppressed",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "Honeybee Inn",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "Who...Are You?",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Don of the Slums",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Infiltrating Shinra",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 20,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "Fight On!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 21,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "Red XIII's Theme",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 22,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "The Chase",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 23,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "Dear to the Heart",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 24,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Main Theme of FINAL FANTASY VII",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 25,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "On Our Way",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 26,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "Good Night, Until Tomorrow",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 27,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "On That Day, Five Years Ago...",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 28,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Farm Boy",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 29,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Waltz de Chocobo",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 30,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "Electric de Chocobo",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 31,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Cinco de Chocobo",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 32,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "In Search of the Man in Black",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 33,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Fort Condor",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 34,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Rufus's Welcoming Ceremony",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 35,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "It's Hard to Stand on Both Feet!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 36,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "Trail of Blood",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 37,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "JENOVA",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 38,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "Continue",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 39,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "Costa del Sol",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 40,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "Mark of a Traitor",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 41,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "Mining Town",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 42,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "Gold Saucer",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 43,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "Cait Sith's Theme",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 44,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "Desert Wasteland",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 45,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "Cosmo Canyon",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 46,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "Lifestream",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 47,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "The Great Warrior",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 48,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "Descendant of Shinobi",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 49,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Those Chosen by the Planet",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 50,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "The Nightmare Begins",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 51,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    50
+                ],
+                "track_title": "Cid's Theme",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 52,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    51
+                ],
+                "track_title": "Steal the Tiny Bronco!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 53,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    52
+                ],
+                "track_title": "Wutai",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 54,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    53
+                ],
+                "track_title": "Stolen Materia",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 55,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    54
+                ],
+                "track_title": "Win/Place/Show Chocobo!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 56,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    55
+                ],
+                "track_title": "Fiddle de Chocobo",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 57,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    56
+                ],
+                "track_title": "Jackpot!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 58,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    57
+                ],
+                "track_title": "Tango of Tears",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 59,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    58
+                ],
+                "track_title": "Debut",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 60,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    59
+                ],
+                "track_title": "Words Drowned by Fireworks",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 61,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    60
+                ],
+                "track_title": "Forested Temple",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 62,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    61
+                ],
+                "track_title": "Listen to the Cries of the Planet",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 63,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    62
+                ],
+                "track_title": "Aerith's Theme",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 64,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    63
+                ],
+                "track_title": "Buried in Snow",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 65,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    64
+                ],
+                "track_title": "The North Cave",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 66,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    65
+                ],
+                "track_title": "Reunion",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 67,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    66
+                ],
+                "track_title": "Who...Am I?",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 68,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    67
+                ],
+                "track_title": "Shinra's Full-Scale Assault",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 69,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    68
+                ],
+                "track_title": "Attack of the WEAPON",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 70,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    69
+                ],
+                "track_title": "The Highwind Takes to the Skies",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 71,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    70
+                ],
+                "track_title": "Secret of the Deep Sea",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 72,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    71
+                ],
+                "track_title": "Provincial Town",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 73,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    72
+                ],
+                "track_title": "From the Edge of Despair",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 74,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    73
+                ],
+                "track_title": "Other Side of the Mountain",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 75,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    74
+                ],
+                "track_title": "Hurry Up!",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 76,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    75
+                ],
+                "track_title": "Launching a Dream into Space",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 77,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    76
+                ],
+                "track_title": "Countdown",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 78,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    77
+                ],
+                "track_title": "Open Your Heart",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 79,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    78
+                ],
+                "track_title": "Mako Cannon - The Destruction of Shinra",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 80,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    79
+                ],
+                "track_title": "Judgment Day",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 81,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    80
+                ],
+                "track_title": "JENOVA COMPLETE",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 82,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    81
+                ],
+                "track_title": "Birth of a God",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 83,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    82
+                ],
+                "track_title": "One-Winged Angel",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 84,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    83
+                ],
+                "track_title": "The Planet's Crisis",
+                "artist": "Nobuo Uematsu"
+            },
+            {
+                "number": 85,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    84
+                ],
+                "track_title": "Ending Credits",
+                "artist": "Nobuo Uematsu"
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "71fea09091d4be89655ffa9319bbcf43cef29d2e",
         "disc_title": "STORMBLOOD: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "STORMBLOOD- FINAL FANTASY XIV Original Soundtrack",

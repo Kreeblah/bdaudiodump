@@ -1,6 +1,6 @@
 # bdaudiodump
 
-`bdaudiodump` is a wrapper for `makemkvcon`, the `ffmpeg` tools, and the `flac` tools for dumping Blu-Ray soundtracks from known discs.
+`bdaudiodump` is a wrapper for `makemkvcon`, the `ffmpeg` tools, and the `flac` tools for dumping Blu-Ray soundtracks from known discs.  It runs on macOS and (theoretically) FreeBSD, OpenBSD, NetBSD, Linux, and Windows, though the only platform actually tested is macOS.
 
 ## Why does this exist?
 
@@ -10,7 +10,7 @@ This exists to make the manual effort replicable.  Once the locations of the aud
 
 ## Usage
 
-In order to use `bdaudiodump`, you'll need to have `makemkvcon` (included with [MakeMKV](https://www.makemkv.com/)) in your path unless you've already used it to extract the content of your disc to MKV, as well as `ffprobe` (for getting timing offsets for given chapter numbers), `ffmpeg` (for converting to FLAC), `flac` (for recompression, as `ffmpeg` isn't quite as good at it), and `metaflac` (for tagging the generated FLAC files).
+In order to use `bdaudiodump`, you'll need to have `makemkvcon` (included with [MakeMKV](https://www.makemkv.com/)) in your path unless you've already used it to extract the content of your disc to MKV, as well as `ffprobe` (for getting timing offsets for given chapter numbers), `ffmpeg` (for converting to FLAC), `flac` (for recompression, as `ffmpeg` isn't quite as good at it), `metaflac` (for tagging the generated FLAC files), and (except on Windows) `mount` for detecting disc mounting locations.
 
 Once you have these tools installed, you can use `bdaudiodump`.  The syntax is relatively straightforward:
 
