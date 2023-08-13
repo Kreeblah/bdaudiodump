@@ -59,7 +59,7 @@ func main() {
 	if *configPath != "" {
 		parsedConfig, err = libbdaudiodump.ReadConfigFile(*configPath)
 		if err != nil {
-			println("Unable to read config from: " + *configPath)
+			println("Error loading config from: " + *configPath)
 			println(err.Error())
 			os.Exit(1)
 		}

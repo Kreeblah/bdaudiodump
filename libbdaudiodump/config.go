@@ -23,6 +23,7 @@ import (
 	"encoding/json"
 	"errors"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -65,6 +66,17 @@ func ReadConfigFile(configPath string) (*[]BluRayDiscConfig, error) {
 	for i, _ := range *bluRayConfigs {
 		if (*bluRayConfigs)[i].TotalTracks != len((*bluRayConfigs)[i].Tracks) {
 			return nil, errors.New("number of tracks does not match total track value for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+
+		trackNums := make(map[int]bool)
+
+		for _, track := range (*bluRayConfigs)[i].Tracks {
+			_, hasTrack := trackNums[track.Number]
+			if hasTrack {
+				return nil, errors.New("duplicate track number (" + strconv.Itoa(track.Number) + ") for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+			} else {
+				trackNums[track.Number] = true
+			}
 		}
 
 		(*bluRayConfigs)[i].CoverContainerRelativePath = strings.ReplaceAll((*bluRayConfigs)[i].CoverContainerRelativePath, "/", string(os.PathSeparator))
