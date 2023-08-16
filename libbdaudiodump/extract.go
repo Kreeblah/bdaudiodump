@@ -362,7 +362,7 @@ func CopyCoverImageFromMp3FileToDestinationDirectory(basePath string, discConfig
 		return err
 	}
 
-	err = WriteCoverImageBytesToFile(strings.TrimRight(path.Dir(validatedDestinationDir), string(os.PathSeparator))+string(os.PathSeparator)+"cover."+extension, imageBytes)
+	err = WriteCoverImageBytesToFile(strings.TrimRight(validatedDestinationDir, string(os.PathSeparator))+string(os.PathSeparator)+"cover."+extension, imageBytes)
 	if err != nil {
 		return err
 	}
@@ -399,7 +399,7 @@ func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, disc
 		return err
 	}
 
-	err = WriteCoverImageBytesToFile(strings.TrimRight(path.Dir(validatedDestinationDir), string(os.PathSeparator))+string(os.PathSeparator)+"cover."+discConfig.CoverFormat, imageBytes)
+	err = WriteCoverImageBytesToFile(strings.TrimRight(validatedDestinationDir, string(os.PathSeparator))+string(os.PathSeparator)+"cover."+discConfig.CoverFormat, imageBytes)
 	if err != nil {
 		return err
 	}

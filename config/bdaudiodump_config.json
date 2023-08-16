@@ -1,5 +1,693 @@
 [
     {
+        "disc_volume_key_sha1": "a2650a2b7e6697d812d226b4b697c5fb3133e639",
+        "disc_title": "Chrono Cross Original Soundtrack Revival Disc",
+        "makemkv_prefix": "CHRONO CROSS Original Soundtrack Revival Disc",
+        "album_artist": "SQUARE ENIX",
+        "genre": "Game",
+        "release_date": "2019-08-07",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 67,
+        "cover_container_relative_path": "/MP3DATA/ChronoCross_mp3.zip",
+        "cover_relative_path": "ChronoCross_mp3/CHRONO_CROSS_001.mp3",
+        "cover_type": "zip_mp3",
+        "cover_format": "jpg",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Chrono Cross -Scars of Time-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "The Brink of Death",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Arni (Home World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Plains of Time (Home World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 5,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Dances with Lizards",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 6,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Reminisce -Enduring Thoughts-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 7,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Shore of Dreams (Another World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Arni (Another World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Fleeting Thoughts",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Missing Piece",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Fossil Valley",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Termina (Another World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "The Departed Ones",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Shadow Forest",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "Viper Manor",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "Victory -Boon of Spring-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "Lost in Time",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Guldove (Another World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Hydra Marshes",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 20,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "Fragments of a Dream",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 21,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "Sailing (Another World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 22,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "Ghost Ship",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 23,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "Mount Pyre",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 24,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Fort Dragonia",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 25,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "Sorrow",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 26,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "Prelude to a Dream",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 27,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "The Bend of Time",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 28,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Termina (Home World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 29,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Dragoons",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 30,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "Sailing (Home World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 31,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Guldove (Home World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 32,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "Marbule (Home World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 33,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Zelbess",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 34,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Miraculous & Mystifying",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 35,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "Slumber",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 36,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "Chronomantic",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 37,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "Peril",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 38,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "Paradise",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 39,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "Isle of the Damned",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 40,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "The Dead Sea -Tower of Geddon-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 41,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "Bound by Fate",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 42,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "Light Cast on the Lost",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 43,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "Earth Dragon Isle",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 44,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "Gaea's Navel",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 45,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "Whirlwind",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 46,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "Victory -Call of Summer-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 47,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "Marbule (Another World)",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 48,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "Fairy Magic",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 49,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Étude 1",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 50,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "Étude 2",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 51,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    50
+                ],
+                "track_title": "Magical Dreamers -Wind, Stars, and Waves-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 52,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    51
+                ],
+                "track_title": "The Sea of Eden",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 53,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    52
+                ],
+                "track_title": "Chronopolis",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 54,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    53
+                ],
+                "track_title": "Fates -Divine Destiny-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 55,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    54
+                ],
+                "track_title": "The El Nido Triangle",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 56,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    55
+                ],
+                "track_title": "Burning Orphanage",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 57,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    56
+                ],
+                "track_title": "The Girl Who Stole the Stars",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 58,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    57
+                ],
+                "track_title": "Dreams of the Ages",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 59,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    58
+                ],
+                "track_title": "Dragon Prayers",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 60,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    59
+                ],
+                "track_title": "Terra Tower",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 61,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    60
+                ],
+                "track_title": "The Frozen Flame",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 62,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    61
+                ],
+                "track_title": "Dragon God",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 63,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    62
+                ],
+                "track_title": "The Darkness of Time",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 64,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    63
+                ],
+                "track_title": "Life -A Distant Promise-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 65,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    64
+                ],
+                "track_title": "Reminisce -Enduring Thoughts-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 66,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    65
+                ],
+                "track_title": "Radical Dreamers -Le Trésor Interdit-",
+                "artist": "Yasunori Mitsuda"
+            },
+            {
+                "number": 67,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    66
+                ],
+                "track_title": "Fragments of a Dream",
+                "artist": "Yasunori Mitsuda"
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "34d059bac489f3e077d8343a93a6e6be85fea460",
         "disc_title": "Chrono Trigger Original Soundtrack Revival Disc",
         "makemkv_prefix": "CHRONO TRIGGER Original Soundtrack Revival Disc",

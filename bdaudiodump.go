@@ -252,7 +252,7 @@ func main() {
 			println("Cover art ZIP file: " + expandedCoverArtSourcePath)
 			println("File in ZIP to copy from: " + discConfig.CoverContainerRelativePath)
 			println("Cover art destination: " + coverArtPath)
-			err = libbdaudiodump.CopyCoverImageFromZipFileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
+			err = libbdaudiodump.CopyCoverImageFromZipFileToDestinationDirectory(discMountPoint, *discConfig, filepath.Dir(coverArtPath))
 			if err != nil {
 				println("Error copying cover art to destination.")
 				println(err.Error())
@@ -261,7 +261,7 @@ func main() {
 		} else if discConfig.CoverType == "mp3" {
 			println("Cover art source (extracting from MP3): " + expandedCoverArtSourcePath)
 			println("Cover art destination: " + coverArtPath)
-			err = libbdaudiodump.CopyCoverImageFromMp3FileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
+			err = libbdaudiodump.CopyCoverImageFromMp3FileToDestinationDirectory(discMountPoint, *discConfig, filepath.Dir(coverArtPath))
 			if err != nil {
 				println("Error copying cover art to destination.")
 				println(err.Error())
@@ -271,7 +271,7 @@ func main() {
 			println("Cover art ZIP file: " + expandedCoverArtSourcePath)
 			println("File in ZIP to copy from (extracting from MP3): " + discConfig.CoverContainerRelativePath)
 			println("Cover art destination: " + coverArtPath)
-			err = libbdaudiodump.CopyCoverImageFromZippedMp3FileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
+			err = libbdaudiodump.CopyCoverImageFromZippedMp3FileToDestinationDirectory(discMountPoint, *discConfig, filepath.Dir(coverArtPath))
 			if err != nil {
 				println("Error copying cover art to destination.")
 				println(err.Error())
