@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema for bdaudiodump disc config",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "disc_volume_key_sha1": {
+        "type": "string"
+      },
+      "disc_title": {
+        "type": "string"
+      },
+      "makemkv_prefix": {
+        "type": "string"
+      },
+      "album_artist": {
+        "type": "string"
+      },
+      "genre": {
+        "type": "string"
+      },
+      "release_date": {
+        "type": "string"
+      },
+      "disc_number": {
+        "type": "number"
+      },
+      "total_discs": {
+        "type": "number"
+      },
+      "total_tracks": {
+        "type": "number"
+      },
+      "cover_container_relative_path": {
+        "type": "string"
+      },
+      "cover_relative_path": {
+        "type": "string"
+      },
+      "cover_url": {
+        "type": "string"
+      },
+      "cover_type": {
+        "type": "string"
+      },
+      "tracks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "number"
+            },
+            "title_number": {
+              "type": "string"
+            },
+            "chapter_numbers": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "track_title": {
+              "type": "string"
+            },
+            "artists": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "number",
+            "title_number",
+            "chapter_numbers",
+            "track_title"
+          ]
+        }
+      }
+    },
+    "required": [
+      "disc_volume_key_sha1",
+      "disc_title",
+      "makemkv_prefix",
+      "album_artist",
+      "genre",
+      "release_date",
+      "disc_number",
+      "total_discs",
+      "total_tracks",
+      "cover_type",
+      "tracks"
+    ]
+  }
+}
