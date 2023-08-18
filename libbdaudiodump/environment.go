@@ -336,8 +336,8 @@ func GetFlacPathByTrackNumber(basePath string, trackNumber int, discConfig BluRa
 	return "", errors.New("unable to find track number: " + strconv.Itoa(trackNumber))
 }
 
-func GetCoverArtDestinationPath(basePath string, coverArtFileExtension string, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) string {
-	return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + SanitizePathSegment(discConfig.DiscTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator) + "cover." + strings.TrimLeft(coverArtFileExtension, ".")
+func GetCoverArtDestinationPath(basePath string, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) string {
+	return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + SanitizePathSegment(discConfig.DiscTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
 }
 
 func GetExpandedCoverArtSourcePath(basePath string, discConfig BluRayDiscConfig) string {

@@ -27,6 +27,7 @@ import (
 	"fmt"
 	"github.com/dhowden/tag"
 	"io"
+	"net/http"
 	"os"
 	"os/exec"
 	"path"
@@ -204,6 +205,22 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 	return nil
 }
 
+func GetImageFileExtensionFromBytes(imageBytes []byte) (string, error) {
+	mimeType := http.DetectContentType(imageBytes)
+	switch mimeType {
+	case "image/png":
+		return "png", nil
+	case "image/jpeg":
+		return "jpg", nil
+	case "image/gif":
+		return "gif", nil
+	case "image/bmp":
+		return "bmp", nil
+	}
+
+	return "", errors.New("unable to detect image format.")
+}
+
 func ExtractFileBytesFromZipFile(zipFilePath string, fileDataRelativePath string) ([]byte, error) {
 	zipFileObj, err := zip.OpenReader(zipFilePath)
 	if err != nil {
@@ -233,13 +250,18 @@ func ExtractFileBytesFromZipFile(zipFilePath string, fileDataRelativePath string
 	return nil, errors.New("unable to find file: " + fileDataRelativePath)
 }
 
-func ExtractCoverImageFromZipFile(basePath string, discConfig BluRayDiscConfig) ([]byte, error) {
+func ExtractCoverImageFromZipFile(basePath string, discConfig BluRayDiscConfig) ([]byte, string, error) {
 	coverImageBytes, err := ExtractFileBytesFromZipFile(strings.TrimRight(basePath, string(os.PathSeparator))+string(os.PathSeparator)+strings.TrimLeft(discConfig.CoverContainerRelativePath, string(os.PathSeparator)), discConfig.CoverRelativePath)
 	if err != nil {
-		return nil, err
+		return nil, "", err
 	}
 
-	return coverImageBytes, nil
+	coverExtension, err := GetImageFileExtensionFromBytes(coverImageBytes)
+	if err != nil {
+		return nil, "", err
+	}
+
+	return coverImageBytes, coverExtension, nil
 }
 
 func ExtractCoverImageFromMp3Bytes(mp3Bytes []byte) ([]byte, string, error) {
@@ -249,7 +271,12 @@ func ExtractCoverImageFromMp3Bytes(mp3Bytes []byte) ([]byte, string, error) {
 		return nil, "", err
 	}
 
-	return mp3Metadata.Picture().Data, mp3Metadata.Picture().Ext, nil
+	coverExtension, err := GetImageFileExtensionFromBytes(mp3Metadata.Picture().Data)
+	if err != nil {
+		return nil, "", err
+	}
+
+	return mp3Metadata.Picture().Data, coverExtension, nil
 }
 
 func ExtractCoverImageFromMp3File(basePath string, discConfig BluRayDiscConfig) ([]byte, string, error) {
@@ -261,128 +288,164 @@ func ExtractCoverImageFromMp3File(basePath string, discConfig BluRayDiscConfig) 
 	return ExtractCoverImageFromMp3Bytes(mp3Bytes)
 }
 
+func ExtractCoverImageFromUrl(coverUrl string) ([]byte, string, error) {
+	coverResponse, err := http.Get(coverUrl)
+	if err != nil {
+		return nil, "", err
+	}
+
+	if coverResponse.StatusCode != http.StatusOK {
+		return nil, "", errors.New("web server returned error retrieving cover image at: " + coverUrl)
+	}
+
+	defer coverResponse.Body.Close()
+
+	coverImageBytes, err := io.ReadAll(coverResponse.Body)
+	if err != nil {
+		return nil, "", err
+	}
+
+	coverExtension, err := GetImageFileExtensionFromBytes(coverImageBytes)
+	if err != nil {
+		return nil, "", err
+	}
+
+	return coverImageBytes, coverExtension, nil
+}
+
 func ExtractCoverImageFromFile(imageFilePath string) ([]byte, string, error) {
 	imageBytes, err := os.ReadFile(imageFilePath)
 	if err != nil {
 		return nil, "", err
 	}
 
-	return imageBytes, path.Ext(imageFilePath), nil
+	coverExtension, err := GetImageFileExtensionFromBytes(imageBytes)
+	if err != nil {
+		return nil, "", err
+	}
+
+	return imageBytes, coverExtension, nil
 }
 
 func WriteCoverImageBytesToFile(imageFilePath string, imageBytes []byte) error {
 	return os.WriteFile(imageFilePath, imageBytes, 0644)
 }
 
-func CopyCoverImageFromFileToDestinationDirectory(coverImagePath string, destinationDir string, coverExtension string) error {
+func CopyCoverImageFromFileToDestinationDirectory(coverImagePath string, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)
 		if err != nil {
-			return err
+			return "", err
 		}
 	}
 
 	validatedDestinationDir := destinationDir
 	isDirectory, err := PathIsDirectory(destinationDir)
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	if !isDirectory {
 		validatedDestinationDir = path.Dir(destinationDir)
 	}
 
-	imageBytes, _, err := ExtractCoverImageFromFile(coverImagePath)
+	imageBytes, coverExtension, err := ExtractCoverImageFromFile(coverImagePath)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	err = WriteCoverImageBytesToFile(strings.TrimRight(validatedDestinationDir, string(os.PathSeparator))+string(os.PathSeparator)+"cover."+coverExtension, imageBytes)
+	fullCoverArtPath := strings.TrimRight(validatedDestinationDir, string(os.PathSeparator)) + string(os.PathSeparator) + "cover." + coverExtension
+
+	err = WriteCoverImageBytesToFile(fullCoverArtPath, imageBytes)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	return nil
+	return fullCoverArtPath, nil
 }
 
-func CopyCoverImageFromZipFileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) error {
+func CopyCoverImageFromZipFileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)
 		if err != nil {
-			return err
+			return "", err
 		}
 	}
 
 	validatedDestinationDir := destinationDir
 	isDirectory, err := PathIsDirectory(destinationDir)
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	if !isDirectory {
 		validatedDestinationDir = path.Dir(destinationDir)
 	}
 
-	imageBytes, err := ExtractCoverImageFromZipFile(basePath, discConfig)
+	imageBytes, coverExtension, err := ExtractCoverImageFromZipFile(basePath, discConfig)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	err = WriteCoverImageBytesToFile(strings.TrimRight(validatedDestinationDir, string(os.PathSeparator))+string(os.PathSeparator)+"cover."+discConfig.CoverFormat, imageBytes)
+	fullCoverArtPath := strings.TrimRight(validatedDestinationDir, string(os.PathSeparator)) + string(os.PathSeparator) + "cover." + coverExtension
+
+	err = WriteCoverImageBytesToFile(fullCoverArtPath, imageBytes)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	return nil
+	return fullCoverArtPath, nil
 }
 
-func CopyCoverImageFromMp3FileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) error {
+func CopyCoverImageFromMp3FileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)
 		if err != nil {
-			return err
+			return "", err
 		}
 	}
 
 	validatedDestinationDir := destinationDir
 	isDirectory, err := PathIsDirectory(destinationDir)
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	if !isDirectory {
 		validatedDestinationDir = path.Dir(destinationDir)
 	}
 
-	imageBytes, extension, err := ExtractCoverImageFromMp3File(basePath, discConfig)
+	imageBytes, coverExtension, err := ExtractCoverImageFromMp3File(basePath, discConfig)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	err = WriteCoverImageBytesToFile(strings.TrimRight(validatedDestinationDir, string(os.PathSeparator))+string(os.PathSeparator)+"cover."+extension, imageBytes)
+	fullCoverArtPath := strings.TrimRight(validatedDestinationDir, string(os.PathSeparator)) + string(os.PathSeparator) + "cover." + coverExtension
+
+	err = WriteCoverImageBytesToFile(fullCoverArtPath, imageBytes)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	return nil
+	return fullCoverArtPath, nil
 }
 
-func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) error {
+func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)
 		if err != nil {
-			return err
+			return "", err
 		}
 	}
 
 	validatedDestinationDir := destinationDir
 	isDirectory, err := PathIsDirectory(destinationDir)
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	if !isDirectory {
@@ -391,18 +454,54 @@ func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, disc
 
 	mp3Bytes, err := ExtractFileBytesFromZipFile(strings.TrimRight(basePath, string(os.PathSeparator))+string(os.PathSeparator)+strings.TrimLeft(discConfig.CoverContainerRelativePath, string(os.PathSeparator)), discConfig.CoverRelativePath)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	imageBytes, _, err := ExtractCoverImageFromMp3Bytes(mp3Bytes)
+	imageBytes, coverExtension, err := ExtractCoverImageFromMp3Bytes(mp3Bytes)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	err = WriteCoverImageBytesToFile(strings.TrimRight(validatedDestinationDir, string(os.PathSeparator))+string(os.PathSeparator)+"cover."+discConfig.CoverFormat, imageBytes)
+	fullCoverArtPath := strings.TrimRight(validatedDestinationDir, string(os.PathSeparator)) + string(os.PathSeparator) + "cover." + coverExtension
+
+	err = WriteCoverImageBytesToFile(fullCoverArtPath, imageBytes)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	return nil
+	return fullCoverArtPath, nil
+}
+
+func CopyCoverImageFromUrlToDestinationDirectory(coverUrl string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
+	_, err := os.ReadDir(destinationDir)
+	if err != nil {
+		err := os.MkdirAll(destinationDir, 0755)
+		if err != nil {
+			return "", err
+		}
+	}
+
+	validatedDestinationDir := destinationDir
+	isDirectory, err := PathIsDirectory(destinationDir)
+	if err != nil {
+		return "", err
+	}
+
+	if !isDirectory {
+		validatedDestinationDir = path.Dir(destinationDir)
+	}
+
+	imageBytes, coverExtension, err := ExtractCoverImageFromUrl(coverUrl)
+	if err != nil {
+		return "", err
+	}
+
+	fullCoverArtPath := strings.TrimRight(validatedDestinationDir, string(os.PathSeparator)) + string(os.PathSeparator) + "cover." + coverExtension
+
+	err = WriteCoverImageBytesToFile(fullCoverArtPath, imageBytes)
+	if err != nil {
+		return "", err
+	}
+
+	return fullCoverArtPath, nil
 }

@@ -95,7 +95,7 @@ func TagFlac(basePath string, trackNumber int, coverPath string, discConfig BluR
 		return err
 	}
 
-	if discConfig.Tracks[trackNumber-1].Artist != "" {
+	if len(discConfig.Tracks[trackNumber-1].Artists) != 0 {
 		err = ApplyFlacTag(trackNumber, flacPath, "ARTIST", discConfig)
 		if err != nil {
 			return err
@@ -150,7 +150,6 @@ func ApplyFlacTag(trackNumber int, flacPath string, tagType string, discConfig B
 	case "TITLE":
 		tagContents = discConfig.Tracks[trackNumber-1].TrackTitle
 	case "ARTIST":
-		tagContents = discConfig.Tracks[trackNumber-1].Artist
 	default:
 		return errors.New("unsupported tag type: " + tagType)
 	}
@@ -160,9 +159,18 @@ func ApplyFlacTag(trackNumber int, flacPath string, tagType string, discConfig B
 		return err
 	}
 
-	_, err = exec.Command(metaflacExecPath, "--set-tag="+tagType+"="+tagContents, flacPath).CombinedOutput()
-	if err != nil {
-		return err
+	if tagType == "ARTIST" {
+		for _, artist := range discConfig.Tracks[trackNumber-1].Artists {
+			_, err = exec.Command(metaflacExecPath, "--set-tag=ARTIST="+artist, flacPath).CombinedOutput()
+			if err != nil {
+				return err
+			}
+		}
+	} else {
+		_, err = exec.Command(metaflacExecPath, "--set-tag="+tagType+"="+tagContents, flacPath).CombinedOutput()
+		if err != nil {
+			return err
+		}
 	}
 
 	return nil

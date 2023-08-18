@@ -39,14 +39,14 @@ type BluRayDiscConfig struct {
 	TotalTracks                int    `json:"total_tracks"`
 	CoverContainerRelativePath string `json:"cover_container_relative_path"`
 	CoverRelativePath          string `json:"cover_relative_path"`
+	CoverUrl                   string `json:"cover_url"`
 	CoverType                  string `json:"cover_type"`
-	CoverFormat                string `json:"cover_format"`
 	Tracks                     []struct {
-		Number         int    `json:"number"`
-		TitleNumber    string `json:"title_number"`
-		ChapterNumbers []int  `json:"chapter_numbers"`
-		TrackTitle     string `json:"track_title"`
-		Artist         string `json:"artist"`
+		Number         int      `json:"number"`
+		TitleNumber    string   `json:"title_number"`
+		ChapterNumbers []int    `json:"chapter_numbers"`
+		TrackTitle     string   `json:"track_title"`
+		Artists        []string `json:"artists"`
 	} `json:"tracks"`
 }
 
