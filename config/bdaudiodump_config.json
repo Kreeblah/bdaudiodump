@@ -10327,5 +10327,673 @@
                 ]
             }
         ]
+    },
+    {
+        "disc_volume_key_sha1": "ba88fa68d0efe03f8aa5c3e144226daaea654359",
+        "disc_title": "THE FAR EDGE OF FATE: FINAL FANTASY XIV Original Soundtrack",
+        "makemkv_prefix": "THE FAR EDGE OF FATE： FINAL FANTASY XIV Original Soundtrack",
+        "album_artist": "SQUARE ENIX",
+        "genre": "Game",
+        "release_date": "2017-06-07",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 50,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/FEF_FFXIV.jpg",
+        "cover_url": "",
+        "cover_type": "plain",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Fiend",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Down the Up Staircase",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Dancing Calcabrina",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Revenge Twofold",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Piece of Mind",
+                "artists":
+                [
+                    "Yukiko Takada"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "No Sound, No Scutter",
+                "artists":
+                [
+                    "Yukiko Takada"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "The Kiss",
+                "artists":
+                [
+                    "Yukiko Takada"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Starved",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "The Ancient City",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Metal - Brute Justice Mode",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Holy Consult",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Apologies",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "Faith in Her Fury",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Primogenitor",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "Freefall",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "Revenge of the Horde",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "Only the Dead",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Freedom",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Teardrops in the Rain",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 20,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "Torrent",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 21,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "A Thousand Faces",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 22,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "Blackbosom",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 23,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "The Merry Wanderer Waltz",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 24,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Emerald Labyrinth",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 25,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "Enraptured",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 26,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "Tears for Mor Dhona",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 27,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "Fog of Phantom",
+                "artists":
+                [
+                    "Masaharu Iwata"
+                ]
+            },
+            {
+                "number": 28,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Notice of Death",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 29,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Blasphemous Experiment",
+                "artists":
+                [
+                    "Masaharu Iwata"
+                ]
+            },
+            {
+                "number": 30,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "The Gauntlet",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 31,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Hyper Rainbow Z",
+                "artists":
+                [
+                    "Yukiko Takada"
+                ]
+            },
+            {
+                "number": 32,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "Up at Dawn",
+                "artists":
+                [
+                    "Yukiko Takada"
+                ]
+            },
+            {
+                "number": 33,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Grounded",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 34,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Bibliophobia",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 35,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "Exponential Entropy",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 36,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "Out of Time",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 37,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "Moebius",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 38,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "Stasis Loop",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 39,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "Rise",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 40,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "Fragments of Forever",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 41,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "He who Continues the Attack",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 42,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "Battle to the Death - Heavensward",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 43,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "Equilibrium",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 44,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "Promises",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 45,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "Shadow of the Body",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 46,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "Quicksand",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 47,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "Penultimania",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 48,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "Infinity",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 49,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Another Brick",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 50,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "Scale and Steel",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            }
+        ]
     }
 ]
