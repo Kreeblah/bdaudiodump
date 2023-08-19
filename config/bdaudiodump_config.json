@@ -3,7 +3,7 @@
         "disc_volume_key_sha1": "2772dbbf5cc160aa16adc39787cfb2b0dc6429e9",
         "disc_title": "A REALM REBORN: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "A REALM REBORN - FINAL FANTASY XIV Original Soundtrack",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2014-03-26",
         "disc_number": 1,
@@ -1578,7 +1578,7 @@
         "disc_volume_key_sha1": "a2650a2b7e6697d812d226b4b697c5fb3133e639",
         "disc_title": "Chrono Cross Original Soundtrack Revival Disc",
         "makemkv_prefix": "CHRONO CROSS Original Soundtrack Revival Disc",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2019-08-07",
         "disc_number": 1,
@@ -2467,7 +2467,7 @@
         "disc_volume_key_sha1": "34d059bac489f3e077d8343a93a6e6be85fea460",
         "disc_title": "Chrono Trigger Original Soundtrack Revival Disc",
         "makemkv_prefix": "CHRONO TRIGGER Original Soundtrack Revival Disc",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2019-07-10",
         "disc_number": 1,
@@ -3317,7 +3317,7 @@
         "disc_volume_key_sha1": "0fc379e69d2dc73786e5d4f842e00c4d65be6357",
         "disc_title": "FINAL FANTASY I·II·III ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY I.II.III Original Soundtrack Revival Disc",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2018-08-15",
         "disc_number": 1,
@@ -4518,7 +4518,7 @@
         "disc_volume_key_sha1": "e25ff24f3a7acd7581a8ca1bd28fcb28710e6a88",
         "disc_title": "FINAL FANTASY IV ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY IV Original Soundtrack Revival Disc",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2018-10-17",
         "disc_number": 1,
@@ -5319,7 +5319,7 @@
         "disc_volume_key_sha1": "579ed2aae4591bc66217f15b46ead110abf1a3be",
         "disc_title": "FINAL FANTASY IV ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY IV Original Soundtrack Revival Disc",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2018-10-17",
         "disc_number": 1,
@@ -6120,7 +6120,7 @@
         "disc_volume_key_sha1": "40aeb2f37cb1ec08af97fe9d1a047cdd82843beb",
         "disc_title": "FINAL FANTASY V ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY V ORIGINAL SOUNDTRACK REVIVAL DISC",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2019-01-16",
         "disc_number": 1,
@@ -7011,7 +7011,7 @@
         "disc_volume_key_sha1": "06ee14ee4b1bccee8f6028c565a25a2bca185077",
         "disc_title": "FINAL FANTASY VI ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY VI ORIGINAL SOUNDTRACK REVIVAL DISC",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2019-05-27",
         "disc_number": 1,
@@ -7826,7 +7826,7 @@
         "disc_volume_key_sha1": "8e24f42f501ea073a2719b606fbffcc1f50e1cb3",
         "disc_title": "FINAL FANTASY VII ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY VII ORIGINAL SOUNDTRACK REVIVAL DISC",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2019-07-24",
         "disc_number": 1,
@@ -8946,10 +8946,1172 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "d54ef6a8b73cc285361de97d8249daeaecedf43a",
+        "disc_title": "SHADOWBRINGERS: FINAL FANTASY XIV Original Soundtrack",
+        "makemkv_prefix": "SHADOWBRINGERS- FINAL FANTASY XIV Original Soundtrack",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2019-09-11",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 88,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/SHADOWBRINGERS.jpg",
+        "cover_url": "",
+        "cover_type": "plain",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "23",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "A Land Long Dead",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "28",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Bedlam's Brink",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Battle",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "eScape",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "42",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Everywhere and Nowhere",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Heartless",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "From the Heavens",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "A Dream in Flight",
+                "artists":
+                [
+                    "Masashi Hamauzu"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Ending",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "From Mud",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Sunset",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Sunrise",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "04",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Starlight, Starbright",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "04",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Starlight, Not Right",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "04",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Doman Distractions",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Gates of Paradise - The Garden of Ru'Hmet",
+                "artists":
+                [
+                    "Naoshi Mizuta"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Onslaught",
+                "artists":
+                [
+                    "Naoshi Mizuta"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Turmoil",
+                "artists":
+                [
+                    "Naoshi Mizuta"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Under The Stars",
+                "artists":
+                [
+                    "Masaharu Iwata"
+                ]
+            },
+            {
+                "number": 20,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Pressure (No. 1)",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 21,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Antipyretic",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 22,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "B. E.",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 23,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "A Man Consumed",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 24,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "St. Ajora's Theme",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 25,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Descent",
+                "artists":
+                [
+                    "Masaharu Iwata"
+                ]
+            },
+            {
+                "number": 26,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Ultima's Perfection",
+                "artists":
+                [
+                    "Masaharu Iwata"
+                ]
+            },
+            {
+                "number": 27,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Final Struggle",
+                "artists":
+                [
+                    "Masaharu Iwata"
+                ]
+            },
+            {
+                "number": 28,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Hall of Worship",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 29,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Brave Story",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 30,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Alma's Theme",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 31,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Poachers' Den",
+                "artists":
+                [
+                    "Masaharu Iwata"
+                ]
+            },
+            {
+                "number": 32,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Epilogue",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 33,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Credits",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 34,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Intrigue",
+                "artists":
+                [
+                    "Hitoshi Sakimoto"
+                ]
+            },
+            {
+                "number": 35,
+                "title_number": "07",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "From the Dragon's Wake",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 36,
+                "title_number": "07",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "A Pall Most Murderous",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 37,
+                "title_number": "08",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Shadowbringers",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 38,
+                "title_number": "08",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Four-fold Knowing",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 39,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Dark Which Illuminates the World",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 40,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Unmatching Pieces",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 41,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Rencounter",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 42,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Such as it Is",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 43,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Pain in Pleasure",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 44,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Sands of Amber",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 45,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "No Greater Sorrow",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 46,
+                "title_number": "41",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Paradisaical Predicaments",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 47,
+                "title_number": "10",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Source",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 48,
+                "title_number": "10",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "To Fire and Sword",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 49,
+                "title_number": "10",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Insatiable",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 50,
+                "title_number": "10",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Unchanging, Everchanging",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 51,
+                "title_number": "25",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "On Our Fates Alight",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 52,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Knowledge Never Sleeps",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 53,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "High Treason",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 54,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Fierce and Free",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 55,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "A Reason to Live",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 56,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Figments",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 57,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "What Angel Wakes Me",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 58,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "The Faerie Ring",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 59,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Civilizations",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 60,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Unwound",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 61,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "A Hopeless Race",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 62,
+                "title_number": "33",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Tomorrow and Tomorrow - Reprise",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 63,
+                "title_number": "12",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Deep Down",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 64,
+                "title_number": "12",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Sands of Blood",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 65,
+                "title_number": "13",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "A Better Tomorrow",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 66,
+                "title_number": "13",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Dangerous Words",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 67,
+                "title_number": "14",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "In the Belly of the Beast",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 68,
+                "title_number": "14",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Insanity",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 69,
+                "title_number": "43",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Tears in the Rain",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 70,
+                "title_number": "15",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Full Fathom Five",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 71,
+                "title_number": "15",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "'Neath Dark Waters",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 72,
+                "title_number": "40",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "More than Truth",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 73,
+                "title_number": "16",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Mortal Instants",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 74,
+                "title_number": "16",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Who Brings Shadow",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 75,
+                "title_number": "16",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Invincible",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 76,
+                "title_number": "27",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Tomorrow and Tomorrow",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 77,
+                "title_number": "17",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Quick Way",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 78,
+                "title_number": "17",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "A World Divided",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 79,
+                "title_number": "39",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Vamo' alla Flamenco",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 80,
+                "title_number": "18",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Masquerade",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 81,
+                "title_number": "18",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Indulgence",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 82,
+                "title_number": "18",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Shadows Withal",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 83,
+                "title_number": "18",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "A Long Fall",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 84,
+                "title_number": "26",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Lute",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 85,
+                "title_number": "19",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Blue Fields",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 86,
+                "title_number": "19",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Force Your Way",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 87,
+                "title_number": "19",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Blinding Indigo",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 88,
+                "title_number": "19",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Landslide",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "71fea09091d4be89655ffa9319bbcf43cef29d2e",
         "disc_title": "STORMBLOOD: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "STORMBLOOD- FINAL FANTASY XIV Original Soundtrack",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2018-07-04",
         "disc_number": 1,
@@ -10332,7 +11494,7 @@
         "disc_volume_key_sha1": "ba88fa68d0efe03f8aa5c3e144226daaea654359",
         "disc_title": "THE FAR EDGE OF FATE: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "THE FAR EDGE OF FATE： FINAL FANTASY XIV Original Soundtrack",
-        "album_artist": "SQUARE ENIX",
+        "album_artist": "SQUARE ENIX MUSIC",
         "genre": "Game",
         "release_date": "2017-06-07",
         "disc_number": 1,

@@ -134,6 +134,11 @@ func ReadConfigFile(configPath string) (*[]BluRayDiscConfig, error) {
 			if track.TrackTitle == "" {
 				return nil, errors.New("missing track title for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
 			}
+			for _, artist := range track.Artists {
+				if artist == "" {
+					return nil, errors.New("empty artist string for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+				}
+			}
 			_, hasTrack := trackNums[track.Number]
 			if hasTrack {
 				return nil, errors.New("duplicate track number (" + strconv.Itoa(track.Number) + ") for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)

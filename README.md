@@ -70,6 +70,51 @@ If you've already used MakeMKV to dump all of the MKV files (specifically, if yo
 
 `bdaudiodump --mkv-source-path /Users/myuser/Movies/MY_BLURAY_MOVIE --volume-key-sha1=0123456789abcdef0123456789abcdef01234567 --output-directory /Users/myuser/myblurayoutput --cover-art-base-path /Volumes/MY_BLURAY_DISC`
 
+## Writing disc configs
+
+The format for the disc configs is subject to change as I find new requirements for accurately modeling ripping preferences, but currently, the format is as follows:
+
+```
+[
+    {
+        "disc_volume_key_sha1": "A SHA1 sum of /AACS/Unit_Key_RO.inf, which uniquely identifies each disc release.",
+        "disc_title": "A human-readable title for the disc, which will be used as the directory for FLAC files to be stored in.",
+        "makemkv_prefix": "The prefix (everything before the _t##.mkv portion) that MakeMKV uses when generating MKV files from this disc.",
+        "album_artist": "The album artist.",
+        "genre": "The album genre.",
+        "release_date": "The album release date in YYYY-MM-DD format.",
+        "disc_number": The number of the disc in a multi-disc set.,
+        "total_discs": The total number of discs in the set.,
+        "total_tracks": The total number of tracks on the disc.,
+        "cover_container_relative_path": "The location within a container file (such as a ZIP file) to a cover image or an MP3 to extract a cover image from.  Uses / as a path separator, but does not have a leading /.  Unused and may be omitted when cover_type is not zip or zip_mp3.  Required when cover_type is zip or zip_mp3.",
+        "cover_relative_path": "The location, relative to the root of the disc, of a cover image file, a container file (such as a ZIP file), or an MP3 file to extract a cover image from.  Uses / as a path separator and does have a leading /.  Unused and may be omitted when cover_type is url.  Required when cover_type is not url.",
+        "cover_url": "An HTTP or HTTPS URL to a cover image.  Unused and may be omitted when cover_type is anything but url.",
+        "cover_type": "The type of cover image in use.  Valid values are plain, zip, mp3, zip_mp3, and url.  plain implies cover_relative_path points to an image file, zip implies extraction from a ZIP file, mp3 implies extraction from an MP3 file's embedded cover art, zip_mp3 implies extraction from an MP3 compressed within a ZIP file, and url implies cover art downloaded over HTTP or HTTPS.",
+        "tracks":
+        [
+            {
+                "number": The track number,
+                "title_number": "The number of the title this track is stored in.  This is found as the ## value of the _t##.mkv portion of the filename that MakeMKV generates when converting a disc to MKV files.",
+                "chapter_numbers":
+                [
+                    An array of chapter numbers, ASSUMING A ZERO-BASED INDEX, which comprise the track.  If more than one chapter number is provided, they will be stitched together in the order listed in this array.
+                ],
+                "track_title": "The track's title.",
+                "artists":
+                [
+                    "An array of artists for the track.  Listing artists is optional, so this array may be empty."
+                ]
+            },
+
+        ]
+    }
+]
+```
+
+Most of the format is pretty straightforward.  The most time-consuming part is often determining which chapters in which titles correspond to which tracks, particularly as some discs have non-track chapters, repeated tracks, tracks out of order, tracks spread across multiple chapters, etc.
+
+One useful tool for determining what to fill in is VLC and a set of MKV files extracted with MakeMKV configured with a minimum title length of 0 seconds (which can be done in the preferences, under the Video tab).  Just open an MKV file in VLC and use the Playback > Chapter menu to find a track from the album, checking to see whether it spans multiple chapters (check the next chapter to see whether it is in the middle of the same track, or whether it's starting something else).  Note each chapter number that VLC has, subtract 1 since VLC starts chapter numbers at 1, but we need them to start at 0, and then use those subtracted-by-one number(s) as the values for your chapter numbers.  For the title number, use the ## part of the `_t##.mkv` piece of the filename that you found the track in.
+
 ## Building
 
 Building is simple.  Just run:
