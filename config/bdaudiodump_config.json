@@ -12157,5 +12157,709 @@
                 ]
             }
         ]
+    },
+    {
+        "disc_volume_key_sha1": "008398803ec4e5729f4eda161871abc4b30fb30f",
+        "disc_title": "Xenogears Original Soundtrack Revival Disc -the first and the last-",
+        "makemkv_prefix": "Xenogears Original Soundtrack Revival Disc - the first and the last",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2018-04-04",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 49,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/Xenogears_H1.jpg",
+        "cover_url": "",
+        "cover_type": "plain",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0,
+                    1
+                ],
+                "track_title": "Dark Dawn",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2,
+                    3
+                ],
+                "track_title": "Stars of Tears (Out take)",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4,
+                    5
+                ],
+                "track_title": "Bond of Sea and Flame",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6,
+                    7
+                ],
+                "track_title": "Village Pride",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8,
+                    9
+                ],
+                "track_title": "Wind from the Valley",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    10,
+                    11
+                ],
+                "track_title": "A Distant Promise",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    12,
+                    13
+                ],
+                "track_title": "Premonition",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    14,
+                    15
+                ],
+                "track_title": "Steel Giants",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    16,
+                    17
+                ],
+                "track_title": "The Blackmoon Forest",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    18,
+                    19
+                ],
+                "track_title": "Where Dreams Hatch",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    20,
+                    21
+                ],
+                "track_title": "Doze (Short Version)",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    22,
+                    23
+                ],
+                "track_title": "Desert City Dazil",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    24,
+                    25
+                ],
+                "track_title": "Adoration",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    26,
+                    27
+                ],
+                "track_title": "Grahf -Ruler of Darkness-",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    28,
+                    29
+                ],
+                "track_title": "Fuse",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    30,
+                    31
+                ],
+                "track_title": "Dreams of the Brave",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    32,
+                    33
+                ],
+                "track_title": "Intangible Treasure",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    34,
+                    35
+                ],
+                "track_title": "Ancient Dance of Aveh",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    36,
+                    37
+                ],
+                "track_title": "Infiltration",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 20,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    38,
+                    39
+                ],
+                "track_title": "Deadly Dance",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 21,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    40,
+                    41
+                ],
+                "track_title": "Dark Slumber",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 22,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    42,
+                    43
+                ],
+                "track_title": "Windy Song",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 23,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    44,
+                    45
+                ],
+                "track_title": "We Wounded Follow the Light",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 24,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    46,
+                    47
+                ],
+                "track_title": "Lost... -Screeching Shards-",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 25,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    48,
+                    49
+                ],
+                "track_title": "The Thames -Men of the Sea-",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 26,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    50,
+                    51
+                ],
+                "track_title": "Blue Traveler",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 27,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    52,
+                    53
+                ],
+                "track_title": "Cage of Remorse and Relief",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 28,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    54,
+                    55
+                ],
+                "track_title": "Icy Chin",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 29,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    56,
+                    57
+                ],
+                "track_title": "Blazing Knights",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 30,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    58,
+                    59
+                ],
+                "track_title": "October Mermaid",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 31,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    60,
+                    61
+                ],
+                "track_title": "Shevat -The Wind Calls-",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 32,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    62,
+                    63
+                ],
+                "track_title": "With the Sky, the Clouds, and You",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 33,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    64,
+                    65
+                ],
+                "track_title": "Gather Up the Night Stars",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 34,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    66,
+                    67
+                ],
+                "track_title": "Earthly Tears, Mortal Thoughts",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 35,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    68,
+                    69
+                ],
+                "track_title": "Soaring",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 36,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    70,
+                    71
+                ],
+                "track_title": "Wings",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 37,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    72,
+                    73
+                ],
+                "track_title": "Solaris -Supernal Paradise-",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 38,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    74,
+                    75
+                ],
+                "track_title": "Doze (Long Version)",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 39,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    76,
+                    77
+                ],
+                "track_title": "Torn",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 40,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    78,
+                    79
+                ],
+                "track_title": "Prayers -The Joy of Hope-",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 41,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    80,
+                    81
+                ],
+                "track_title": "Foreboding",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 42,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    82,
+                    83
+                ],
+                "track_title": "Awakening",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 43,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    84,
+                    85
+                ],
+                "track_title": "Fangs Bared at God",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 44,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    86,
+                    87
+                ],
+                "track_title": "The Beginning and the End",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 45,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    88,
+                    89
+                ],
+                "track_title": "Small Two of Pieces -Screeching Shards-",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 46,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    91,
+                    92
+                ],
+                "track_title": "We, the Wounded Shall Advance into the Light (Revival Version)",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 47,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    93,
+                    94
+                ],
+                "track_title": "Memories Left Behind (Revival Version)",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 48,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    95,
+                    96
+                ],
+                "track_title": "The End of Childhood (Revival Version)",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            },
+            {
+                "number": 49,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    97,
+                    98
+                ],
+                "track_title": "The Beginning and the End (Revival Version)",
+                "artists":
+                [
+                    "Yasunori Mitsuda"
+                ]
+            }
+        ]
     }
 ]
