@@ -20,11 +20,14 @@
 package libbdaudiodump
 
 import (
+	"bytes"
 	"encoding/json"
 	"errors"
+	"net/url"
 	"os"
 	"strconv"
 	"strings"
+	"time"
 )
 
 type BluRayDiscConfig struct {
@@ -37,16 +40,16 @@ type BluRayDiscConfig struct {
 	DiscNumber                 int    `json:"disc_number"`
 	TotalDiscs                 int    `json:"total_discs"`
 	TotalTracks                int    `json:"total_tracks"`
-	CoverContainerRelativePath string `json:"cover_container_relative_path"`
-	CoverRelativePath          string `json:"cover_relative_path"`
-	CoverUrl                   string `json:"cover_url"`
+	CoverContainerRelativePath string `json:"cover_container_relative_path,omitempty"`
+	CoverRelativePath          string `json:"cover_relative_path,omitempty"`
+	CoverUrl                   string `json:"cover_url,omitempty"`
 	CoverType                  string `json:"cover_type"`
 	Tracks                     []struct {
 		Number         int      `json:"number"`
 		TitleNumber    string   `json:"title_number"`
 		ChapterNumbers []int    `json:"chapter_numbers"`
 		TrackTitle     string   `json:"track_title"`
-		Artists        []string `json:"artists"`
+		Artists        []string `json:"artists,omitempty"`
 	} `json:"tracks"`
 }
 
@@ -58,19 +61,79 @@ func ReadConfigFile(configPath string) (*[]BluRayDiscConfig, error) {
 		return nil, err
 	}
 
-	err = json.Unmarshal(configData, bluRayConfigs)
+	jsonDecoder := json.NewDecoder(bytes.NewReader(configData))
+	jsonDecoder.DisallowUnknownFields()
+	err = jsonDecoder.Decode(bluRayConfigs)
 	if err != nil {
 		return nil, err
 	}
 
 	for i, _ := range *bluRayConfigs {
+		if (*bluRayConfigs)[i].DiscVolumeKeySha1 == "" {
+			return nil, errors.New("missing disc volume key SHA1 for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].DiscTitle == "" {
+			return nil, errors.New("missing disc title for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].MakemkvPrefix == "" {
+			return nil, errors.New("missing MakeMKV prefix for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].AlbumArtist == "" {
+			return nil, errors.New("missing album artist for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].Genre == "" {
+			return nil, errors.New("missing genre for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].ReleaseDate == "" {
+			return nil, errors.New("missing release date for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		_, err = time.Parse(time.DateOnly, (*bluRayConfigs)[i].ReleaseDate)
+		if err != nil {
+			return nil, errors.New("invalid date (must be YYYY-MM-DD format) for release date for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].DiscNumber < 1 {
+			return nil, errors.New("invalid disc number (" + strconv.Itoa((*bluRayConfigs)[i].DiscNumber) + ") for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].TotalDiscs < 1 {
+			return nil, errors.New("invalid total number of discs (" + strconv.Itoa((*bluRayConfigs)[i].TotalDiscs) + ") for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].DiscNumber > (*bluRayConfigs)[i].TotalDiscs {
+			return nil, errors.New("disc number is greater than total discs for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
 		if (*bluRayConfigs)[i].TotalTracks != len((*bluRayConfigs)[i].Tracks) {
 			return nil, errors.New("number of tracks does not match total track value for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		}
+		if (*bluRayConfigs)[i].CoverUrl != "" {
+			var parsedUrl *url.URL
+			parsedUrl, err = url.Parse((*bluRayConfigs)[i].CoverUrl)
+			if err != nil || (parsedUrl.Scheme != "http" && parsedUrl.Scheme != "https") {
+				return nil, errors.New("invalid URL (must be HTTP or HTTPS) for cover image for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+			}
+		}
+		if (*bluRayConfigs)[i].CoverType == "" {
+			return nil, errors.New("missing cover type for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
 		}
 
 		trackNums := make(map[int]bool)
 
 		for _, track := range (*bluRayConfigs)[i].Tracks {
+			if track.Number < 1 || track.Number > (*bluRayConfigs)[i].TotalTracks {
+				return nil, errors.New("invalid track number (" + strconv.Itoa(track.Number) + ") for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+			}
+			if track.TitleNumber == "" {
+				return nil, errors.New("missing title number for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+			}
+			if len(track.ChapterNumbers) == 0 {
+				return nil, errors.New("missing chapters for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+			}
+			for _, chapter := range track.ChapterNumbers {
+				if chapter < 0 {
+					return nil, errors.New("invalid chapter number (" + strconv.Itoa(chapter) + ") for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+				}
+			}
+			if track.TrackTitle == "" {
+				return nil, errors.New("missing track title for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+			}
 			_, hasTrack := trackNums[track.Number]
 			if hasTrack {
 				return nil, errors.New("duplicate track number (" + strconv.Itoa(track.Number) + ") for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
