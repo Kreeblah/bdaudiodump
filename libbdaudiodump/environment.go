@@ -341,7 +341,11 @@ func GetCoverArtDestinationPath(basePath string, discConfig BluRayDiscConfig, re
 }
 
 func GetExpandedCoverArtSourcePath(basePath string, discConfig BluRayDiscConfig) string {
-	return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + strings.TrimLeft(discConfig.CoverRelativePath, string(os.PathSeparator))
+	if discConfig.CoverType == "zip" || discConfig.CoverType == "zip_mp3" {
+		return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + strings.TrimLeft(discConfig.CoverContainerRelativePath, string(os.PathSeparator))
+	} else {
+		return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + strings.TrimLeft(discConfig.CoverRelativePath, string(os.PathSeparator))
+	}
 }
 
 func GetMkvPathByTrackNumber(basePath string, trackNumber int, discConfig BluRayDiscConfig) (string, error) {
