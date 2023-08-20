@@ -9926,6 +9926,739 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "620226e96a8a75f0b73b8ffe1ffca949bd1c47dc",
+        "disc_title": "SaGa 1·2·3 Original Soundtrack Revival Disc",
+        "makemkv_prefix": "SaGa 1,2,3 Original Soundtrack Revival Disc",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2018-08-08",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 55,
+        "cover_container_relative_path": "/MP3DATA/SaGa1_2_3_OST_Re_Disc_MP3.zip",
+        "cover_relative_path": "SaGa1_2_3_OST_Re_Disc_MP3/01.SaGa_1_2_3_OST_Re_Disc.mp3",
+        "cover_url": "",
+        "cover_type": "zip_mp3",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Prologue",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Main Theme",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Town Theme",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Battle",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Eat the Meat",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "The Bandit Cave",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Hurry up!",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Fierce Battle",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Requiem",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "The Forbidden Tower",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Wipe Your Tears Away",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Warriors Ascendant",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "The Top Floor",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Enraged Battle",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "Epilogue",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "The Legend Begins",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "In Search of Hidden Treasures",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Lethal Strike",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Eat the Meat",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 20,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "The Tranquil Earth",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 21,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "Theme of the Hero",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 22,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "Pillar of Heaven",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 23,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "Ravine of Darkness",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 24,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Lost Soul",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 25,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "Theme of a New God",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 26,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "Yikes!!",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 27,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "Struggle to the Death",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 28,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Secret of Treasure",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 29,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Never Give Up",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 30,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "Wipe Your Tears Away",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 31,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Boiling Blood",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 32,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "Save the World",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 33,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Ending Theme 1",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 34,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Ending Theme 2",
+                "artists":
+                [
+                    "Kenji Ito"
+                ]
+            },
+            {
+                "number": 35,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "Opening",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 36,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "Journey to the Future",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 37,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "Deep",
+                "artists":
+                [
+                    "Chihiro Fujioka"
+                ]
+            },
+            {
+                "number": 38,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "Oasis",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 39,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "Battle!",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 40,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "Holy Ruins",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 41,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "Stronghold",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 42,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "Extradimensional Gods",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 43,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "Eat the Meat",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 44,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "Warrior's Respite",
+                "artists":
+                [
+                    "Chihiro Fujioka"
+                ]
+            },
+            {
+                "number": 45,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "Another Dimension",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 46,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "Exotic Town",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 47,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "Dungeon",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 48,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "The Talon",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 49,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Lunacy",
+                "artists":
+                [
+                    "Chihiro Fujioka"
+                ]
+            },
+            {
+                "number": 50,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "Holding Back Tears",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 51,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    50
+                ],
+                "track_title": "Dark Zone",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 52,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    51
+                ],
+                "track_title": "Xagor's Lair",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 53,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    52
+                ],
+                "track_title": "Divine Battle",
+                "artists":
+                [
+                    "Ryuji Sasai"
+                ]
+            },
+            {
+                "number": 54,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    53
+                ],
+                "track_title": "Champions of Time and Space",
+                "artists":
+                [
+                    "Chihiro Fujioka"
+                ]
+            },
+            {
+                "number": 55,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "SaGa Arrange Version [Journey's End]",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "d54ef6a8b73cc285361de97d8249daeaecedf43a",
         "disc_title": "SHADOWBRINGERS: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "SHADOWBRINGERS- FINAL FANTASY XIV Original Soundtrack",
