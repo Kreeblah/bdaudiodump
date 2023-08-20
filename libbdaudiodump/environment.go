@@ -53,6 +53,10 @@ func GetDevicePathFromMakemkvconDiscId(makemkvconDiscId int) (string, error) {
 		return "", err
 	}
 
+	if csvFields[6] == "" {
+		return "", errors.New("no device found for MakeMKV ID: " + strconv.Itoa(makemkvconDiscId))
+	}
+
 	return csvFields[6], nil
 }
 
