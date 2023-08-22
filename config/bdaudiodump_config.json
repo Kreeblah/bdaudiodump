@@ -2945,6 +2945,817 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "7b3abf537d7a96b1457ae0133664e8dfde3e91f5",
+        "disc_title": "BEFORE THE FALL: FINAL FANTASY XIV Original Soundtrack",
+        "makemkv_prefix": "BEFORE THE FALL- FINAL FANTASY XIV Original Soundtrack",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2015-08-26",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 61,
+        "cover_container_relative_path": "/MP3DATA/BEFORE_THE_FALL_01.zip",
+        "cover_relative_path": "BEFORE_THE_FALL_01/BTF_FFXIV_01.mp3",
+        "cover_url": "",
+        "cover_type": "zip_mp3",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Wreck to the Seaman",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Through the Maelstrom",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "The Scars of Battle",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Persistence",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Wrath of the Eikons",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Breathless",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Gluppity-schlopp",
+                "artists":
+                [
+                    "Naoshi Mizuta"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Fury",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Pa-Paya",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Birds of a Feather",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Beneath Bloodied Banners",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Big-boned",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "Battle on the Big Bridge",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Through the Maelstrom (Female Vocals)",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "Meteor",
+                "artists":
+                [
+                    "Ryo Yamazaki"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "Blades",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "Tempest",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Rise of the White Raven",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Horizons Calling",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 20,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "Far from Home",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 21,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "Dark Vows",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 22,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "Answers - Reprise",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 23,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "Thunder Rolls",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 24,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Moonfire Faire",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 25,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "Thicker than a Knife's Blade",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 26,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "The War Room",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 27,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "Rouse Out!",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 28,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Blood for Blood",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 29,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Or the Egg?",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 30,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "Game Theory",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 31,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Now I Know the Truth",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 32,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "Out of the Labyrinth",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 33,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Shattered",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 34,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Loss of Time",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 35,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "His Holiness",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 36,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "A Light in the Storm",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 37,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "Riptide",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 38,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "The Edge",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 39,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "Forgotten by the Sun",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 40,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "Pennons Aloft",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 41,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "The Warrens",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 42,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "Footsteps in the Snow",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 43,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "Oblivion",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 44,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "Everbinding Oath",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 45,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "From the Ashes",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 46,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "The Coil Tightens",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 47,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "Four-sided Circle",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 48,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "Gateway to Paradise",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 49,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Sport of Kings",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 50,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "Aftermath",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 51,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    50
+                ],
+                "track_title": "Tricksome",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 52,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    51
+                ],
+                "track_title": "Magiteknical Difficulties",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 53,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    52
+                ],
+                "track_title": "Blind to the Dark",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 54,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    53
+                ],
+                "track_title": "Hamartomania",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 55,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    54
+                ],
+                "track_title": "Hunger",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 56,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    55
+                ],
+                "track_title": "The Reach of Darkness",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 57,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    56
+                ],
+                "track_title": "Eternal Wind",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 58,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    57
+                ],
+                "track_title": "Faith in Her Fury",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 59,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    58
+                ],
+                "track_title": "Unworthy",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 60,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    59
+                ],
+                "track_title": "Silver Tears",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 61,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    60
+                ],
+                "track_title": "Primogenitor",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "a2650a2b7e6697d812d226b4b697c5fb3133e639",
         "disc_title": "Chrono Cross Original Soundtrack Revival Disc",
         "makemkv_prefix": "CHRONO CROSS Original Soundtrack Revival Disc",

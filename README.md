@@ -97,7 +97,7 @@ The format for the disc configs is subject to change as I find new requirements 
                 "title_number": "The number of the title this track is stored in.  This is found as the ## value of the _t##.mkv portion of the filename that MakeMKV generates when converting a disc to MKV files.",
                 "chapter_numbers":
                 [
-                    An array of chapter numbers, ASSUMING A ZERO-BASED INDEX, which comprise the track.  If more than one chapter number is provided, they will be stitched together in the order listed in this array.
+                    An array of chapter numbers, ASSUMING A ZERO-BASED INDEX, which comprise the track.  If more than one chapter number is provided, they will be stitched together in the order listed in this array.  If a title does not have chapters, use 0 for the chapter number.
                 ],
                 "track_title": "The track's title.",
                 "artists":
