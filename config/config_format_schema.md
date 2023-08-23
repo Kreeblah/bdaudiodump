@@ -77,3 +77,6 @@ Type: `array`
 						 - **_Items_**
 						 - Type: `string`
 						 - <i id="/items/properties/tracks/items/properties/artists/items">path: #/items/properties/tracks/items/properties/artists/items</i>
+				 - <b id="#/items/properties/tracks/items/properties/trim_end_s">trim_end_s</b>
+				     - Type: `number`
+				     - <i id="/items/properties/tracks/items/properties/trim_end_s">path: #/items/properties/tracks/items/properties/trim_end_s</i>

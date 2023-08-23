@@ -48,6 +48,7 @@ type BluRayDiscConfig struct {
 		Number         int      `json:"number"`
 		TitleNumber    string   `json:"title_number"`
 		ChapterNumbers []int    `json:"chapter_numbers"`
+		TrimEndS       float64  `json:"trim_end_s,omitempty"`
 		TrackTitle     string   `json:"track_title"`
 		Artists        []string `json:"artists,omitempty"`
 	} `json:"tracks"`

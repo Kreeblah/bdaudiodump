@@ -99,6 +99,7 @@ The format for the disc configs is subject to change as I find new requirements 
                 [
                     An array of chapter numbers, ASSUMING A ZERO-BASED INDEX, which comprise the track.  If more than one chapter number is provided, they will be stitched together in the order listed in this array.  If a title does not have chapters, use 0 for the chapter number.
                 ],
+                "trim_end_s": The number of seconds, in floating point format up to six decimals, to trim from the end of the resulting FLAC file, if this parameter is present,
                 "track_title": "The track's title.",
                 "artists":
                 [

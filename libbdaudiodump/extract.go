@@ -129,11 +129,15 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 		return err
 	}
 
+	var trackDuration float64
+	trackDuration = 0
+
 	flacPieces := 0
 	ffmpegParametersForMkv := ffProbeData[discConfig.Tracks[trackNumber-1].TitleNumber]
 	for _, chapterNumber := range discConfig.Tracks[trackNumber-1].ChapterNumbers {
 		for _, title := range ffmpegParametersForMkv {
 			if title.ChapterIndex == chapterNumber {
+				trackDuration = trackDuration + title.ChapterDuration
 				if len(discConfig.Tracks[trackNumber-1].ChapterNumbers) == 1 {
 					if title.IsChapter {
 						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", flacPath).CombinedOutput()
@@ -200,6 +204,23 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 		}
 
 		os.Remove(concatPath)
+	}
+
+	if discConfig.Tracks[trackNumber-1].TrimEndS > 0.0000001 {
+		if discConfig.Tracks[trackNumber-1].TrimEndS > trackDuration {
+			return errors.New("data error - trim duration longer than track duration for track " + strconv.Itoa(discConfig.Tracks[trackNumber-1].Number))
+		}
+		trimmedFlacPath := path.Dir(flacPath) + string(os.PathSeparator) + "Trimmed" + path.Base(flacPath)
+		trimmedDuration := trackDuration - discConfig.Tracks[trackNumber-1].TrimEndS
+		cmdOut, err := exec.Command(ffmpegExecPath, "-ss", "0", "-to", fmt.Sprintf("%.6f", trimmedDuration), "-i", flacPath, "-c:a", "copy", trimmedFlacPath).CombinedOutput()
+		println(string(cmdOut))
+		if err != nil {
+			return err
+		}
+
+		os.Remove(flacPath)
+
+		os.Rename(trimmedFlacPath, flacPath)
 	}
 
 	return nil

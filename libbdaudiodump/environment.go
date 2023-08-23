@@ -272,9 +272,34 @@ func GetFfprobeDataFromMkv(mkvPath string) ([]*FfprobeChapterInfo, error) {
 	outputLines := strings.Split(outputString, "\n")
 
 	if len(outputLines) == 0 || outputLines[0] == "" {
+		output, err = exec.Command(ffprobeExecPath, "-v", "quiet", "-show_entries", "format=duration", mkvPath).CombinedOutput()
+		if err != nil {
+			return nil, err
+		}
 		chapterInfos := make([]*FfprobeChapterInfo, 1)
 		currentChapter := &FfprobeChapterInfo{}
+		currentChapter.ChapterStartTime = 0
 		currentChapter.IsChapter = false
+		outputString = string(output)
+
+		outputLines = strings.Split(outputString, "\n")
+		if len(outputLines) == 0 || outputLines[0] == "" {
+			return nil, errors.New("error analyzing MKV file for duration: " + mkvPath)
+		}
+		for _, line := range outputLines {
+			if line != "" {
+				splitLine := strings.Split(line, "=")
+				if splitLine[0] == "duration" {
+					duration, err := strconv.ParseFloat(splitLine[1], 64)
+					if err != nil {
+						return nil, err
+					}
+					currentChapter.ChapterDuration = duration
+					currentChapter.ChapterEndTime = duration
+				}
+			}
+		}
+
 		chapterInfos[0] = currentChapter
 		return chapterInfos, nil
 	}

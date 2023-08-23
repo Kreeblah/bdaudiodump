@@ -5495,6 +5495,845 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "95d7371a39357be568e5d8a8dd21f7e363dc136f",
+        "disc_title": "ENDWALKER: FINAL FANTASY XIV Original Soundtrack",
+        "makemkv_prefix": "ENDWALKER-FINAL FANTASY XIV Original Soundtrack",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2022-02-23",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 63,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/ENDWALKER.jpg",
+        "cover_url": "",
+        "cover_type": "plain",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Endwalker - Footfalls",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Prelude - Tales",
+                "artists":
+                [
+                    "Nobuo Uematsu",
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "19",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Ewer Brimmeth",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Spoken without End",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "01",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "The Day Will Come (Endwalker)",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Nautilus Knoweth",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "The Labyrinth",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Down the Up Staircase",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Unbowed",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Dreams of Man",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "25",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Shade's Delight",
+                "artists":
+                [
+                    "Takafumi Imamura"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Divine Words",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Twilit Terraces",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Tower of Zot (Endwalker)",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "On Blade's Edge",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Prayers Repeated",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "White Snow, Black Steel",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "03",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Those We Can Yet Save",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "32",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Home Beyond the Horizon",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 20,
+                "title_number": "20",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "Black Steel, Cold Embers",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 21,
+                "title_number": "04",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Tremble",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 22,
+                "title_number": "04",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Each Drop",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 23,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Garlemald Express",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 24,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Finality",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 25,
+                "title_number": "05",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "One Small Step",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 26,
+                "title_number": "35",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "'Neath Dark Waters (Scions & Sinners)",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 27,
+                "title_number": "18",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Endcaller",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 28,
+                "title_number": "21",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Imagination (Duality)",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 29,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Welcome to Our Town! (Endwalker)",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 30,
+                "title_number": "06",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Battle 1 from FINAL FANTASY IV",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 31,
+                "title_number": "23",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "What Comes of Despair",
+                "artists":
+                [
+                    "Daiki Ishikawa"
+                ]
+            },
+            {
+                "number": 32,
+                "title_number": "18",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "As the Sky Burns",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 33,
+                "title_number": "36",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Heroes Forge Ahead",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 34,
+                "title_number": "19",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Sky Unsundered",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 35,
+                "title_number": "33",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Flow Together",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 36,
+                "title_number": "07",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Miracle Works",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 37,
+                "title_number": "07",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Stars Long Dead",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 38,
+                "title_number": "07",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "From Below",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 39,
+                "title_number": "08",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "From the Ashes",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 40,
+                "title_number": "08",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Answers",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 41,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "The Aetherial Sea",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 42,
+                "title_number": "09",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Your Answer",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 43,
+                "title_number": "10",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Answers (Piano Version)",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 44,
+                "title_number": "10",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "The Last Stand",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 45,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Echoes in the Distance",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 46,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Close in the Distance (Instrumental)",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 47,
+                "title_number": "11",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Close in the Distance",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 48,
+                "title_number": "26",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Dynamis",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 49,
+                "title_number": "12",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Of Countless Stars",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 50,
+                "title_number": "12",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "The Final Day",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 51,
+                "title_number": "12",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "With Hearts Aligned",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 52,
+                "title_number": "13",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Flow",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 53,
+                "title_number": "13",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Endwalker",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 54,
+                "title_number": "13",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "The Tale of the Star",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 55,
+                "title_number": "14",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Vibrant Voices",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 56,
+                "title_number": "14",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Perfumed Eves",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 57,
+                "title_number": "14",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Carrots of Happiness",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 58,
+                "title_number": "14",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "eScape (Journeys)",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 59,
+                "title_number": "15",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Roads Less Traveled",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 60,
+                "title_number": "15",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Where Dæmons Abide",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 61,
+                "title_number": "16",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Ancient Shackles",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 62,
+                "title_number": "16",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Hic Svnt Leones",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 63,
+                "title_number": "17",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "trim_end_s": 41.499433,
+                "track_title": "Endwalker (Chiptune Version)",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "0fc379e69d2dc73786e5d4f842e00c4d65be6357",
         "disc_title": "FINAL FANTASY I·II·III ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY I.II.III Original Soundtrack Revival Disc",
