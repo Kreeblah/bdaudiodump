@@ -212,8 +212,7 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 		}
 		trimmedFlacPath := path.Dir(flacPath) + string(os.PathSeparator) + "Trimmed" + path.Base(flacPath)
 		trimmedDuration := trackDuration - discConfig.Tracks[trackNumber-1].TrimEndS
-		cmdOut, err := exec.Command(ffmpegExecPath, "-ss", "0", "-to", fmt.Sprintf("%.6f", trimmedDuration), "-i", flacPath, "-c:a", "copy", trimmedFlacPath).CombinedOutput()
-		println(string(cmdOut))
+		_, err := exec.Command(ffmpegExecPath, "-ss", "0", "-to", fmt.Sprintf("%.6f", trimmedDuration), "-i", flacPath, "-c:a", "copy", trimmedFlacPath).CombinedOutput()
 		if err != nil {
 			return err
 		}
