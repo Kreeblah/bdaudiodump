@@ -36,6 +36,7 @@ func main() {
 	replaceSpacesWithUnderscores := flag.Bool("replace-spaces-with-underscores", false, "Replace spaces with underscores in FLAC files and directory")
 	mkvSourcePath := flag.String("mkv-source-path", "", "Path to pre-extracted MKV files")
 	copyDiscBeforeMkvExtraction := flag.Bool("copy-disc-before-mkv-extraction", true, "Copy disc contents to destination before MKV extraction")
+	audioStreamType := flag.String("audio-stream-type", "best", "Audio stream type (best, surround71, surround51, stereo21, or stereo20)")
 	configPath := flag.String("config-path", "", "An explicit path to a configuration JSON file")
 	discBasePath := flag.String("disc-base-path", "", "The base path to the mounted disc")
 	coverArtFullPath := flag.String("cover-art-full-path", "", "An explicit path to a cover art file")
@@ -50,6 +51,13 @@ func main() {
 	if *makemkvconDiscId == math.MaxInt && *mkvSourcePath == "" {
 		printUsage()
 		os.Exit(1)
+	}
+
+	if *audioStreamType != "" {
+		if *audioStreamType != "best" && *audioStreamType != "surround71" && *audioStreamType != "surround51" && *audioStreamType != "stereo21" && *audioStreamType != "stereo20" {
+			printUsage()
+			os.Exit(1)
+		}
 	}
 
 	var parsedConfig *[]libbdaudiodump.BluRayDiscConfig
@@ -293,7 +301,7 @@ func main() {
 
 	for _, track := range discConfig.Tracks {
 		println("Extracting track: " + strconv.Itoa(track.Number))
-		err = libbdaudiodump.ExtractFlacFromMkv(mkvPath, *outputDirectory, track.Number, ffProbeData, *discConfig, *replaceSpacesWithUnderscores)
+		err = libbdaudiodump.ExtractFlacFromMkv(mkvPath, *outputDirectory, track.Number, ffProbeData, *discConfig, *audioStreamType, *replaceSpacesWithUnderscores)
 		if err != nil {
 			println("Error extracting FLAC from MKV.")
 			println(err.Error())
@@ -365,6 +373,16 @@ func printUsage() {
 	println("    Some discs cause frequent seeks during MKV extraction, causing extraction")
 	println("    to fail.  This works around that by copying the disc contents and key")
 	println("    information prior to MKV extraction.  Defaults to true.")
+	println("--audio-stream-type")
+	println("    Type: String")
+	println("    Some discs offer multiple audio streams of differing channel numbers,")
+	println("    such as stereo, 5.1, 7.1, etc.  This allows specifying which streams")
+	println("    to extract.  Valid values are: best, surround71, surround51,")
+	println("    stereo21, and stereo20.  If best is selected, the best available")
+	println("    version of each track as defined in the disc configuration will be")
+	println("    selected.  For all other options, if there is no matching version")
+	println("    for a given track, the default audio stream for that track will be")
+	println("    selected.  This defaults to best.")
 	println("--config-path")
 	println("    Type: String")
 	println("    An explicit path to a disc configuration JSON file. If not specified,")

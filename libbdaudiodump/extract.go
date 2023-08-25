@@ -101,7 +101,7 @@ func ExtractMkvFromBackup(basePath string, destinationDir string) error {
 	return nil
 }
 
-func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int, ffProbeData map[string][]*FfprobeChapterInfo, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) error {
+func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int, ffProbeData map[string][]*FfprobeChapterInfo, discConfig BluRayDiscConfig, audioStreamType string, replaceSpaceWithUnderscore bool) error {
 	flacPath, err := GetFlacPathByTrackNumber(flacBasePath, trackNumber, discConfig, replaceSpaceWithUnderscore)
 	if err != nil {
 		return err
@@ -134,25 +134,26 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 
 	flacPieces := 0
 	ffmpegParametersForMkv := ffProbeData[discConfig.Tracks[trackNumber-1].TitleNumber]
+	audioStreamNumber := GetAudioStreamNumberFromStringForTrack(discConfig, trackNumber, audioStreamType)
 	for _, chapterNumber := range discConfig.Tracks[trackNumber-1].ChapterNumbers {
 		for _, title := range ffmpegParametersForMkv {
 			if title.ChapterIndex == chapterNumber {
 				trackDuration = trackDuration + title.ChapterDuration
 				if len(discConfig.Tracks[trackNumber-1].ChapterNumbers) == 1 {
 					if title.IsChapter {
-						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", flacPath).CombinedOutput()
+						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", "-map", "0:a:"+strconv.Itoa(audioStreamNumber), flacPath).CombinedOutput()
 						if err != nil {
 							return err
 						}
 					} else {
-						_, err := exec.Command(ffmpegExecPath, "-y", "-i", mkvPath, "-c:a", "flac", flacPath).CombinedOutput()
+						_, err := exec.Command(ffmpegExecPath, "-y", "-i", mkvPath, "-c:a", "flac", "-map", "0:a:"+strconv.Itoa(audioStreamNumber), flacPath).CombinedOutput()
 						if err != nil {
 							return err
 						}
 					}
 				} else {
 					if title.IsChapter {
-						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator))+string(os.PathSeparator)+strconv.Itoa(trackNumber)+"_piece_"+strconv.Itoa(flacPieces)+".flac").CombinedOutput()
+						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", "-map", "0:a:"+strconv.Itoa(audioStreamNumber), strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator))+string(os.PathSeparator)+strconv.Itoa(trackNumber)+"_piece_"+strconv.Itoa(flacPieces)+".flac").CombinedOutput()
 						if err != nil {
 							return err
 						}
@@ -161,7 +162,7 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 
 						flacPieces = flacPieces + 1
 					} else {
-						_, err := exec.Command(ffmpegExecPath, "-y", "-i", mkvPath, "-c:a", "flac", strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator))+string(os.PathSeparator)+strconv.Itoa(trackNumber)+"_piece_"+strconv.Itoa(flacPieces)+".flac").CombinedOutput()
+						_, err := exec.Command(ffmpegExecPath, "-y", "-i", mkvPath, "-c:a", "flac", "-map", "0:a:"+strconv.Itoa(audioStreamNumber), strings.TrimRight(path.Dir(flacPath), string(os.PathSeparator))+string(os.PathSeparator)+strconv.Itoa(trackNumber)+"_piece_"+strconv.Itoa(flacPieces)+".flac").CombinedOutput()
 						if err != nil {
 							return err
 						}

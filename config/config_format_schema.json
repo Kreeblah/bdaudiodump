@@ -72,6 +72,20 @@
             },
             "trim_end_s": {
               "type": "number"
+            },
+            "audio_streams": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "channel_type": {
+                    "type": "string"
+                  },
+                  "channel_number": {
+                    "type": "number"
+                  }
+                }
+              }
             }
           },
           "required": [

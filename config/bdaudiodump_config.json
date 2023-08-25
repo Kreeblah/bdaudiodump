@@ -14451,6 +14451,502 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "ece003c6604cd2ab642fddb938e2441cf6b26ca9",
+        "disc_title": "Scions & Sinners FINAL FANTASY XIV ~ Arrangement Album ~",
+        "makemkv_prefix": "Scions and Sinners- FINAL FANTASY XIV - Arrangement Album-",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2021-03-24",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 19,
+        "cover_container_relative_path": "/MP3DATA/PIANO.zip",
+        "cover_relative_path": "PIANO/Scions&Sinners_001.mp3",
+        "cover_url": "",
+        "cover_type": "zip_mp3",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "'Neath Dark Waters",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "A Long Fall",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Invincible",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Shadows Withal",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Pa-paya",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Tomorrow and Tomorrow",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Return to Oblivion",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "What Angel Wakes Me",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Tomorrow and Tomorrow (Instrumental)",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Return to Oblivion (Instrumental)",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "trim_end_s": 54.162600,
+                "track_title": "What Angel Wakes Me (Instrumental)",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0,
+                    1
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Ultima",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Blinding Indigo",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Equilibrium",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "A Long Fall",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Return to Oblivion",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Insatiable",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "What Angel Wakes Me",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "trim_end_s": 5.128075,
+                "track_title": "Shadowbringers",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "d54ef6a8b73cc285361de97d8249daeaecedf43a",
         "disc_title": "SHADOWBRINGERS: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "SHADOWBRINGERS- FINAL FANTASY XIV Original Soundtrack",

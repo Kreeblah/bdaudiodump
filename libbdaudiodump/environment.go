@@ -365,6 +365,41 @@ func GetFlacPathByTrackNumber(basePath string, trackNumber int, discConfig BluRa
 	return "", errors.New("unable to find track number: " + strconv.Itoa(trackNumber))
 }
 
+func GetAudioStreamNumberFromStringForTrack(discConfig BluRayDiscConfig, trackNumber int, audioStreamType string) int {
+	if discConfig.Tracks[trackNumber-1].AudioStreams != nil && len(discConfig.Tracks[trackNumber-1].AudioStreams) > 0 {
+		if audioStreamType == "best" {
+			for _, audioStream := range discConfig.Tracks[trackNumber-1].AudioStreams {
+				if audioStream.ChannelType == "surround71" {
+					return audioStream.ChannelNumber
+				}
+			}
+			for _, audioStream := range discConfig.Tracks[trackNumber-1].AudioStreams {
+				if audioStream.ChannelType == "surround51" {
+					return audioStream.ChannelNumber
+				}
+			}
+			for _, audioStream := range discConfig.Tracks[trackNumber-1].AudioStreams {
+				if audioStream.ChannelType == "stereo21" {
+					return audioStream.ChannelNumber
+				}
+			}
+			for _, audioStream := range discConfig.Tracks[trackNumber-1].AudioStreams {
+				if audioStream.ChannelType == "stereo20" {
+					return audioStream.ChannelNumber
+				}
+			}
+		} else {
+			for _, audioStream := range discConfig.Tracks[trackNumber-1].AudioStreams {
+				if audioStream.ChannelType == audioStreamType {
+					return audioStream.ChannelNumber
+				}
+			}
+		}
+	}
+
+	return 0
+}
+
 func GetCoverArtDestinationPath(basePath string, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) string {
 	return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + SanitizePathSegment(discConfig.DiscTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
 }

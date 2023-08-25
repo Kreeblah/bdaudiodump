@@ -78,5 +78,18 @@ Type: `array`
 						 - Type: `string`
 						 - <i id="/items/properties/tracks/items/properties/artists/items">path: #/items/properties/tracks/items/properties/artists/items</i>
 				 - <b id="#/items/properties/tracks/items/properties/trim_end_s">trim_end_s</b>
-				     - Type: `number`
-				     - <i id="/items/properties/tracks/items/properties/trim_end_s">path: #/items/properties/tracks/items/properties/trim_end_s</i>
+					 - Type: `number`
+					 - <i id="/items/properties/tracks/items/properties/trim_end_s">path: #/items/properties/tracks/items/properties/trim_end_s</i>
+				 - <b id="#/items/properties/tracks/items/properties/audio_streams">audio_streams</b>
+					 - Type: `array`
+					 - <i id="/items/properties/tracks/items/properties/audio_streams">path: #/items/properties/tracks/items/properties/audio_streams</i>
+						 - **_Items_**
+						 - Type: `object`
+						 - <i id="/items/properties/tracks/items/properties/audio_streams/items">path: #/items/properties/tracks/items/properties/audio_streams/items</i>
+						 - **_Properties_**
+							 - <b id="#/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type">channel_type</b>
+								 - Type: `string`
+								 - <i id="/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type">path: #/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type</i>
+							 - <b id="#/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number">channel_number</b>
+								 - Type: `number`
+								 - <i id="/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number">path: #/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number</i>

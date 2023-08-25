@@ -44,6 +44,16 @@ bdaudiodump [arguments]
     Some discs cause frequent seeks during MKV extraction, causing extraction
     to fail.  This works around that by copying the disc contents and key
     information prior to MKV extraction.  Defaults to true.
+--audio-stream-type
+    Type: String
+    Some discs offer multiple audio streams of differing channel numbers,
+    such as stereo, 5.1, 7.1, etc.  This allows specifying which streams
+    to extract.  Valid values are: best, surround71, surround51,
+    stereo21, and stereo20.  If best is selected, the best available
+    version of each track as defined in the disc configuration will be
+    selected.  For all other options, if there is no matching version
+    for a given track, the default audio stream for that track will be
+    selected.  This defaults to best.
 --config-path
     Type: String
     An explicit path to a disc configuration JSON file. If not specified,

@@ -45,12 +45,16 @@ type BluRayDiscConfig struct {
 	CoverUrl                   string `json:"cover_url,omitempty"`
 	CoverType                  string `json:"cover_type"`
 	Tracks                     []struct {
-		Number         int      `json:"number"`
-		TitleNumber    string   `json:"title_number"`
-		ChapterNumbers []int    `json:"chapter_numbers"`
-		TrimEndS       float64  `json:"trim_end_s,omitempty"`
-		TrackTitle     string   `json:"track_title"`
-		Artists        []string `json:"artists,omitempty"`
+		Number         int    `json:"number"`
+		TitleNumber    string `json:"title_number"`
+		ChapterNumbers []int  `json:"chapter_numbers"`
+		AudioStreams   []struct {
+			ChannelType   string `json:"channel_type,omitempty"`
+			ChannelNumber int    `json:"channel_number,omitempty"`
+		} `json:"audio_streams,omitempty"`
+		TrimEndS   float64  `json:"trim_end_s,omitempty"`
+		TrackTitle string   `json:"track_title"`
+		Artists    []string `json:"artists,omitempty"`
 	} `json:"tracks"`
 }
 
@@ -130,6 +134,11 @@ func ReadConfigFile(configPath string) (*[]BluRayDiscConfig, error) {
 			for _, chapter := range track.ChapterNumbers {
 				if chapter < 0 {
 					return nil, errors.New("invalid chapter number (" + strconv.Itoa(chapter) + ") for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+				}
+			}
+			for _, audioStream := range track.AudioStreams {
+				if audioStream.ChannelType != "best" && audioStream.ChannelType != "surround71" && audioStream.ChannelType != "surround51" && audioStream.ChannelType != "stereo21" && audioStream.ChannelType != "stereo20" {
+					return nil, errors.New("invalid audio stream type (" + audioStream.ChannelType + ") for track " + strconv.Itoa(track.Number) + " for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
 				}
 			}
 			if track.TrackTitle == "" {
