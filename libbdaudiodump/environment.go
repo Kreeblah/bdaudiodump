@@ -416,12 +416,16 @@ func GetFfprobeDataFromMkv(mkvPath string) ([]*FfprobeChapterInfo, error) {
 }
 
 func GetFlacPathByTrackNumber(basePath string, albumNumber int, discNumber int, trackNumber int, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) (string, error) {
-	album, _, track, err := GetAlbumDiscTrack(albumNumber, discNumber, trackNumber, discConfig)
+	album, disc, track, err := GetAlbumDiscTrack(albumNumber, discNumber, trackNumber, discConfig)
 	if err != nil {
 		return "", err
 	}
 
 	flacPath := strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + SanitizePathSegment(album.AlbumTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
+
+	if len(album.Discs) > 1 {
+		flacPath = flacPath + SanitizePathSegment("Disc "+strconv.Itoa(disc.DiscNumber), replaceSpaceWithUnderscore) + string(os.PathSeparator)
+	}
 
 	flacPath = flacPath + strconv.Itoa(track.TrackNumber) + "-" + SanitizePathSegment(track.TrackTitle, replaceSpaceWithUnderscore) + ".flac"
 	return flacPath, nil
