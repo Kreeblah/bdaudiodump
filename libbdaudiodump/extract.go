@@ -101,8 +101,13 @@ func ExtractMkvFromBackup(basePath string, destinationDir string) error {
 	return nil
 }
 
-func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int, ffProbeData map[string][]*FfprobeChapterInfo, discConfig BluRayDiscConfig, audioStreamType string, replaceSpaceWithUnderscore bool) error {
-	flacPath, err := GetFlacPathByTrackNumber(flacBasePath, trackNumber, discConfig, replaceSpaceWithUnderscore)
+func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, albumNumber int, discNumber int, trackNumber int, ffProbeData map[string][]*FfprobeChapterInfo, discConfig BluRayDiscConfig, audioStreamType string, replaceSpaceWithUnderscore bool) error {
+	track, err := GetTrack(albumNumber, discNumber, trackNumber, discConfig)
+	if err != nil {
+		return err
+	}
+
+	flacPath, err := GetFlacPathByTrackNumber(flacBasePath, albumNumber, discNumber, trackNumber, discConfig, replaceSpaceWithUnderscore)
 	if err != nil {
 		return err
 	}
@@ -115,11 +120,7 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 		}
 	}
 
-	if len(discConfig.Tracks) < trackNumber {
-		return errors.New("found track number greater than number of tracks in config list for this disc")
-	}
-
-	mkvPath, err := GetMkvPathByTrackNumber(mkvBasePath, trackNumber, discConfig)
+	mkvPath, err := GetMkvPathByTrackNumber(mkvBasePath, albumNumber, discNumber, trackNumber, discConfig)
 	if err != nil {
 		return err
 	}
@@ -133,13 +134,13 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 	trackDuration = 0
 
 	flacPieces := 0
-	ffmpegParametersForMkv := ffProbeData[discConfig.Tracks[trackNumber-1].TitleNumber]
-	audioStreamNumber := GetAudioStreamNumberFromStringForTrack(discConfig, trackNumber, audioStreamType)
-	for _, chapterNumber := range discConfig.Tracks[trackNumber-1].ChapterNumbers {
+	ffmpegParametersForMkv := ffProbeData[track.TitleNumber]
+	audioStreamNumber := GetAudioStreamNumberFromStringForTrack(*track, audioStreamType)
+	for _, chapterNumber := range track.ChapterNumbers {
 		for _, title := range ffmpegParametersForMkv {
 			if title.ChapterIndex == chapterNumber {
 				trackDuration = trackDuration + title.ChapterDuration
-				if len(discConfig.Tracks[trackNumber-1].ChapterNumbers) == 1 {
+				if len(track.ChapterNumbers) == 1 {
 					if title.IsChapter {
 						_, err := exec.Command(ffmpegExecPath, "-y", "-ss", fmt.Sprintf("%.6f", title.ChapterStartTime), "-t", fmt.Sprintf("%.6f", title.ChapterDuration), "-i", mkvPath, "-c:a", "flac", "-map", "0:a:"+strconv.Itoa(audioStreamNumber), flacPath).CombinedOutput()
 						if err != nil {
@@ -207,12 +208,12 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, trackNumber int
 		os.Remove(concatPath)
 	}
 
-	if discConfig.Tracks[trackNumber-1].TrimEndS > 0.0000001 {
-		if discConfig.Tracks[trackNumber-1].TrimEndS > trackDuration {
-			return errors.New("data error - trim duration longer than track duration for track " + strconv.Itoa(discConfig.Tracks[trackNumber-1].Number))
+	if track.TrimEndS > 0.0000001 {
+		if track.TrimEndS > trackDuration {
+			return errors.New("data error - trim duration longer than track duration for track " + strconv.Itoa(track.TrackNumber))
 		}
 		trimmedFlacPath := path.Dir(flacPath) + string(os.PathSeparator) + "Trimmed" + path.Base(flacPath)
-		trimmedDuration := trackDuration - discConfig.Tracks[trackNumber-1].TrimEndS
+		trimmedDuration := trackDuration - track.TrimEndS
 		_, err := exec.Command(ffmpegExecPath, "-ss", "0", "-to", fmt.Sprintf("%.6f", trimmedDuration), "-i", flacPath, "-c:a", "copy", trimmedFlacPath).CombinedOutput()
 		if err != nil {
 			return err
@@ -271,8 +272,8 @@ func ExtractFileBytesFromZipFile(zipFilePath string, fileDataRelativePath string
 	return nil, errors.New("unable to find file: " + fileDataRelativePath)
 }
 
-func ExtractCoverImageFromZipFile(basePath string, discConfig BluRayDiscConfig) ([]byte, string, error) {
-	coverImageBytes, err := ExtractFileBytesFromZipFile(strings.TrimRight(basePath, string(os.PathSeparator))+string(os.PathSeparator)+strings.TrimLeft(discConfig.CoverContainerRelativePath, string(os.PathSeparator)), discConfig.CoverRelativePath)
+func ExtractCoverImageFromZipFile(basePath string, album BluRayDiscConfigAlbum) ([]byte, string, error) {
+	coverImageBytes, err := ExtractFileBytesFromZipFile(strings.TrimRight(basePath, string(os.PathSeparator))+string(os.PathSeparator)+strings.TrimLeft(album.CoverContainerRelativePath, string(os.PathSeparator)), album.CoverRelativePath)
 	if err != nil {
 		return nil, "", err
 	}
@@ -300,8 +301,8 @@ func ExtractCoverImageFromMp3Bytes(mp3Bytes []byte) ([]byte, string, error) {
 	return mp3Metadata.Picture().Data, coverExtension, nil
 }
 
-func ExtractCoverImageFromMp3File(basePath string, discConfig BluRayDiscConfig) ([]byte, string, error) {
-	mp3Bytes, err := os.ReadFile(strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + strings.TrimLeft(discConfig.CoverRelativePath, string(os.PathSeparator)))
+func ExtractCoverImageFromMp3File(basePath string, album BluRayDiscConfigAlbum) ([]byte, string, error) {
+	mp3Bytes, err := os.ReadFile(strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + strings.TrimLeft(album.CoverRelativePath, string(os.PathSeparator)))
 	if err != nil {
 		return nil, "", err
 	}
@@ -386,7 +387,7 @@ func CopyCoverImageFromFileToDestinationDirectory(coverImagePath string, destina
 	return fullCoverArtPath, nil
 }
 
-func CopyCoverImageFromZipFileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
+func CopyCoverImageFromZipFileToDestinationDirectory(basePath string, album BluRayDiscConfigAlbum, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)
@@ -405,7 +406,7 @@ func CopyCoverImageFromZipFileToDestinationDirectory(basePath string, discConfig
 		validatedDestinationDir = path.Dir(destinationDir)
 	}
 
-	imageBytes, coverExtension, err := ExtractCoverImageFromZipFile(basePath, discConfig)
+	imageBytes, coverExtension, err := ExtractCoverImageFromZipFile(basePath, album)
 	if err != nil {
 		return "", err
 	}
@@ -420,7 +421,7 @@ func CopyCoverImageFromZipFileToDestinationDirectory(basePath string, discConfig
 	return fullCoverArtPath, nil
 }
 
-func CopyCoverImageFromMp3FileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
+func CopyCoverImageFromMp3FileToDestinationDirectory(basePath string, album BluRayDiscConfigAlbum, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)
@@ -439,7 +440,7 @@ func CopyCoverImageFromMp3FileToDestinationDirectory(basePath string, discConfig
 		validatedDestinationDir = path.Dir(destinationDir)
 	}
 
-	imageBytes, coverExtension, err := ExtractCoverImageFromMp3File(basePath, discConfig)
+	imageBytes, coverExtension, err := ExtractCoverImageFromMp3File(basePath, album)
 	if err != nil {
 		return "", err
 	}
@@ -454,7 +455,7 @@ func CopyCoverImageFromMp3FileToDestinationDirectory(basePath string, discConfig
 	return fullCoverArtPath, nil
 }
 
-func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
+func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, album BluRayDiscConfigAlbum, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)
@@ -473,7 +474,7 @@ func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, disc
 		validatedDestinationDir = path.Dir(destinationDir)
 	}
 
-	mp3Bytes, err := ExtractFileBytesFromZipFile(strings.TrimRight(basePath, string(os.PathSeparator))+string(os.PathSeparator)+strings.TrimLeft(discConfig.CoverContainerRelativePath, string(os.PathSeparator)), discConfig.CoverRelativePath)
+	mp3Bytes, err := ExtractFileBytesFromZipFile(strings.TrimRight(basePath, string(os.PathSeparator))+string(os.PathSeparator)+strings.TrimLeft(album.CoverContainerRelativePath, string(os.PathSeparator)), album.CoverRelativePath)
 	if err != nil {
 		return "", err
 	}
@@ -493,7 +494,7 @@ func CopyCoverImageFromZippedMp3FileToDestinationDirectory(basePath string, disc
 	return fullCoverArtPath, nil
 }
 
-func CopyCoverImageFromUrlToDestinationDirectory(coverUrl string, discConfig BluRayDiscConfig, destinationDir string) (string, error) {
+func CopyCoverImageFromUrlToDestinationDirectory(coverUrl string, destinationDir string) (string, error) {
 	_, err := os.ReadDir(destinationDir)
 	if err != nil {
 		err := os.MkdirAll(destinationDir, 0755)

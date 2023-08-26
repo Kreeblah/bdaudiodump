@@ -39,8 +39,13 @@ func CompressFlac(flacPath string) error {
 	return nil
 }
 
-func TagFlac(basePath string, trackNumber int, coverPath string, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) error {
-	flacPath, err := GetFlacPathByTrackNumber(basePath, trackNumber, discConfig, replaceSpaceWithUnderscore)
+func TagFlac(basePath string, albumNumber int, discNumber int, trackNumber int, coverPath string, discConfig BluRayDiscConfig, replaceSpaceWithUnderscore bool) error {
+	track, err := GetTrack(albumNumber, discNumber, trackNumber, discConfig)
+	if err != nil {
+		return err
+	}
+
+	flacPath, err := GetFlacPathByTrackNumber(basePath, albumNumber, discNumber, trackNumber, discConfig, replaceSpaceWithUnderscore)
 	if err != nil {
 		return err
 	}
@@ -50,53 +55,53 @@ func TagFlac(basePath string, trackNumber int, coverPath string, discConfig BluR
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "ALBUM", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "ALBUM", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "ALBUMARTIST", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "ALBUMARTIST", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "GENRE", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "GENRE", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "DATE", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "DATE", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "TRACKNUMBER", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "TRACKNUMBER", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "DISCNUMBER", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "DISCNUMBER", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "TOTALDISCS", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "TOTALDISCS", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "TOTALTRACKS", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "TOTALTRACKS", discConfig)
 	if err != nil {
 		return err
 	}
 
-	err = ApplyFlacTag(trackNumber, flacPath, "TITLE", discConfig)
+	err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "TITLE", discConfig)
 	if err != nil {
 		return err
 	}
 
-	if len(discConfig.Tracks[trackNumber-1].Artists) != 0 {
-		err = ApplyFlacTag(trackNumber, flacPath, "ARTIST", discConfig)
+	if len(track.Artists) != 0 {
+		err = ApplyFlacTag(albumNumber, discNumber, trackNumber, flacPath, "ARTIST", discConfig)
 		if err != nil {
 			return err
 		}
@@ -126,29 +131,34 @@ func RemoveFlacTags(flacPath string) error {
 	return nil
 }
 
-func ApplyFlacTag(trackNumber int, flacPath string, tagType string, discConfig BluRayDiscConfig) error {
+func ApplyFlacTag(albumNumber int, discNumber int, trackNumber int, flacPath string, tagType string, discConfig BluRayDiscConfig) error {
 	tagContents := ""
+
+	album, disc, track, err := GetAlbumDiscTrack(albumNumber, discNumber, trackNumber, discConfig)
+	if err != nil {
+		return err
+	}
 
 	switch tagType {
 	case "ALBUM":
-		tagContents = discConfig.DiscTitle
+		tagContents = album.AlbumTitle
 	case "ALBUMARTIST":
-		tagContents = discConfig.AlbumArtist
+		tagContents = album.AlbumArtist
 	case "GENRE":
-		tagContents = discConfig.Genre
+		tagContents = album.Genre
 	case "DATE":
 		tagContents = discConfig.ReleaseDate
 	case "TRACKNUMBER":
-		tagContents = strconv.Itoa(discConfig.Tracks[trackNumber-1].Number)
+		tagContents = strconv.Itoa(track.TrackNumber)
 	case "DISCNUMBER":
 		// This seems redundant, but it offers some additional inherent sanity checks
-		tagContents = strconv.Itoa(discConfig.DiscNumber)
+		tagContents = strconv.Itoa(disc.DiscNumber)
 	case "TOTALDISCS":
-		tagContents = strconv.Itoa(discConfig.TotalDiscs)
+		tagContents = strconv.Itoa(album.TotalDiscs)
 	case "TOTALTRACKS":
-		tagContents = strconv.Itoa(discConfig.TotalTracks)
+		tagContents = strconv.Itoa(disc.TotalTracks)
 	case "TITLE":
-		tagContents = discConfig.Tracks[trackNumber-1].TrackTitle
+		tagContents = track.TrackTitle
 	case "ARTIST":
 	default:
 		return errors.New("unsupported tag type: " + tagType)
@@ -160,7 +170,7 @@ func ApplyFlacTag(trackNumber int, flacPath string, tagType string, discConfig B
 	}
 
 	if tagType == "ARTIST" {
-		for _, artist := range discConfig.Tracks[trackNumber-1].Artists {
+		for _, artist := range track.Artists {
 			_, err = exec.Command(metaflacExecPath, "--set-tag=ARTIST="+artist, flacPath).CombinedOutput()
 			if err != nil {
 				return err
