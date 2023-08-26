@@ -6,6 +6,10 @@ This disc [had two releases](https://vgmdb.net/forums/showthread.php?p=110590). 
 
 This disc has a track (track 63, "Endwalker (Chiptune Version)") which has a duration significantly longer than it should, compared with other sources (such as the included MP3 files and digital distribution stores like OTOTOY).  The included trimming trims it down to the length of the MP3 file, accounting for the extra roughly 25ms that the MP3 file is offset by.  To be properly synced up with the MP3, it should also be padded at the beginning with an additional 25ms.
 
-# Scions & Sinners
+# Scions & Sinners: Final Fantasy XIV Arrangement Album
 
-Like with track 63 on the Endwalker disc, tracks 11 and 19 have extra silence on the end, so they also have been trimmed to match known sources.
+Like with track 63 on the Endwalker disc, tracks 11 and 19 have extra silence on the end, so they also have been trimmed to match known sources.  This disc does have 5.1 audio tracks, but they're in a lossy format (DTS-HD HA, *not* DTS-HD MA, which would be lossless).  The default 2.0 audio tracks, however, are lossless.
+
+# Journeys: Final Fantasy XIV Arrangement Album
+
+This disc also has tracks which require trimming.  Once again, the 5.1 tracks in lossy DTS-HD HA, but the default 2.0 tracks are lossless.

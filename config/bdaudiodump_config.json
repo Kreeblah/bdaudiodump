@@ -13718,6 +13718,479 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "65cd2c2a969334de272db6a8a5ff2021fb2dd66c",
+        "disc_title": "Journeys: FINAL FANTASY XIV Arrangement Album",
+        "makemkv_prefix": "Journeys- FINAL FANTASY XIV Arrangement Album",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2019-06-19",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 18,
+        "cover_container_relative_path": "/MP3DATA/PIANO.zip",
+        "cover_relative_path": "PIANO/JOURNEYS_FFXIV_001.mp3",
+        "cover_url": "",
+        "cover_type": "zip_mp3",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Crimson Sunset",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Westward Tide",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Beauty's Wicked Wiles",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Old Wounds",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Ink Long Dry",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "The Worm's Tail",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "trim_end_s": 4.980664,
+                "track_title": "Revolutions",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "eScape",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Metal - Brute Justice Mode",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Amatsu Kaze",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Metal",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Wayward Daughter",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Sunrise",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "track_title": "Rise",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "trim_end_s": 5.874033,
+                "track_title": "Exponential Entropy",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "trim_end_s": 5.887137,
+                "track_title": "Oblivion",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "trim_end_s": 5.885344,
+                "track_title": "Answers",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "02",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "audio_streams":
+                [
+                    {
+                        "channel_type": "stereo20",
+                        "channel_number": 0
+                    },
+                    {
+                        "channel_type": "surround51",
+                        "channel_number": 1
+                    }
+                ],
+                "trim_end_s": 62.950508,
+                "track_title": "Dragonsong",
+                "artists":
+                [
+                    "Keiko",
+                    "THE PRIMALS"
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "620226e96a8a75f0b73b8ffe1ffca949bd1c47dc",
         "disc_title": "SaGa 1·2·3 Original Soundtrack Revival Disc",
         "makemkv_prefix": "SaGa 1,2,3 Original Soundtrack Revival Disc",

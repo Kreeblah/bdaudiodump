@@ -53,7 +53,7 @@ bdaudiodump [arguments]
     version of each track as defined in the disc configuration will be
     selected.  For all other options, if there is no matching version
     for a given track, the default audio stream for that track will be
-    selected.  This defaults to best.
+    selected.
 --config-path
     Type: String
     An explicit path to a disc configuration JSON file. If not specified,

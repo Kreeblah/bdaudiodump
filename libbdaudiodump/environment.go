@@ -366,6 +366,9 @@ func GetFlacPathByTrackNumber(basePath string, trackNumber int, discConfig BluRa
 }
 
 func GetAudioStreamNumberFromStringForTrack(discConfig BluRayDiscConfig, trackNumber int, audioStreamType string) int {
+	if audioStreamType == "" {
+		return 0
+	}
 	if discConfig.Tracks[trackNumber-1].AudioStreams != nil && len(discConfig.Tracks[trackNumber-1].AudioStreams) > 0 {
 		if audioStreamType == "best" {
 			for _, audioStream := range discConfig.Tracks[trackNumber-1].AudioStreams {
@@ -396,7 +399,6 @@ func GetAudioStreamNumberFromStringForTrack(discConfig BluRayDiscConfig, trackNu
 			}
 		}
 	}
-
 	return 0
 }
 
