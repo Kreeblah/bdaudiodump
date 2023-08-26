@@ -12946,6 +12946,674 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "db90f6f50091b9ca5262b71921bc3a9e112ed4a6",
+        "disc_title": "FINAL FANTASY XIV Original Soundtrack Best Album",
+        "makemkv_prefix": "FINAL FANTASY XIV - The Best",
+        "album_artist": "SQUARE ENIX MUSIC",
+        "genre": "Game",
+        "release_date": "2018-11-14",
+        "disc_number": 1,
+        "total_discs": 1,
+        "total_tracks": 50,
+        "cover_container_relative_path": "",
+        "cover_relative_path": "/MP3DATA/htdocs/image/BEST.jpg",
+        "cover_url": "",
+        "cover_type": "plain",
+        "tracks":
+        [
+            {
+                "number": 1,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    0
+                ],
+                "track_title": "Wayward Daughter",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 2,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    1
+                ],
+                "track_title": "Dragonsong",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 3,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    2
+                ],
+                "track_title": "Rise",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 4,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    3
+                ],
+                "track_title": "The Worm's Tail",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 5,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    4
+                ],
+                "track_title": "Heroes",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 6,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    5
+                ],
+                "track_title": "Oblivion",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 7,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    6
+                ],
+                "track_title": "Locus",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 8,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    7
+                ],
+                "track_title": "Equilibrium",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 9,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    8
+                ],
+                "track_title": "Heavensward",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 10,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    9
+                ],
+                "track_title": "Torn from the Heavens",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 11,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    10
+                ],
+                "track_title": "Metal - Brute Justice Mode",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 12,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    11
+                ],
+                "track_title": "Triumph",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 13,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    12
+                ],
+                "track_title": "Ultima",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 14,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    13
+                ],
+                "track_title": "Revenge of the Horde",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 15,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    14
+                ],
+                "track_title": "Under the Weight",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 16,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    15
+                ],
+                "track_title": "Fiend",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 17,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    16
+                ],
+                "track_title": "Revenge Twofold",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 18,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    17
+                ],
+                "track_title": "Night in the Brume",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 19,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    18
+                ],
+                "track_title": "Exponential Entropy",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 20,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    19
+                ],
+                "track_title": "Beauty's Wicked Wiles",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 21,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    20
+                ],
+                "track_title": "Answers - Reprise",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 22,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    21
+                ],
+                "track_title": "Dancing Mad - Movement IV",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 23,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    22
+                ],
+                "track_title": "Moebius",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 24,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    23
+                ],
+                "track_title": "Lunacy",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 25,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    24
+                ],
+                "track_title": "Metal",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 26,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    25
+                ],
+                "track_title": "The Mushroomery",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 27,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    26
+                ],
+                "track_title": "Blackbosom",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 28,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    27
+                ],
+                "track_title": "Rise of the White Raven",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 29,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    28
+                ],
+                "track_title": "Fallen Angel",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 30,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    29
+                ],
+                "track_title": "Calamity Unbound",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 31,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    30
+                ],
+                "track_title": "Pa-Paya",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 32,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    31
+                ],
+                "track_title": "Good King Moggle Mog XII",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 33,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    32
+                ],
+                "track_title": "Gates of the Moon",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 34,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    33
+                ],
+                "track_title": "Out of the Labyrinth",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 35,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    34
+                ],
+                "track_title": "Ultima (Orchestral Version)",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 36,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    35
+                ],
+                "track_title": "A Battle Decisively",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 37,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    36
+                ],
+                "track_title": "The Ancient City",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 38,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    37
+                ],
+                "track_title": "Battle on the Big Bridge",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 39,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    38
+                ],
+                "track_title": "Through the Maelstrom",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 40,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    39
+                ],
+                "track_title": "Drowning in the Horizon",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 41,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    40
+                ],
+                "track_title": "Thunder Rolls",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 42,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    41
+                ],
+                "track_title": "Freefall",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 43,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    42
+                ],
+                "track_title": "The Maker's Ruin",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 44,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    43
+                ],
+                "track_title": "Amatsu Kaze",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 45,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    44
+                ],
+                "track_title": "Imagination",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 46,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    45
+                ],
+                "track_title": "Revolutions",
+                "artists":
+                [
+                    "Nobuo Uematsu"
+                ]
+            },
+            {
+                "number": 47,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    46
+                ],
+                "track_title": "Ink Long Dry",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 48,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    47
+                ],
+                "track_title": "Ominous Prognisticks",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 49,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    48
+                ],
+                "track_title": "Scale and Steel",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            },
+            {
+                "number": 50,
+                "title_number": "00",
+                "chapter_numbers":
+                [
+                    49
+                ],
+                "track_title": "Painted Foothills",
+                "artists":
+                [
+                    "Masayoshi Soken"
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "ddf9500127b8a1e3bf73d2b4990d287a442ad0c0",
         "disc_title": "HEAVENSWARD: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "Heavensward- FINAL FANTASY XIV Original Soundtrack",
