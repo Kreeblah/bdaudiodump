@@ -109,6 +109,14 @@ The format for the disc configs is subject to change as I find new requirements 
                 [
                     An array of chapter numbers, ASSUMING A ZERO-BASED INDEX, which comprise the track.  If more than one chapter number is provided, they will be stitched together in the order listed in this array.  If a title does not have chapters, use 0 for the chapter number.
                 ],
+                "audio_streams":
+                [
+                    If the disc has multiple audio streams, this describes information about them on a per-track basis.
+                    {
+                        "channel_type": "What type of audio stream it is.  Valid values are surround71, surround51, stereo21, and stereo20.",
+                        "channel_number": The index of the audio channel.  As with chapter numbers, audio channel numbers begin at 0.
+                    }
+                ],
                 "trim_end_s": The number of seconds, in floating point format up to six decimals, to trim from the end of the resulting FLAC file, if this parameter is present,
                 "track_title": "The track's title.",
                 "artists":
