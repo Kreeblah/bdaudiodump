@@ -128,7 +128,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	println("Found matching disc in config: " + discConfig.DiscVolumeKeySha1)
+	println("Found matching disc in config: " + discConfig.BluRayTitle)
 
 	var mkvPath string
 	var mkvBasePath string
@@ -237,7 +237,7 @@ func main() {
 
 		if *coverArtFullPath != "" {
 			println("Copying cover art.")
-			coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, album, *replaceSpacesWithUnderscores)
+			coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, *discConfig, album, *replaceSpacesWithUnderscores)
 			println("Cover art source: " + *coverArtFullPath)
 			println("Cover art destination: " + coverArtPath)
 			fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromFileToDestinationDirectory(*coverArtFullPath, coverArtPath)
@@ -249,7 +249,7 @@ func main() {
 			println("Cover art copied.")
 		} else if discMountPoint != "" {
 			println("Copying cover art.")
-			coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, album, *replaceSpacesWithUnderscores)
+			coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, *discConfig, album, *replaceSpacesWithUnderscores)
 			expandedCoverArtSourcePath := libbdaudiodump.GetExpandedCoverArtSourcePath(discMountPoint, album)
 			if album.CoverType == "plain" {
 				println("Cover art source: " + expandedCoverArtSourcePath)

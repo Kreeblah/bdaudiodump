@@ -48,7 +48,7 @@ func GetAlbum(albumNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAl
 		}
 	}
 
-	return nil, errors.New("unable to find album data for album number " + strconv.Itoa(albumNumber) + " for disc: " + discConfig.DiscVolumeKeySha1)
+	return nil, errors.New("unable to find album data for album number " + strconv.Itoa(albumNumber) + " for disc: " + discConfig.BluRayTitle)
 }
 
 func GetDisc(albumNumber int, discNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbumDisc, error) {
@@ -63,7 +63,7 @@ func GetDisc(albumNumber int, discNumber int, discConfig BluRayDiscConfig) (*Blu
 		}
 	}
 
-	return nil, errors.New("unable to find disc data for album number " + strconv.Itoa(albumNumber) + " and disc number " + strconv.Itoa(discNumber) + " for disc: " + discConfig.DiscVolumeKeySha1)
+	return nil, errors.New("unable to find disc data for album number " + strconv.Itoa(albumNumber) + " and disc number " + strconv.Itoa(discNumber) + " for disc: " + discConfig.BluRayTitle)
 }
 
 func GetTrack(albumNumber int, discNumber int, trackNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbumDiscTrack, error) {
@@ -78,7 +78,7 @@ func GetTrack(albumNumber int, discNumber int, trackNumber int, discConfig BluRa
 		}
 	}
 
-	return nil, errors.New("unable to find track data for album number " + strconv.Itoa(albumNumber) + " and disc number " + strconv.Itoa(discNumber) + " and track number " + strconv.Itoa(trackNumber) + " for disc: " + discConfig.DiscVolumeKeySha1)
+	return nil, errors.New("unable to find track data for album number " + strconv.Itoa(albumNumber) + " and disc number " + strconv.Itoa(discNumber) + " and track number " + strconv.Itoa(trackNumber) + " for disc: " + discConfig.BluRayTitle)
 }
 
 func GetAlbumDiscTrack(albumNumber int, discNumber int, trackNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbum, *BluRayDiscConfigAlbumDisc, *BluRayDiscConfigAlbumDiscTrack, error) {
@@ -421,7 +421,11 @@ func GetFlacPathByTrackNumber(basePath string, albumNumber int, discNumber int, 
 		return "", err
 	}
 
-	flacPath := strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + SanitizePathSegment(album.AlbumTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
+	flacPath := strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator)
+
+	flacPath = flacPath + SanitizePathSegment(discConfig.BluRayTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
+
+	flacPath = flacPath + SanitizePathSegment(album.AlbumTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
 
 	if len(album.Discs) > 1 {
 		flacPath = flacPath + SanitizePathSegment("Disc "+strconv.Itoa(disc.DiscNumber), replaceSpaceWithUnderscore) + string(os.PathSeparator)
@@ -469,8 +473,8 @@ func GetAudioStreamNumberFromStringForTrack(track BluRayDiscConfigAlbumDiscTrack
 	return 0
 }
 
-func GetCoverArtDestinationPath(basePath string, album BluRayDiscConfigAlbum, replaceSpaceWithUnderscore bool) string {
-	return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + SanitizePathSegment(album.AlbumTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
+func GetCoverArtDestinationPath(basePath string, discConfig BluRayDiscConfig, album BluRayDiscConfigAlbum, replaceSpaceWithUnderscore bool) string {
+	return strings.TrimRight(basePath, string(os.PathSeparator)) + string(os.PathSeparator) + SanitizePathSegment(discConfig.BluRayTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator) + SanitizePathSegment(album.AlbumTitle, replaceSpaceWithUnderscore) + string(os.PathSeparator)
 }
 
 func GetExpandedCoverArtSourcePath(basePath string, album BluRayDiscConfigAlbum) string {
