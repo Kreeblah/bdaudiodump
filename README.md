@@ -123,8 +123,7 @@ The format for the disc configs is subject to change as I find new requirements 
                 [
                     "An array of artists for the track.  Listing artists is optional, so this array may be empty."
                 ]
-            },
-
+            }
         ]
     }
 ]
