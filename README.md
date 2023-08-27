@@ -88,40 +88,56 @@ The format for the disc configs is subject to change as I find new requirements 
 [
     {
         "disc_volume_key_sha1": "A SHA1 sum of /AACS/Unit_Key_RO.inf, which uniquely identifies each disc release.",
-        "disc_title": "A human-readable title for the disc, which will be used as the directory for FLAC files to be stored in.",
+        "bluray_title": "A human-readable title for the disc, which will be used as the directory for the albums to be stored in.",
         "makemkv_prefix": "The prefix (everything before the _t##.mkv portion) that MakeMKV uses when generating MKV files from this disc.",
-        "album_artist": "The album artist.",
-        "genre": "The album genre.",
-        "release_date": "The album release date in YYYY-MM-DD format.",
-        "disc_number": The number of the disc in a multi-disc set.,
-        "total_discs": The total number of discs in the set.,
-        "total_tracks": The total number of tracks on the disc.,
-        "cover_container_relative_path": "The location of a container file (such as a ZIP file) to extract a cover image from (including extracting from embedded cover art in an MP3).  Uses / as a path separator, and has a leading /.  Unused and may be omitted when cover_type is not zip or zip_mp3.  Required when cover_type is zip or zip_mp3.",
-        "cover_relative_path": "The location, relative to the root of the disc, of a cover image file or an MP3 file to extract a cover image from.  Uses / as a path separator and does have a leading / when used for this purpose.  Alternately, the location within the container file specified in cover_container_relative_path to the file to extract a cover image from, without a leading /.  Unused and may be omitted when cover_type is url.  Required when cover_type is not url.",
-        "cover_url": "An HTTP or HTTPS URL to a cover image.  Unused and may be omitted when cover_type is anything but url.",
-        "cover_type": "The type of cover image in use.  Valid values are plain, zip, mp3, zip_mp3, and url.  plain implies cover_relative_path points to an image file, zip implies extraction from a ZIP file, mp3 implies extraction from an MP3 file's embedded cover art, zip_mp3 implies extraction from an MP3 compressed within a ZIP file, and url implies cover art downloaded over HTTP or HTTPS.",
-        "tracks":
+        "albums":
         [
+            An array of albums represented on the disc.  Yes, this is weird, but some Blu-ray discs actually have multiple albums on them.
             {
-                "number": The track number,
-                "title_number": "The number of the title this track is stored in.  This is found as the ## value of the _t##.mkv portion of the filename that MakeMKV generates when converting a disc to MKV files.",
-                "chapter_numbers":
+                "album_number": A unique number for the album, in sequential order.,
+                "album_title": "A human-readable title for the disc, which will be used as the directory for FLAC files to be stored in.",
+                "album_artist": "The album artist.",
+                "genre": "The album genre.",
+                "release_date": "The album release date in YYYY-MM-DD format.",
+                "total_discs": The total number of discs in the album.,
+                "cover_container_relative_path": "The location of a container file (such as a ZIP file) to extract a cover image from (including extracting from embedded cover art in an MP3).  Uses / as a path separator, and has a leading /.  Unused and may be omitted when cover_type is not zip or zip_mp3.  Required when cover_type is zip or zip_mp3.",
+                "cover_relative_path": "The location, relative to the root of the disc, of a cover image file or an MP3 file to extract a cover image from.  Uses / as a path separator and does have a leading / when used for this purpose.  Alternately, the location within the container file specified in cover_container_relative_path to the file to extract a cover image from, without a leading /.  Unused and may be omitted when cover_type is url.  Required when cover_type is not url.",
+                "cover_url": "An HTTP or HTTPS URL to a cover image.  Unused and may be omitted when cover_type is anything but url.",
+                "cover_type": "The type of cover image in use.  Valid values are plain, zip, mp3, zip_mp3, and url.  plain implies cover_relative_path points to an image file, zip implies extraction from a ZIP file, mp3 implies extraction from an MP3 file's embedded cover art, zip_mp3 implies extraction from an MP3 compressed within a ZIP file, and url implies cover art downloaded over HTTP or HTTPS.",
+                "discs":
                 [
-                    An array of chapter numbers, ASSUMING A ZERO-BASED INDEX, which comprise the track.  If more than one chapter number is provided, they will be stitched together in the order listed in this array.  If a title does not have chapters, use 0 for the chapter number.
-                ],
-                "audio_streams":
-                [
-                    If the disc has multiple audio streams, this describes information about them on a per-track basis.
+                    An array of album discs contained on the Blu-ray disc.  If more than one disc exists in the array, the FLAC files will be separated into subdirectories named by disc number.
                     {
-                        "channel_type": "What type of audio stream it is.  Valid values are surround71, surround51, stereo21, and stereo20.",
-                        "channel_number": The index of the audio channel.  As with chapter numbers, audio channel numbers begin at 0.
+                        "disc_number": The number of the disc in a multi-disc set.,
+                        "total_tracks": The total number of tracks on the disc.,
+                        "tracks":
+                        [
+                            An array describing the tracks on each disc.
+                            {
+                                "track_number": The track number.,
+                                "title_number": "The number of the title this track is stored in.  This is found as the ## value of the _t##.mkv portion of the filename that MakeMKV generates when converting a disc to MKV files.",
+                                "chapter_numbers":
+                                [
+                                    An array of chapter numbers, ASSUMING A ZERO-BASED INDEX, which comprise the track.  If more than one chapter number is provided, they will be stitched together in the order listed in this array.  If a title does not have chapters, use 0 for the chapter number.
+                                ],
+                                "audio_streams":
+                                [
+                                    An array of audio streams, if a disc contaiins multiple streams for a given track.
+                                    {
+                                        "channel_type": "What the alternate audio stream type is.  Valid values are stereo20, stereo21, surround51, and surround71.",
+                                        "channel_number": Which audio channel number corresponds with the given channel type.  Channel numbering begins at 0.
+                                    }
+                                ],
+                                "trim_start_s": The number of seconds, in floating point format up to six decimals, to trim from the start of the resulting FLAC file, if this parameter is present.,
+                                "trim_end_s": The number of seconds, in floating point format up to six decimals, to trim from the end of the resulting FLAC file, if this parameter is present.,
+                                "track_title": "The track's title.",
+                                "artists":
+                                [
+                                    "An array of artists for the track.  Listing artists is optional, so this array may be empty."
+                                ]
+                            }
+                        ]
                     }
-                ],
-                "trim_end_s": The number of seconds, in floating point format up to six decimals, to trim from the end of the resulting FLAC file, if this parameter is present,
-                "track_title": "The track's title.",
-                "artists":
-                [
-                    "An array of artists for the track.  Listing artists is optional, so this array may be empty."
                 ]
             }
         ]

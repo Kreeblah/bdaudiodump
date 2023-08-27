@@ -8,107 +8,140 @@
       "disc_volume_key_sha1": {
         "type": "string"
       },
-      "disc_title": {
+      "bluray_title": {
         "type": "string"
       },
       "makemkv_prefix": {
         "type": "string"
       },
-      "album_artist": {
-        "type": "string"
-      },
-      "genre": {
-        "type": "string"
-      },
-      "release_date": {
-        "type": "string"
-      },
-      "disc_number": {
-        "type": "number"
-      },
-      "total_discs": {
-        "type": "number"
-      },
-      "total_tracks": {
-        "type": "number"
-      },
-      "cover_container_relative_path": {
-        "type": "string"
-      },
-      "cover_relative_path": {
-        "type": "string"
-      },
-      "cover_url": {
-        "type": "string"
-      },
-      "cover_type": {
-        "type": "string"
-      },
-      "tracks": {
+      "albums": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "number": {
+            "album_number": {
               "type": "number"
             },
-            "title_number": {
+            "album_title": {
               "type": "string"
             },
-            "chapter_numbers": {
-              "type": "array",
-              "items": {
-                "type": "number"
-              }
-            },
-            "track_title": {
+            "album_artist": {
               "type": "string"
             },
-            "artists": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
+            "genre": {
+              "type": "string"
             },
-            "trim_end_s": {
+            "release_date": {
+              "type": "string"
+            },
+            "total_discs": {
               "type": "number"
             },
-            "audio_streams": {
+            "cover_container_relative_path": {
+              "type": "string"
+            },
+            "cover_relative_path": {
+              "type": "string"
+            },
+            "cover_url": {
+              "type": "string"
+            },
+            "cover_type": {
+              "type": "string"
+            },
+            "discs": {
               "type": "array",
               "items": {
                 "type": "object",
                 "properties": {
-                  "channel_type": {
-                    "type": "string"
-                  },
-                  "channel_number": {
+                  "disc_number": {
                     "type": "number"
+                  },
+                  "total_tracks": {
+                    "type": "number"
+                  },
+                  "tracks": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "track_number": {
+                          "type": "number"
+                        },
+                        "title_number": {
+                          "type": "string"
+                        },
+                        "chapter_numbers": {
+                          "type": "array",
+                          "items": {
+                            "type": "number"
+                          }
+                        },
+                        "track_title": {
+                          "type": "string"
+                        },
+                        "artists": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "trim_end_s": {
+                          "type": "number"
+                        },
+                        "audio_streams": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "channel_type": {
+                                "type": "string"
+                              },
+                              "channel_number": {
+                                "type": "number"
+                              }
+                            }
+                          }
+                        },
+                        "trim_start_s": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "track_number",
+                        "title_number",
+                        "chapter_numbers",
+                        "track_title"
+                      ]
+                    }
                   }
-                }
+                },
+                "required": [
+                  "disc_number",
+                  "total_tracks",
+                  "tracks"
+                ]
               }
             }
           },
           "required": [
-            "number",
-            "title_number",
-            "chapter_numbers",
-            "track_title"
+            "album_number",
+            "album_title",
+            "album_artist",
+            "genre",
+            "release_date",
+            "total_discs",
+            "cover_type",
+            "discs"
           ]
         }
       }
     },
     "required": [
       "disc_volume_key_sha1",
-      "disc_title",
+      "bluray_title",
       "makemkv_prefix",
-      "album_artist",
-      "genre",
-      "release_date",
-      "disc_number",
-      "total_discs",
-      "total_tracks",
-      "cover_type",
-      "tracks"
+      "albums"
     ]
   }
 }

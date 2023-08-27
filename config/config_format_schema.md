@@ -13,83 +13,106 @@ Type: `array`
 	 - <b id="#/items/properties/disc_volume_key_sha1">disc_volume_key_sha1</b> `required`
 		 - Type: `string`
 		 - <i id="/items/properties/disc_volume_key_sha1">path: #/items/properties/disc_volume_key_sha1</i>
-	 - <b id="#/items/properties/disc_title">disc_title</b> `required`
+	 - <b id="#/items/properties/bluray_title">bluray_title</b> `required`
 		 - Type: `string`
-		 - <i id="/items/properties/disc_title">path: #/items/properties/disc_title</i>
+		 - <i id="/items/properties/bluray_title">path: #/items/properties/bluray_title</i>
 	 - <b id="#/items/properties/makemkv_prefix">makemkv_prefix</b> `required`
 		 - Type: `string`
 		 - <i id="/items/properties/makemkv_prefix">path: #/items/properties/makemkv_prefix</i>
-	 - <b id="#/items/properties/album_artist">album_artist</b> `required`
-		 - Type: `string`
-		 - <i id="/items/properties/album_artist">path: #/items/properties/album_artist</i>
-	 - <b id="#/items/properties/genre">genre</b> `required`
-		 - Type: `string`
-		 - <i id="/items/properties/genre">path: #/items/properties/genre</i>
-	 - <b id="#/items/properties/release_date">release_date</b> `required`
-		 - Type: `string`
-		 - <i id="/items/properties/release_date">path: #/items/properties/release_date</i>
-	 - <b id="#/items/properties/disc_number">disc_number</b> `required`
-		 - Type: `number`
-		 - <i id="/items/properties/disc_number">path: #/items/properties/disc_number</i>
-	 - <b id="#/items/properties/total_discs">total_discs</b> `required`
-		 - Type: `number`
-		 - <i id="/items/properties/total_discs">path: #/items/properties/total_discs</i>
-	 - <b id="#/items/properties/total_tracks">total_tracks</b> `required`
-		 - Type: `number`
-		 - <i id="/items/properties/total_tracks">path: #/items/properties/total_tracks</i>
-	 - <b id="#/items/properties/cover_container_relative_path">cover_container_relative_path</b>
-		 - Type: `string`
-		 - <i id="/items/properties/cover_container_relative_path">path: #/items/properties/cover_container_relative_path</i>
-	 - <b id="#/items/properties/cover_relative_path">cover_relative_path</b>
-		 - Type: `string`
-		 - <i id="/items/properties/cover_relative_path">path: #/items/properties/cover_relative_path</i>
-	 - <b id="#/items/properties/cover_url">cover_url</b>
-		 - Type: `string`
-		 - <i id="/items/properties/cover_url">path: #/items/properties/cover_url</i>
-	 - <b id="#/items/properties/cover_type">cover_type</b> `required`
-		 - Type: `string`
-		 - <i id="/items/properties/cover_type">path: #/items/properties/cover_type</i>
-	 - <b id="#/items/properties/tracks">tracks</b> `required`
+	 - <b id="#/items/properties/albums">albums</b> `required`
 		 - Type: `array`
-		 - <i id="/items/properties/tracks">path: #/items/properties/tracks</i>
+		 - <i id="/items/properties/albums">path: #/items/properties/albums</i>
 			 - **_Items_**
 			 - Type: `object`
-			 - <i id="/items/properties/tracks/items">path: #/items/properties/tracks/items</i>
+			 - <i id="/items/properties/albums/items">path: #/items/properties/albums/items</i>
 			 - **_Properties_**
-				 - <b id="#/items/properties/tracks/items/properties/number">number</b> `required`
+				 - <b id="#/items/properties/albums/items/properties/album_number">album_number</b> `required`
 					 - Type: `number`
-					 - <i id="/items/properties/tracks/items/properties/number">path: #/items/properties/tracks/items/properties/number</i>
-				 - <b id="#/items/properties/tracks/items/properties/title_number">title_number</b> `required`
+					 - <i id="/items/properties/albums/items/properties/album_number">path: #/items/properties/albums/items/properties/album_number</i>
+				 - <b id="#/items/properties/albums/items/properties/album_title">album_title</b> `required`
 					 - Type: `string`
-					 - <i id="/items/properties/tracks/items/properties/title_number">path: #/items/properties/tracks/items/properties/title_number</i>
-				 - <b id="#/items/properties/tracks/items/properties/chapter_numbers">chapter_numbers</b> `required`
-					 - Type: `array`
-					 - <i id="/items/properties/tracks/items/properties/chapter_numbers">path: #/items/properties/tracks/items/properties/chapter_numbers</i>
-						 - **_Items_**
-						 - Type: `number`
-						 - <i id="/items/properties/tracks/items/properties/chapter_numbers/items">path: #/items/properties/tracks/items/properties/chapter_numbers/items</i>
-				 - <b id="#/items/properties/tracks/items/properties/track_title">track_title</b> `required`
+					 - <i id="/items/properties/albums/items/properties/album_title">path: #/items/properties/albums/items/properties/album_title</i>
+				 - <b id="#/items/properties/albums/items/properties/album_artist">album_artist</b> `required`
 					 - Type: `string`
-					 - <i id="/items/properties/tracks/items/properties/track_title">path: #/items/properties/tracks/items/properties/track_title</i>
-				 - <b id="#/items/properties/tracks/items/properties/artists">artists</b>
-					 - Type: `array`
-					 - <i id="/items/properties/tracks/items/properties/artists">path: #/items/properties/tracks/items/properties/artists</i>
-						 - **_Items_**
-						 - Type: `string`
-						 - <i id="/items/properties/tracks/items/properties/artists/items">path: #/items/properties/tracks/items/properties/artists/items</i>
-				 - <b id="#/items/properties/tracks/items/properties/trim_end_s">trim_end_s</b>
+					 - <i id="/items/properties/albums/items/properties/album_artist">path: #/items/properties/albums/items/properties/album_artist</i>
+				 - <b id="#/items/properties/albums/items/properties/genre">genre</b> `required`
+					 - Type: `string`
+					 - <i id="/items/properties/albums/items/properties/genre">path: #/items/properties/albums/items/properties/genre</i>
+				 - <b id="#/items/properties/albums/items/properties/release_date">release_date</b> `required`
+					 - Type: `string`
+					 - <i id="/items/properties/albums/items/properties/release_date">path: #/items/properties/albums/items/properties/release_date</i>
+				 - <b id="#/items/properties/albums/items/properties/total_discs">total_discs</b> `required`
 					 - Type: `number`
-					 - <i id="/items/properties/tracks/items/properties/trim_end_s">path: #/items/properties/tracks/items/properties/trim_end_s</i>
-				 - <b id="#/items/properties/tracks/items/properties/audio_streams">audio_streams</b>
+					 - <i id="/items/properties/albums/items/properties/total_discs">path: #/items/properties/albums/items/properties/total_discs</i>
+				 - <b id="#/items/properties/albums/items/properties/cover_container_relative_path">cover_container_relative_path</b>
+					 - Type: `string`
+					 - <i id="/items/properties/albums/items/properties/cover_container_relative_path">path: #/items/properties/albums/items/properties/cover_container_relative_path</i>
+				 - <b id="#/items/properties/albums/items/properties/cover_relative_path">cover_relative_path</b>
+					 - Type: `string`
+					 - <i id="/items/properties/albums/items/properties/cover_relative_path">path: #/items/properties/albums/items/properties/cover_relative_path</i>
+				 - <b id="#/items/properties/albums/items/properties/cover_url">cover_url</b>
+					 - Type: `string`
+					 - <i id="/items/properties/albums/items/properties/cover_url">path: #/items/properties/albums/items/properties/cover_url</i>
+				 - <b id="#/items/properties/albums/items/properties/cover_type">cover_type</b> `required`
+					 - Type: `string`
+					 - <i id="/items/properties/albums/items/properties/cover_type">path: #/items/properties/albums/items/properties/cover_type</i>
+				 - <b id="#/items/properties/albums/items/properties/discs">discs</b> `required`
 					 - Type: `array`
-					 - <i id="/items/properties/tracks/items/properties/audio_streams">path: #/items/properties/tracks/items/properties/audio_streams</i>
+					 - <i id="/items/properties/albums/items/properties/discs">path: #/items/properties/albums/items/properties/discs</i>
 						 - **_Items_**
 						 - Type: `object`
-						 - <i id="/items/properties/tracks/items/properties/audio_streams/items">path: #/items/properties/tracks/items/properties/audio_streams/items</i>
+						 - <i id="/items/properties/albums/items/properties/discs/items">path: #/items/properties/albums/items/properties/discs/items</i>
 						 - **_Properties_**
-							 - <b id="#/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type">channel_type</b>
-								 - Type: `string`
-								 - <i id="/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type">path: #/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type</i>
-							 - <b id="#/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number">channel_number</b>
+							 - <b id="#/items/properties/albums/items/properties/discs/items/properties/disc_number">disc_number</b> `required`
 								 - Type: `number`
-								 - <i id="/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number">path: #/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number</i>
+								 - <i id="/items/properties/albums/items/properties/discs/items/properties/disc_number">path: #/items/properties/albums/items/properties/discs/items/properties/disc_number</i>
+							 - <b id="#/items/properties/albums/items/properties/discs/items/properties/total_tracks">total_tracks</b> `required`
+								 - Type: `number`
+								 - <i id="/items/properties/albums/items/properties/discs/items/properties/total_tracks">path: #/items/properties/albums/items/properties/discs/items/properties/total_tracks</i>
+							 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks">tracks</b> `required`
+								 - Type: `array`
+								 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks">path: #/items/properties/albums/items/properties/discs/items/properties/tracks</i>
+									 - **_Items_**
+									 - Type: `object`
+									 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items</i>
+									 - **_Properties_**
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/track_number">track_number</b> `required`
+											 - Type: `number`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/track_number">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/track_number</i>
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/title_number">title_number</b> `required`
+											 - Type: `string`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/title_number">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/title_number</i>
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/chapter_numbers">chapter_numbers</b> `required`
+											 - Type: `array`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/chapter_numbers">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/chapter_numbers</i>
+												 - **_Items_**
+												 - Type: `number`
+												 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/chapter_numbers/items">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/chapter_numbers/items</i>
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/track_title">track_title</b> `required`
+											 - Type: `string`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/track_title">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/track_title</i>
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/artists">artists</b>
+											 - Type: `array`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/artists">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/artists</i>
+												 - **_Items_**
+												 - Type: `string`
+												 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/artists/items">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/artists/items</i>
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/trim_end_s">trim_end_s</b>
+											 - Type: `number`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/trim_end_s">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/trim_end_s</i>
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams">audio_streams</b>
+											 - Type: `array`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams</i>
+												 - **_Items_**
+												 - Type: `object`
+												 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items</i>
+												 - **_Properties_**
+													 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type">channel_type</b>
+														 - Type: `string`
+														 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items/properties/channel_type</i>
+													 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number">channel_number</b>
+														 - Type: `number`
+														 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/audio_streams/items/properties/channel_number</i>
+										 - <b id="#/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/trim_start_s">trim_start_s</b>
+											 - Type: `number`
+											 - <i id="/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/trim_start_s">path: #/items/properties/albums/items/properties/discs/items/properties/tracks/items/properties/trim_start_s</i>
