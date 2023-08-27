@@ -128,7 +128,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	println("Found matching disc in config: " + discConfig.DiscTitle)
+	println("Found matching disc in config: " + discConfig.BluRayTitle)
 
 	var mkvPath string
 	var mkvBasePath string
@@ -201,7 +201,7 @@ func main() {
 			}
 		}
 
-		mkvPath, err = libbdaudiodump.GetMkvPathByTrackNumber(mkvBasePath, 1, *discConfig)
+		mkvPath, err = libbdaudiodump.GetMkvPathByTrackNumber(mkvBasePath, 1, 1, 1, *discConfig)
 		if err != nil {
 			println("Error setting MKV destination path.")
 			println(err.Error())
@@ -227,116 +227,126 @@ func main() {
 
 	println("Finished collecting ffprobe data.")
 
-	var coverArtPath string
-	var fullCoverArtDestinationPath string
+	println("Processing albums.")
 
-	if *coverArtFullPath != "" {
-		println("Copying cover art.")
-		coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, *discConfig, *replaceSpacesWithUnderscores)
-		println("Cover art source: " + *coverArtFullPath)
-		println("Cover art destination: " + coverArtPath)
-		fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromFileToDestinationDirectory(*coverArtFullPath, coverArtPath)
-		if err != nil {
-			println("Error copying cover art to destination.")
-			println(err.Error())
-			os.Exit(1)
-		}
-		println("Cover art copied.")
-	} else if discMountPoint != "" {
-		println("Copying cover art.")
-		coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, *discConfig, *replaceSpacesWithUnderscores)
-		expandedCoverArtSourcePath := libbdaudiodump.GetExpandedCoverArtSourcePath(discMountPoint, *discConfig)
-		if discConfig.CoverType == "plain" {
-			println("Cover art source: " + expandedCoverArtSourcePath)
+	for _, album := range discConfig.Albums {
+		println("Processing album: " + album.AlbumTitle)
+
+		var coverArtPath string
+		var fullCoverArtDestinationPath string
+
+		if *coverArtFullPath != "" {
+			println("Copying cover art.")
+			coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, *discConfig, album, *replaceSpacesWithUnderscores)
+			println("Cover art source: " + *coverArtFullPath)
 			println("Cover art destination: " + coverArtPath)
-			fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromFileToDestinationDirectory(expandedCoverArtSourcePath, coverArtPath)
+			fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromFileToDestinationDirectory(*coverArtFullPath, coverArtPath)
 			if err != nil {
 				println("Error copying cover art to destination.")
 				println(err.Error())
 				os.Exit(1)
 			}
-		} else if discConfig.CoverType == "zip" {
-			println("Cover art ZIP file: " + expandedCoverArtSourcePath)
-			println("File in ZIP to copy from: " + discConfig.CoverRelativePath)
-			println("Cover art destination: " + coverArtPath)
-			fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromZipFileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
-			if err != nil {
-				println("Error copying cover art to destination.")
-				println(err.Error())
-				os.Exit(1)
+			println("Cover art copied.")
+		} else if discMountPoint != "" {
+			println("Copying cover art.")
+			coverArtPath = libbdaudiodump.GetCoverArtDestinationPath(*outputDirectory, *discConfig, album, *replaceSpacesWithUnderscores)
+			expandedCoverArtSourcePath := libbdaudiodump.GetExpandedCoverArtSourcePath(discMountPoint, album)
+			if album.CoverType == "plain" {
+				println("Cover art source: " + expandedCoverArtSourcePath)
+				println("Cover art destination: " + coverArtPath)
+				fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromFileToDestinationDirectory(expandedCoverArtSourcePath, coverArtPath)
+				if err != nil {
+					println("Error copying cover art to destination.")
+					println(err.Error())
+					os.Exit(1)
+				}
+			} else if album.CoverType == "zip" {
+				println("Cover art ZIP file: " + expandedCoverArtSourcePath)
+				println("File in ZIP to copy from: " + album.CoverRelativePath)
+				println("Cover art destination: " + coverArtPath)
+				fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromZipFileToDestinationDirectory(discMountPoint, album, coverArtPath)
+				if err != nil {
+					println("Error copying cover art to destination.")
+					println(err.Error())
+					os.Exit(1)
+				}
+			} else if album.CoverType == "mp3" {
+				println("Cover art source (extracting from MP3): " + expandedCoverArtSourcePath)
+				println("Cover art destination: " + coverArtPath)
+				fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromMp3FileToDestinationDirectory(discMountPoint, album, coverArtPath)
+				if err != nil {
+					println("Error copying cover art to destination.")
+					println(err.Error())
+					os.Exit(1)
+				}
+			} else if album.CoverType == "zip_mp3" {
+				println("Cover art ZIP file: " + expandedCoverArtSourcePath)
+				println("File in ZIP to copy from (extracting from MP3): " + album.CoverRelativePath)
+				println("Cover art destination: " + coverArtPath)
+				fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromZippedMp3FileToDestinationDirectory(discMountPoint, album, coverArtPath)
+				if err != nil {
+					println("Error copying cover art to destination.")
+					println(err.Error())
+					os.Exit(1)
+				}
+			} else if album.CoverType == "url" {
+				println("Cover art URL: " + album.CoverUrl)
+				println("Cover art destination: " + coverArtPath)
+				fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromUrlToDestinationDirectory(album.CoverUrl, coverArtPath)
+				if err != nil {
+					println("Error copying cover art to destination.")
+					println(err.Error())
+					os.Exit(1)
+				}
 			}
-		} else if discConfig.CoverType == "mp3" {
-			println("Cover art source (extracting from MP3): " + expandedCoverArtSourcePath)
-			println("Cover art destination: " + coverArtPath)
-			fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromMp3FileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
-			if err != nil {
-				println("Error copying cover art to destination.")
-				println(err.Error())
-				os.Exit(1)
+			println("Cover art copied.")
+		}
+
+		println("Processing discs for album: " + album.AlbumTitle)
+
+		for _, disc := range album.Discs {
+			println("Processing disc " + strconv.Itoa(disc.DiscNumber) + " for album: " + album.AlbumTitle)
+
+			for _, track := range disc.Tracks {
+				println("Extracting track: " + strconv.Itoa(track.TrackNumber))
+				err = libbdaudiodump.ExtractFlacFromMkv(mkvPath, *outputDirectory, album.AlbumNumber, disc.DiscNumber, track.TrackNumber, ffProbeData, *discConfig, *audioStreamType, *replaceSpacesWithUnderscores)
+				if err != nil {
+					println("Error extracting FLAC from MKV.")
+					println(err.Error())
+					os.Exit(1)
+				}
+
+				println("Getting path for track: " + strconv.Itoa(track.TrackNumber))
+
+				flacPath, err := libbdaudiodump.GetFlacPathByTrackNumber(*outputDirectory, album.AlbumNumber, disc.DiscNumber, track.TrackNumber, *discConfig, *replaceSpacesWithUnderscores)
+				if err != nil {
+					println("Error getting FLAC output path.")
+					println(err.Error())
+					os.Exit(1)
+				}
+
+				println("Compressing track: " + flacPath)
+
+				err = libbdaudiodump.CompressFlac(flacPath)
+				if err != nil {
+					println("Error compressing FLAC file: " + flacPath)
+					println(err.Error())
+					os.Exit(1)
+				}
+
+				println("Tagging track: " + flacPath)
+
+				err = libbdaudiodump.TagFlac(*outputDirectory, album.AlbumNumber, disc.DiscNumber, track.TrackNumber, fullCoverArtDestinationPath, *discConfig, *replaceSpacesWithUnderscores)
+				if err != nil {
+					println("Error tagging FLAC file: " + flacPath)
+					println(err.Error())
+					os.Exit(1)
+				}
+
+				println("Finished processing track number: " + strconv.Itoa(track.TrackNumber))
+				println("Path: " + flacPath)
 			}
-		} else if discConfig.CoverType == "zip_mp3" {
-			println("Cover art ZIP file: " + expandedCoverArtSourcePath)
-			println("File in ZIP to copy from (extracting from MP3): " + discConfig.CoverRelativePath)
-			println("Cover art destination: " + coverArtPath)
-			fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromZippedMp3FileToDestinationDirectory(discMountPoint, *discConfig, coverArtPath)
-			if err != nil {
-				println("Error copying cover art to destination.")
-				println(err.Error())
-				os.Exit(1)
-			}
-		} else if discConfig.CoverType == "url" {
-			println("Cover art URL: " + discConfig.CoverUrl)
-			println("Cover art destination: " + coverArtPath)
-			fullCoverArtDestinationPath, err = libbdaudiodump.CopyCoverImageFromUrlToDestinationDirectory(discConfig.CoverUrl, *discConfig, coverArtPath)
-			if err != nil {
-				println("Error copying cover art to destination.")
-				println(err.Error())
-				os.Exit(1)
-			}
 		}
-		println("Cover art copied.")
-	}
-
-	println("Processing tracks.")
-
-	for _, track := range discConfig.Tracks {
-		println("Extracting track: " + strconv.Itoa(track.Number))
-		err = libbdaudiodump.ExtractFlacFromMkv(mkvPath, *outputDirectory, track.Number, ffProbeData, *discConfig, *audioStreamType, *replaceSpacesWithUnderscores)
-		if err != nil {
-			println("Error extracting FLAC from MKV.")
-			println(err.Error())
-			os.Exit(1)
-		}
-
-		println("Getting path for track: " + strconv.Itoa(track.Number))
-
-		flacPath, err := libbdaudiodump.GetFlacPathByTrackNumber(*outputDirectory, track.Number, *discConfig, *replaceSpacesWithUnderscores)
-		if err != nil {
-			println("Error getting FLAC output path.")
-			println(err.Error())
-			os.Exit(1)
-		}
-
-		println("Compressing track: " + flacPath)
-
-		err = libbdaudiodump.CompressFlac(flacPath)
-		if err != nil {
-			println("Error compressing FLAC file: " + flacPath)
-			println(err.Error())
-			os.Exit(1)
-		}
-
-		println("Tagging track: " + flacPath)
-
-		err = libbdaudiodump.TagFlac(*outputDirectory, track.Number, fullCoverArtDestinationPath, *discConfig, *replaceSpacesWithUnderscores)
-		if err != nil {
-			println("Error tagging FLAC file: " + flacPath)
-			println(err.Error())
-			os.Exit(1)
-		}
-
-		println("Finished processing track number: " + strconv.Itoa(track.Number))
-		println("Path: " + flacPath)
 	}
 }
 
