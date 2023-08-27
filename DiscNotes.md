@@ -13,3 +13,7 @@ Like with track 63 on the Endwalker disc, tracks 11 and 19 have extra silence on
 # Journeys: Final Fantasy XIV Arrangement Album
 
 This disc also has tracks which require trimming.  Once again, the 5.1 tracks in lossy DTS-HD HA, but the default 2.0 tracks are lossless.
+
+# Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2
+
+This disc has two separate albums on it, one of which has two discs (based on information from digital distribution stores).  Additionally, some tracks seem to be sped up in the digital distribution formats.  Tracks have been trimmed to most closely match the experience of the other sources.
