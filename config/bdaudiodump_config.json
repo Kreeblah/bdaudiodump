@@ -7123,6 +7123,770 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "9f0f69d746faea6498a3a76c1bb74f4afaef4830",
+        "bluray_title": "Eorzean Symphony FINAL FANTASY XIV ORCHESTRAL ALBUM Vol. 3",
+        "makemkv_prefix": "Eorzean Symphony- FINAL FANTASY XIV Orchestral Album VOL.3",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 3",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2023-04-26",
+                "total_discs": 1,
+                "cover_container_relative_path": "",
+                "cover_relative_path": "",
+                "cover_url": "https://ia600508.us.archive.org/23/items/mbid-06821c6b-3349-4d2d-b017-c3b54c005b96/mbid-06821c6b-3349-4d2d-b017-c3b54c005b96-36559369298.jpg",
+                "cover_type": "url",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 8,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Shadowbringers",
+                                "artists":
+                                [
+                                    "Masayoshi Soken",
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Tomorrow and Tomorrow",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "To the Edge",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Endcaller",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Your Answer",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Close in the Distance",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Flow",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "The Final Day",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "album_number": 2,
+                "album_title": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 3 (Concert version)",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2023-04-26",
+                "total_discs": 2,
+                "cover_container_relative_path": "",
+                "cover_relative_path": "",
+                "cover_url": "https://ia600508.us.archive.org/23/items/mbid-06821c6b-3349-4d2d-b017-c3b54c005b96/mbid-06821c6b-3349-4d2d-b017-c3b54c005b96-36559369298.jpg",
+                "cover_type": "url",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 10,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "trim_start_s": 27.275,
+                                "track_title": "Torn from the Heavens",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "A New Hope",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Serenity",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Ultima",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "trim_start_s": 5,
+                                "track_title": "Dragonsong",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "trim_start_s": 3.75,
+                                "track_title": "Heavensward",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Heroes",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "trim_start_s": 5.525,
+                                "track_title": "Triumph",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    8
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Songs of Salt and Suffering",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    9
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "From the Heavens",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "disc_number": 2,
+                        "total_tracks": 11,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    10
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "trim_start_s": 18.056,
+                                "track_title": "Shadowbringers",
+                                "artists":
+                                [
+                                    "Masayoshi Soken",
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    11
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "To the Edge",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    12
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "trim_start_s": 5.457,
+                                "track_title": "Invincible",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    13
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Tomorrow and Tomorrow",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    14
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "trim_start_s": 87.117,
+                                "track_title": "The Labyrinth",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    15
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Your Answer",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    16
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Close in the Distance",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    17
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Flow",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    18
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Endcaller",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    19
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "A World Apart",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 11,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    20
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "The Final Day",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "0fc379e69d2dc73786e5d4f842e00c4d65be6357",
         "bluray_title": "FINAL FANTASY I·II·III ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY I.II.III Original Soundtrack Revival Disc",

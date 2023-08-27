@@ -17,3 +17,7 @@ This disc also has tracks which require trimming.  Once again, the 5.1 tracks in
 # Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2
 
 This disc has two separate albums on it, one of which has two discs (based on information from digital distribution stores).  Additionally, some tracks seem to be sped up in the digital distribution formats.  Tracks have been trimmed to most closely match the experience of the other sources.
+
+# Eorzean Symphony FINAL FANTASY XIV ORCHESTRAL ALBUM Vol. 3
+
+See Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2.
