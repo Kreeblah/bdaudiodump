@@ -65,6 +65,7 @@ type BluRayDiscConfigAlbumDiscTrack struct {
 		ChannelType   string `json:"channel_type,omitempty"`
 		ChannelNumber int    `json:"channel_number,omitempty"`
 	} `json:"audio_streams,omitempty"`
+	TrimStartS float64  `json:"trim_start_s,omitempty"`
 	TrimEndS   float64  `json:"trim_end_s,omitempty"`
 	TrackTitle string   `json:"track_title"`
 	Artists    []string `json:"artists,omitempty"`

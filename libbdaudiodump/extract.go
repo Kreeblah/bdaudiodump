@@ -208,6 +208,23 @@ func ExtractFlacFromMkv(mkvBasePath string, flacBasePath string, albumNumber int
 		os.Remove(concatPath)
 	}
 
+	if track.TrimStartS > 0.0000001 {
+		if track.TrimStartS > trackDuration {
+			return errors.New("data error - trim duration longer than track duration for track " + strconv.Itoa(track.TrackNumber))
+		}
+		trimmedFlacPath := path.Dir(flacPath) + string(os.PathSeparator) + "Trimmed" + path.Base(flacPath)
+		_, err := exec.Command(ffmpegExecPath, "-ss", fmt.Sprintf("%.6f", track.TrimStartS), "-i", flacPath, "-c:a", "copy", trimmedFlacPath).CombinedOutput()
+		if err != nil {
+			return err
+		}
+
+		os.Remove(flacPath)
+
+		os.Rename(trimmedFlacPath, flacPath)
+
+		trackDuration = trackDuration - track.TrimStartS
+	}
+
 	if track.TrimEndS > 0.0000001 {
 		if track.TrimEndS > trackDuration {
 			return errors.New("data error - trim duration longer than track duration for track " + strconv.Itoa(track.TrackNumber))
