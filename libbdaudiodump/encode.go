@@ -147,7 +147,7 @@ func ApplyFlacTag(albumNumber int, discNumber int, trackNumber int, flacPath str
 	case "GENRE":
 		tagContents = album.Genre
 	case "DATE":
-		tagContents = discConfig.ReleaseDate
+		tagContents = album.ReleaseDate
 	case "TRACKNUMBER":
 		tagContents = strconv.Itoa(track.TrackNumber)
 	case "DISCNUMBER":
