@@ -15263,6 +15263,324 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "d227f9c2d9ccbd7a637b2dd92cb1def1f1506ef6",
+        "bluray_title": "From Astral to Umbral: FINAL FANTASY XIV Arrangement Album",
+        "makemkv_prefix": "FINAL FANTASY XIV From Astral to Umbral",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "From Astral to Umbral: FINAL FANTASY XIV Arrangement Album",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2014-12-17",
+                "total_discs": 1,
+                "cover_container_relative_path": "",
+                "cover_relative_path": "",
+                "cover_url": "https://ia800509.us.archive.org/6/items/mbid-db0865b6-8565-4a11-860b-8c94a628fa1e/mbid-db0865b6-8565-4a11-860b-8c94a628fa1e-36575565400.jpg",
+                "cover_type": "url",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 12,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Serenity",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Wailers And Waterwheels",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "To the Sun",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "A New Hope",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "On Westerly Winds",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "I Am the Sea",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Primal Judgment",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Under the Weight",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Fallen Angel",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Through the Maelstrom",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 11,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Thunder Rolls",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 12,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Oblivion",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "ddf9500127b8a1e3bf73d2b4990d287a442ad0c0",
         "bluray_title": "HEAVENSWARD: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "Heavensward- FINAL FANTASY XIV Original Soundtrack",
@@ -16091,8 +16409,7 @@
                                 "track_title": "Crimson Sunset",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16116,8 +16433,7 @@
                                 "track_title": "Westward Tide",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16141,8 +16457,7 @@
                                 "track_title": "Beauty's Wicked Wiles",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16166,8 +16481,7 @@
                                 "track_title": "Old Wounds",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16191,8 +16505,7 @@
                                 "track_title": "Ink Long Dry",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16216,8 +16529,7 @@
                                 "track_title": "The Worm's Tail",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16242,8 +16554,7 @@
                                 "track_title": "Revolutions",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Nobuo Uematsu"
                                 ]
                             },
                             {
@@ -16267,8 +16578,7 @@
                                 "track_title": "eScape",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16292,8 +16602,7 @@
                                 "track_title": "Metal - Brute Justice Mode",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16317,8 +16626,7 @@
                                 "track_title": "Amatsu Kaze",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16342,8 +16650,7 @@
                                 "track_title": "Metal",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16367,8 +16674,7 @@
                                 "track_title": "Wayward Daughter",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16392,8 +16698,7 @@
                                 "track_title": "Sunrise",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16417,8 +16722,7 @@
                                 "track_title": "Rise",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16443,8 +16747,7 @@
                                 "track_title": "Exponential Entropy",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16469,8 +16772,7 @@
                                 "track_title": "Oblivion",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -16495,8 +16797,7 @@
                                 "track_title": "Answers",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Nobuo Uematsu"
                                 ]
                             },
                             {
@@ -16521,8 +16822,7 @@
                                 "track_title": "Dragonsong",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Nobuo Uematsu"
                                 ]
                             }
                         ]
@@ -17321,8 +17621,7 @@
                                 "track_title": "'Neath Dark Waters",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17346,8 +17645,7 @@
                                 "track_title": "A Long Fall",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17371,8 +17669,7 @@
                                 "track_title": "Invincible",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17396,8 +17693,7 @@
                                 "track_title": "Shadows Withal",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17418,11 +17714,10 @@
                                         "channel_number": 1
                                     }
                                 ],
-                                "track_title": "Pa-paya",
+                                "track_title": "Pa-Paya",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17446,8 +17741,7 @@
                                 "track_title": "Tomorrow and Tomorrow",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17471,8 +17765,7 @@
                                 "track_title": "Return to Oblivion",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17496,8 +17789,7 @@
                                 "track_title": "What Angel Wakes Me",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17521,8 +17813,7 @@
                                 "track_title": "Tomorrow and Tomorrow (Instrumental)",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17546,8 +17837,7 @@
                                 "track_title": "Return to Oblivion (Instrumental)",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17572,8 +17862,7 @@
                                 "track_title": "What Angel Wakes Me (Instrumental)",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17598,8 +17887,7 @@
                                 "track_title": "Ultima",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17623,8 +17911,7 @@
                                 "track_title": "Blinding Indigo",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17648,8 +17935,7 @@
                                 "track_title": "Equilibrium",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17673,8 +17959,7 @@
                                 "track_title": "A Long Fall",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17698,8 +17983,7 @@
                                 "track_title": "Return to Oblivion",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17723,8 +18007,7 @@
                                 "track_title": "Insatiable",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17748,8 +18031,7 @@
                                 "track_title": "What Angel Wakes Me",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             },
                             {
@@ -17774,8 +18056,7 @@
                                 "track_title": "Shadowbringers",
                                 "artists":
                                 [
-                                    "Keiko",
-                                    "THE PRIMALS"
+                                    "Masayoshi Soken"
                                 ]
                             }
                         ]
