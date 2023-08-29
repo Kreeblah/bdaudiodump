@@ -86,10 +86,20 @@ func ReadConfigFile(configPath string) (*[]BluRayDiscConfig, error) {
 		return nil, err
 	}
 
+	discVolumeSha1s := make(map[string]bool)
+
 	for i, _ := range *bluRayConfigs {
 		if (*bluRayConfigs)[i].DiscVolumeKeySha1 == "" {
 			return nil, errors.New("missing disc volume key SHA1 for disc: " + (*bluRayConfigs)[i].BluRayTitle)
 		}
+
+		_, hasDiscVolumeSha1 := discVolumeSha1s[(*bluRayConfigs)[i].DiscVolumeKeySha1]
+		if hasDiscVolumeSha1 {
+			return nil, errors.New("duplicate disc volume key SHA1: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
+		} else {
+			discVolumeSha1s[(*bluRayConfigs)[i].DiscVolumeKeySha1] = true
+		}
+
 		if (*bluRayConfigs)[i].BluRayTitle == "" {
 			return nil, errors.New("missing Blu-ray title for disc: " + (*bluRayConfigs)[i].DiscVolumeKeySha1)
 		}
