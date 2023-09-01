@@ -21,3 +21,7 @@ This disc has two separate albums on it, one of which has two discs (based on in
 # Eorzean Symphony FINAL FANTASY XIV ORCHESTRAL ALBUM Vol. 3
 
 See Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2.
+
+# Eorzean Symphony: FINAL FANTASY XIV Orchestral Album
+
+Unlike later Blu-ray discs in this series, the concert album has additional tracks not included in the regular releases of that album.  These have been added in the locations indicated by the track listing.

@@ -7538,6 +7538,539 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "0da9eada90d095908a012c6f8e9c36213a778207",
+        "bluray_title": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+        "makemkv_prefix": "Eorzean Symphony- FINAL FANTASY XIV Orchestral Album",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2017-12-20",
+                "total_discs": 1,
+                "cover_container_relative_path": "",
+                "cover_relative_path": "/AUDIO_FILES/htdocs/image/ES_FFXIV.jpg",
+                "cover_url": "",
+                "cover_type": "plain",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 10,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Ultima",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Serenity",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Calamity Unbound",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Rise of the White Raven",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Ominous Prognisticks",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Painted Foothills",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Revenge Twofold",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Moebius",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    8
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Heroes",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    9
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Oblivion",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "album_number": 2,
+                "album_title": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album (Concert Version)",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2017-12-20",
+                "total_discs": 2,
+                "cover_container_relative_path": "",
+                "cover_relative_path": "/AUDIO_FILES/htdocs/image/ES_FFXIV.jpg",
+                "cover_url": "",
+                "cover_type": "plain",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 8,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "A New Hope",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Serenity",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Breaking Boundaries",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "track_title": "Out of the Shattered Labyrinth",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "Ultima",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "track_title": "Calamity Unbound",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "track_title": "Rise of the White Raven",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "track_title": "Answers",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "disc_number": 2,
+                        "total_tracks": 10,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    8
+                                ],
+                                "track_title": "Ominous Prognisticks",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    9
+                                ],
+                                "track_title": "Painted Foothills",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    10
+                                ],
+                                "track_title": "Revenge Twofold",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    11
+                                ],
+                                "track_title": "Dragonsong",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    12
+                                ],
+                                "track_title": "Moebius",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    13
+                                ],
+                                "track_title": "Oblivion",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    14
+                                ],
+                                "track_title": "Heroes",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    15
+                                ],
+                                "track_title": "Heavensward",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    16
+                                ],
+                                "track_title": "A World Apart",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    17
+                                ],
+                                "track_title": "Torn from the Heavens",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "9af58dd70b65b4fadd65711b6f6b936f79ae6c70",
         "bluray_title": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
         "makemkv_prefix": "Eorzean Symphony- FINAL FANTASY XIV Orchestral Album VOL.2",
