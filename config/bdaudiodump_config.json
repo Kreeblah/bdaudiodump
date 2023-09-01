@@ -15715,6 +15715,374 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "989b27c047903e53c68e07da33dfd38df99c73e8",
+        "bluray_title": "FINAL FANTASY XIV Duality - Arrangement Album -",
+        "makemkv_prefix": "FINAL FANTASY XIV Duality　～Arrangement Album～",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "FINAL FANTASY XIV Duality - Arrangement Album -",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2016-12-07",
+                "total_discs": 1,
+                "cover_container_relative_path": "/MP3DATA/PIANO.zip",
+                "cover_relative_path": "PIANO/DUALITY_FFXIV_01.mp3",
+                "cover_url": "",
+                "cover_type": "zip_mp3",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 14,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Imagination",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Painted Foothills",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Borderless",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Ominous Prognisticks",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Heroes",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Night in the Brume",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Unbreakable",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Revenge Twofold",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Unbending Steel",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Imagination",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 11,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Fiend",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 12,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Heroes",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 13,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    6,
+                                    7
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Locus",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 14,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    8,
+                                    9
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Oblivion (Never Let it Go Version)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "db90f6f50091b9ca5262b71921bc3a9e112ed4a6",
         "bluray_title": "FINAL FANTASY XIV Original Soundtrack Best Album",
         "makemkv_prefix": "FINAL FANTASY XIV - The Best",
