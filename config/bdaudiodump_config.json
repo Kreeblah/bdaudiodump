@@ -17296,6 +17296,493 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "90ac379c6d227061b1baac68deca76af587a0e5b",
+        "bluray_title": "Forge Ahead: FINAL FANTASY XIV ~ Arrangement Album ~",
+        "makemkv_prefix": "Forge Ahead- FINAL FANTASY XIV - Arrangement Album",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "Forge Ahead: FINAL FANTASY XIV ~ Arrangement Album ~",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2021-11-29",
+                "total_discs": 1,
+                "cover_container_relative_path": "",
+                "cover_relative_path": "/MP3DATA/image/top.jpg",
+                "cover_url": "",
+                "cover_type": "plain",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 19,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Flow",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Carrots of Happiness",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "What Once Was",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Dedicated to Moonlight (Instrumental)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "The Labyrinth",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Black Steel, Cold Embers",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "In the Balance (Instrumental)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Dedicated to Moonlight (Amanda Achen Vocals)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    8
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "In the Balance (Amanda Achen Vocals)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    0,
+                                    1
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Dedicated to Moonlight",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 11,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Close in the Distance",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 12,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Hic Svnt Leones",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 13,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "To the Edge",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 14,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "White Stone Black",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 15,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Flow Together",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 16,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "The Nautilus Knoweth (Acoustic Version)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 17,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    8
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "In the Balance",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 18,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    9
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Scream",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 19,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    10
+                                ],
+                                "audio_streams":
+                                [
+                                    {
+                                        "channel_type": "stereo20",
+                                        "channel_number": 0
+                                    },
+                                    {
+                                        "channel_type": "surround51",
+                                        "channel_number": 1
+                                    }
+                                ],
+                                "track_title": "Athena, the Tireless One",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "d227f9c2d9ccbd7a637b2dd92cb1def1f1506ef6",
         "bluray_title": "From Astral to Umbral: FINAL FANTASY XIV Arrangement Album",
         "makemkv_prefix": "FINAL FANTASY XIV From Astral to Umbral",

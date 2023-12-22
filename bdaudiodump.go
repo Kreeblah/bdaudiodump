@@ -33,7 +33,7 @@ func main() {
 	makemkvconDiscId := flag.Int("makemkvcon-disc-id", math.MaxInt, "The disc ID (for the disc: identifier) to pass to makemkvcon")
 	outputDirectory := flag.String("output-directory", "", "The directory to store output in")
 	volumeKeySha1 := flag.String("volume-key-sha1", "", "Use the specified SHA1 sum for detecting the disc instead of analyzing it")
-	replaceSpacesWithUnderscores := flag.Bool("replace-spaces-with-underscores", false, "Replace spaces with underscores in FLAC files and directory")
+	replaceSpacesWithUnderscores := flag.Bool("replace-spaces-with-underscores", true, "Replace spaces with underscores in FLAC files and directory")
 	mkvSourcePath := flag.String("mkv-source-path", "", "Path to pre-extracted MKV files")
 	copyDiscBeforeMkvExtraction := flag.Bool("copy-disc-before-mkv-extraction", true, "Copy disc contents to destination before MKV extraction")
 	audioStreamType := flag.String("audio-stream-type", "", "Audio stream type (best, surround71, surround51, stereo21, or stereo20)")
