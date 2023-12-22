@@ -372,7 +372,7 @@ func printUsage() {
 	println("--replace-spaces-with-underscores")
 	println("    Type: Boolean")
 	println("    Replace spaces in directory names and FLAC file names with underscores.")
-	println("    Defaults to false.")
+	println("    Defaults to true.")
 	println("--mkv-source-path")
 	println("    Type: String")
 	println("    Path to pre-extracted MKVs, if MakeMKV has already been used to rip")

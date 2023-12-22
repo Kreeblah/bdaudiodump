@@ -33,7 +33,7 @@ bdaudiodump [arguments]
 --replace-spaces-with-underscores
     Type: Boolean
     Replace spaces in directory names and FLAC file names with underscores.
-    Defaults to false.
+    Defaults to true.
 --mkv-source-path
     Type: String
     Path to pre-extracted MKVs, if MakeMKV has already been used to rip
