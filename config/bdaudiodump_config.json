@@ -9552,6 +9552,1258 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "2ec95621395836995b6fb3b789d1812f4e5923f3",
+        "bluray_title": "FINAL FANTASY 30th Anniversary Tracks 1987-2017 Disc 1",
+        "makemkv_prefix": "FINAL FANTASY 30th Anniversary Tracks 1987-2017 Disc1",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "FINAL FANTASY 30th Anniversary Tracks 1987-2017",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2018-01-24",
+                "total_discs": 2,
+                "cover_container_relative_path": "/MP3DATA/FF30th_01.zip",
+                "cover_relative_path": "FF30th_001.mp3",
+                "cover_url": "",
+                "cover_type": "zip_mp3",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 94,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Main Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Castle Cornelia",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Chaos Shrine",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "track_title": "Matoya's Cave",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "Town",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "track_title": "Mt. Gulg",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "track_title": "Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "track_title": "End Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    8
+                                ],
+                                "track_title": "Battle Theme 1",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    9
+                                ],
+                                "track_title": "Main Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 11,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    10
+                                ],
+                                "track_title": "The Rebel Army",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 12,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    11
+                                ],
+                                "track_title": "Town",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 13,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    12
+                                ],
+                                "track_title": "Dungeon",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 14,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    13
+                                ],
+                                "track_title": "The Imperial Army",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 15,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    14
+                                ],
+                                "track_title": "Battle Theme 2",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 16,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    15
+                                ],
+                                "track_title": "Finale",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 17,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    16
+                                ],
+                                "track_title": "Crystal Cave",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 18,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    17
+                                ],
+                                "track_title": "Battle 1 ~ Fanfare",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 19,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    18
+                                ],
+                                "track_title": "Eternal Wind",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 20,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    19
+                                ],
+                                "track_title": "The Dungeon",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 21,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    20
+                                ],
+                                "track_title": "Battle 2",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 22,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    21
+                                ],
+                                "track_title": "Elia, the Maiden of Water",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 23,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    22
+                                ],
+                                "track_title": "The Crystal Tower",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 24,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    23
+                                ],
+                                "track_title": "This is the Last Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 25,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    24
+                                ],
+                                "track_title": "The Red Wings",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 26,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    25
+                                ],
+                                "track_title": "Theme of Love",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 27,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    26
+                                ],
+                                "track_title": "Main Theme of FINAL FANTASY IV",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 28,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    27
+                                ],
+                                "track_title": "Battle 1",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 29,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    28
+                                ],
+                                "track_title": "Into the Darkness",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 30,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    29
+                                ],
+                                "track_title": "Suspicion",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 31,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    30
+                                ],
+                                "track_title": "Battle 2",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 32,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    31
+                                ],
+                                "track_title": "Battle With the Four Fiends",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 33,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    32
+                                ],
+                                "track_title": "Another Moon",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 34,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    33
+                                ],
+                                "track_title": "The Final Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 35,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    34
+                                ],
+                                "track_title": "Main Theme of Final Fantasy V",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 36,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    35
+                                ],
+                                "track_title": "Reina's Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 37,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    36
+                                ],
+                                "track_title": "Dungeon",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 38,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    37
+                                ],
+                                "track_title": "Battle 1",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 39,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    38
+                                ],
+                                "track_title": "Home, Sweet Home",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 40,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    39
+                                ],
+                                "track_title": "Battle at the Big Bridge",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 41,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    40
+                                ],
+                                "track_title": "A New World",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 42,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    41
+                                ],
+                                "track_title": "The Decisive Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 43,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    42
+                                ],
+                                "track_title": "The Final Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 44,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    43
+                                ],
+                                "track_title": "Dear Friends",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 45,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    44
+                                ],
+                                "track_title": "Omen",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 46,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    45
+                                ],
+                                "track_title": "Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 47,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    46
+                                ],
+                                "track_title": "Kefka",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 48,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    47
+                                ],
+                                "track_title": "The Decisive Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 49,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    48
+                                ],
+                                "track_title": "Terra's Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 50,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    49
+                                ],
+                                "track_title": "Aria di Mezzo Carattere",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 51,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    50
+                                ],
+                                "track_title": "Battle to the Death",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 52,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    51
+                                ],
+                                "track_title": "Searching for Friends",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 53,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    52
+                                ],
+                                "track_title": "Dancing Mad",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 54,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    53
+                                ],
+                                "track_title": "Balance Is Restored",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 55,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    54
+                                ],
+                                "track_title": "Opening - Bombing Mission",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 56,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    55
+                                ],
+                                "track_title": "Tifa's Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 57,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    56
+                                ],
+                                "track_title": "“Shinra, Inc.”",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 58,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    57
+                                ],
+                                "track_title": "Let the Battles Begin!",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 59,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    58
+                                ],
+                                "track_title": "Fight On!",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 60,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    59
+                                ],
+                                "track_title": "Main Theme of Final Fantasy VII",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 61,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    60
+                                ],
+                                "track_title": "JENOVA",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 62,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    61
+                                ],
+                                "track_title": "Gold Saucer",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 63,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    62
+                                ],
+                                "track_title": "Aerith's Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 64,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    63
+                                ],
+                                "track_title": "One-Winged Angel",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 65,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    64
+                                ],
+                                "track_title": "Liberi Fatali",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 66,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    65
+                                ],
+                                "track_title": "Balamb GARDEN",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 67,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    66
+                                ],
+                                "track_title": "Don't be Afraid",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 68,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    67
+                                ],
+                                "track_title": "Force Your Way",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 69,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    68
+                                ],
+                                "track_title": "Dead End",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 70,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    69
+                                ],
+                                "track_title": "Waltz for the Moon",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 71,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    70
+                                ],
+                                "track_title": "The Man with the Machine Gun",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 72,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    71
+                                ],
+                                "track_title": "The Oath",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 73,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    72
+                                ],
+                                "track_title": "Truth",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 74,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    73
+                                ],
+                                "track_title": "The Extreme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 75,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    74
+                                ],
+                                "track_title": "A Place to Call Home",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 76,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    75
+                                ],
+                                "track_title": "Vivi's Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 77,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    76
+                                ],
+                                "track_title": "Battle 1",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 78,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    77
+                                ],
+                                "track_title": "Battle 2",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 79,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    78
+                                ],
+                                "track_title": "Over the Hill",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 80,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    79
+                                ],
+                                "track_title": "Festival of the Hunt",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 81,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    80
+                                ],
+                                "track_title": "Devil's Ambition",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 82,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    81
+                                ],
+                                "track_title": "Not Alone",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 83,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    82
+                                ],
+                                "track_title": "The Final Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 84,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    83
+                                ],
+                                "track_title": "Melodies Of Life ~ Final Fantasy",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 85,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    84
+                                ],
+                                "track_title": "Zanarkand",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 86,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    85
+                                ],
+                                "track_title": "Tidus's Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 87,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    86
+                                ],
+                                "track_title": "Battle Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 88,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    87
+                                ],
+                                "track_title": "Hum Of The Fayth",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 89,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    88
+                                ],
+                                "track_title": "The Blitzers",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 90,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    89
+                                ],
+                                "track_title": "Fight With Seymour",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 91,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    90
+                                ],
+                                "track_title": "A Contest Of Aeons",
+                                "artists":
+                                [
+                                    "Junya Nakano"
+                                ]
+                            },
+                            {
+                                "track_number": 92,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    91
+                                ],
+                                "track_title": "Jecht's Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 93,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    92
+                                ],
+                                "track_title": "Final Battle",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 94,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    93
+                                ],
+                                "track_title": "SUTEKI DA NE (Isn't It Wonderful?)",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "0fc379e69d2dc73786e5d4f842e00c4d65be6357",
         "bluray_title": "FINAL FANTASY I·II·III ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY I.II.III Original Soundtrack Revival Disc",
