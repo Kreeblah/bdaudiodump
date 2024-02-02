@@ -41,6 +41,14 @@ type FfprobeChapterInfo struct {
 	ChapterDuration  float64
 }
 
+func GetFirstAlbum(discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbum, error) {
+	for albumIndex := range discConfig.Albums {
+		return &discConfig.Albums[albumIndex], nil
+	}
+
+	return nil, errors.New("unable to find any albums for disc: " + discConfig.BluRayTitle)
+}
+
 func GetAlbum(albumNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbum, error) {
 	for albumIndex := range discConfig.Albums {
 		if discConfig.Albums[albumIndex].AlbumNumber == albumNumber {
@@ -49,6 +57,19 @@ func GetAlbum(albumNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAl
 	}
 
 	return nil, errors.New("unable to find album data for album number " + strconv.Itoa(albumNumber) + " for disc: " + discConfig.BluRayTitle)
+}
+
+func GetFirstDisc(albumNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbumDisc, error) {
+	album, err := GetAlbum(albumNumber, discConfig)
+	if err != nil {
+		return nil, err
+	}
+
+	for discIndex := range album.Discs {
+		return &album.Discs[discIndex], nil
+	}
+
+	return nil, errors.New("unable to find any discs for album number " + strconv.Itoa(albumNumber) + " for disc: " + discConfig.BluRayTitle)
 }
 
 func GetDisc(albumNumber int, discNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbumDisc, error) {
@@ -66,6 +87,19 @@ func GetDisc(albumNumber int, discNumber int, discConfig BluRayDiscConfig) (*Blu
 	return nil, errors.New("unable to find disc data for album number " + strconv.Itoa(albumNumber) + " and disc number " + strconv.Itoa(discNumber) + " for disc: " + discConfig.BluRayTitle)
 }
 
+func GetFirstTrack(albumNumber int, discNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbumDiscTrack, error) {
+	disc, err := GetDisc(albumNumber, discNumber, discConfig)
+	if err != nil {
+		return nil, err
+	}
+
+	for trackIndex := range disc.Tracks {
+		return &disc.Tracks[trackIndex], nil
+	}
+
+	return nil, errors.New("unable to find any tracks album number " + strconv.Itoa(albumNumber) + " and disc number " + strconv.Itoa(discNumber) + " for disc: " + discConfig.BluRayTitle)
+}
+
 func GetTrack(albumNumber int, discNumber int, trackNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbumDiscTrack, error) {
 	disc, err := GetDisc(albumNumber, discNumber, discConfig)
 	if err != nil {
@@ -79,6 +113,25 @@ func GetTrack(albumNumber int, discNumber int, trackNumber int, discConfig BluRa
 	}
 
 	return nil, errors.New("unable to find track data for album number " + strconv.Itoa(albumNumber) + " and disc number " + strconv.Itoa(discNumber) + " and track number " + strconv.Itoa(trackNumber) + " for disc: " + discConfig.BluRayTitle)
+}
+
+func GetFirstAlbumDiscTrack(discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbum, *BluRayDiscConfigAlbumDisc, *BluRayDiscConfigAlbumDiscTrack, error) {
+	album, err := GetFirstAlbum(discConfig)
+	if err != nil {
+		return nil, nil, nil, err
+	}
+
+	disc, err := GetFirstDisc(album.AlbumNumber, discConfig)
+	if err != nil {
+		return nil, nil, nil, err
+	}
+
+	track, err := GetFirstTrack(album.AlbumNumber, disc.DiscNumber, discConfig)
+	if err != nil {
+		return nil, nil, nil, err
+	}
+
+	return album, disc, track, nil
 }
 
 func GetAlbumDiscTrack(albumNumber int, discNumber int, trackNumber int, discConfig BluRayDiscConfig) (*BluRayDiscConfigAlbum, *BluRayDiscConfigAlbumDisc, *BluRayDiscConfigAlbumDiscTrack, error) {

@@ -10804,6 +10804,725 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "117442c9b5654ed2ae672f9135fb25c6b5d080d9",
+        "bluray_title": "FINAL FANTASY 30th Anniversary Tracks 1987-2017 Disc 2",
+        "makemkv_prefix": "FINAL FANTASY 30th Anniversary Tracks 1987-2017 Disc2",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "FINAL FANTASY 30th Anniversary Tracks 1987-2017",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2018-01-24",
+                "total_discs": 2,
+                "cover_container_relative_path": "/MP3DATA/FF30th_11.zip",
+                "cover_relative_path": "FF30th_095.mp3",
+                "cover_url": "",
+                "cover_type": "zip_mp3",
+                "discs":
+                [
+                    {
+                        "disc_number": 2,
+                        "total_tracks": 53,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "The Kingdom of San d'Oria",
+                                "artists":
+                                [
+                                    "Naoshi Mizuta"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Ronfaure",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "The Republic of Bastok",
+                                "artists":
+                                [
+                                    "Kumi Tanioka"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "track_title": "The Federation of Windurst",
+                                "artists":
+                                [
+                                    "Naoshi Mizuta"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "Selbina",
+                                "artists":
+                                [
+                                    "Naoshi Mizuta"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "track_title": "The Grand Duchy of Jeuno",
+                                "artists":
+                                [
+                                    "Naoshi Mizuta"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "track_title": "Vana'diel March",
+                                "artists":
+                                [
+                                    "Naoshi Mizuta"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    7
+                                ],
+                                "track_title": "Forever Today",
+                                "artists":
+                                [
+                                    "Naoshi Mizuta"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    8
+                                ],
+                                "track_title": "Battle Theme",
+                                "artists":
+                                [
+                                    "Naoshi Mizuta"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    9
+                                ],
+                                "track_title": "Awakening",
+                                "artists":
+                                [
+                                    "Kumi Tanioka"
+                                ]
+                            },
+                            {
+                                "track_number": 11,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    10
+                                ],
+                                "track_title": "Opening Movie",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 12,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    11
+                                ],
+                                "track_title": "Penelo's Theme",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 13,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    12
+                                ],
+                                "track_title": "Boss Battle",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 14,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    13
+                                ],
+                                "track_title": "Streets of Rabanastre",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 15,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    14
+                                ],
+                                "track_title": "The Dalmasca Estersand",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 16,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    15
+                                ],
+                                "track_title": "Ashe's Theme",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 17,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    16
+                                ],
+                                "track_title": "Flash of Steel",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 18,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    17
+                                ],
+                                "track_title": "The Archadian Empire",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 19,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    18
+                                ],
+                                "track_title": "Struggle for Freedom",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 20,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    19
+                                ],
+                                "track_title": "Ending Movie",
+                                "artists":
+                                [
+                                    "Hitoshi Sakimoto"
+                                ]
+                            },
+                            {
+                                "track_number": 21,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    20
+                                ],
+                                "track_title": "FINAL FANTASY XIII - The Promise",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 22,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    21
+                                ],
+                                "track_title": "Saber's Edge",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 23,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    22
+                                ],
+                                "track_title": "Blinded By Light",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 24,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    23
+                                ],
+                                "track_title": "March of the Dreadnoughts",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 25,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    24
+                                ],
+                                "track_title": "Test of the L'Cie",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 26,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    25
+                                ],
+                                "track_title": "Serah's Theme",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 27,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    26
+                                ],
+                                "track_title": "Fang's Theme",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 28,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    27
+                                ],
+                                "track_title": "Dust to Dust",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 29,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    28
+                                ],
+                                "track_title": "Born Anew",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 30,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    29
+                                ],
+                                "track_title": "Determination",
+                                "artists":
+                                [
+                                    "Masashi Hamauzu"
+                                ]
+                            },
+                            {
+                                "track_number": 31,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    30
+                                ],
+                                "track_title": "Answers",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 32,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    31
+                                ],
+                                "track_title": "Torn from the Heavens",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 33,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    32
+                                ],
+                                "track_title": "Serenity",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 34,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    33
+                                ],
+                                "track_title": "Under the Weight",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 35,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    34
+                                ],
+                                "track_title": "Ultima",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 36,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    35
+                                ],
+                                "track_title": "Heavensward",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 37,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    36
+                                ],
+                                "track_title": "Locus",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 38,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    37
+                                ],
+                                "track_title": "Night in the Brume",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 39,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    38
+                                ],
+                                "track_title": "Heroes",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 40,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    39
+                                ],
+                                "track_title": "Dragonsong",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 41,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    40
+                                ],
+                                "track_title": "Somnus (Instrumental Version)",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 42,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    41
+                                ],
+                                "track_title": "Hammerhead",
+                                "artists":
+                                [
+                                    "Tetsuya Shibata"
+                                ]
+                            },
+                            {
+                                "track_number": 43,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    42
+                                ],
+                                "track_title": "Stand Your Ground",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 44,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    43
+                                ],
+                                "track_title": "Relax and Reflect",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 45,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    44
+                                ],
+                                "track_title": "Veiled in Black",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 46,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    45
+                                ],
+                                "track_title": "APOCALYPSIS NOCTIS",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 47,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    46
+                                ],
+                                "track_title": "LUNA",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 48,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    47
+                                ],
+                                "track_title": "NOCTIS",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 49,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    48
+                                ],
+                                "track_title": "Magna Insomnia",
+                                "artists":
+                                [
+                                    "Yoko Shimomura"
+                                ]
+                            },
+                            {
+                                "track_number": 50,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    49
+                                ],
+                                "track_title": "Main Theme from FINAL FANTASY",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 51,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    51
+                                ],
+                                "track_title": "Prelude",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 52,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    52
+                                ],
+                                "track_title": "Opening Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 53,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    53
+                                ],
+                                "track_title": "Chocobo Theme",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "0fc379e69d2dc73786e5d4f842e00c4d65be6357",
         "bluray_title": "FINAL FANTASY I·II·III ORIGINAL SOUNDTRACK REVIVAL DISC",
         "makemkv_prefix": "FINAL FANTASY I.II.III Original Soundtrack Revival Disc",

@@ -201,7 +201,14 @@ func main() {
 			}
 		}
 
-		mkvPath, err = libbdaudiodump.GetMkvPathByTrackNumber(mkvBasePath, 1, 1, 1, *discConfig)
+		firstAlbum, firstDisc, firstTrack, err := libbdaudiodump.GetFirstAlbumDiscTrack(*discConfig)
+		if err != nil {
+			println("Error getting first album, disc, and track for BluRay disc")
+			println(err.Error())
+			os.Exit(1)
+		}
+
+		mkvPath, err = libbdaudiodump.GetMkvPathByTrackNumber(mkvBasePath, firstAlbum.AlbumNumber, firstDisc.DiscNumber, firstTrack.TrackNumber, *discConfig)
 		if err != nil {
 			println("Error setting MKV destination path.")
 			println(err.Error())
