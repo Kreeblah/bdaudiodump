@@ -14374,10 +14374,10 @@
                 "genre": "Game",
                 "release_date": "2020-09-23",
                 "total_discs": 1,
-                "cover_container_relative_path": "",
-                "cover_relative_path": "/MP3DATA/htdocs/image/FF8.jpg",
+                "cover_container_relative_path": "/MP3DATA/FF9_BDM_1.zip",
+                "cover_relative_path": "FF9_BDM_1/FINAL FANTASY IX_BDM_001.mp3",
                 "cover_url": "",
-                "cover_type": "plain",
+                "cover_type": "zip_mp3",
                 "discs":
                 [
                     {
