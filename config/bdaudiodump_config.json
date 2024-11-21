@@ -5555,6 +5555,899 @@
         ]
     },
     {
+        "disc_volume_key_sha1": "56975d95822e6cc3d93597841a015b121c25bab5",
+        "bluray_title": "DAWNTRAIL: FINAL FANTASY XIV Original Soundtrack",
+        "makemkv_prefix": "DAWNTRAIL- FINAL FANTASY XIV Original Soundtrack",
+        "albums":
+        [
+            {
+                "album_number": 1,
+                "album_title": "DAWNTRAIL: FINAL FANTASY XIV Original Soundtrack",
+                "album_artist": "SQUARE ENIX MUSIC",
+                "genre": "Game",
+                "release_date": "2024-10-30",
+                "total_discs": 1,
+                "cover_container_relative_path": "",
+                "cover_relative_path": "/MP3DATA/htdocs/image/DAWNTRAIL.jpg",
+                "cover_url": "",
+                "cover_type": "plain",
+                "discs":
+                [
+                    {
+                        "disc_number": 1,
+                        "total_tracks": 66,
+                        "tracks":
+                        [
+                            {
+                                "track_number": 1,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Dawntrail",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 2,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Prelude - A Westward Journey",
+                                "artists":
+                                [
+                                    "Masayoshi Soken",
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 3,
+                                "title_number": "00",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Taco Delight",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 4,
+                                "title_number": "18",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Morrow's Might",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 5,
+                                "title_number": "38",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "For Hope and Happiness",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 6,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Windswept Echoes",
+                                "artists":
+                                [
+                                    "Saya Yasaki"
+                                ]
+                            },
+                            {
+                                "track_number": 7,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Blade's Exaltation",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 8,
+                                "title_number": "01",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Pastoral Pleasures",
+                                "artists":
+                                [
+                                    "Justin Frieden",
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 9,
+                                "title_number": "37",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Bright Bustle",
+                                "artists":
+                                [
+                                    "Shoya Sunakawa"
+                                ]
+                            },
+                            {
+                                "track_number": 10,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Windswept Whispers",
+                                "artists":
+                                [
+                                    "Saya Yasaki"
+                                ]
+                            },
+                            {
+                                "track_number": 11,
+                                "title_number": "02",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Of Glittering Wings",
+                                "artists":
+                                [
+                                    "Saya Yasaki"
+                                ]
+                            },
+                            {
+                                "track_number": 12,
+                                "title_number": "36",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Fun and Games",
+                                "artists":
+                                [
+                                    "Takafumi Imamura"
+                                ]
+                            },
+                            {
+                                "track_number": 13,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Punuitiy Crossing",
+                                "artists":
+                                [
+                                    "Saya Yasaki"
+                                ]
+                            },
+                            {
+                                "track_number": 14,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Roads Forsaken",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 15,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Of Glittering Baubles",
+                                "artists":
+                                [
+                                    "Saya Yasaki"
+                                ]
+                            },
+                            {
+                                "track_number": 16,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "track_title": "Life Bound by Honor",
+                                "artists":
+                                [
+                                    "Justin Frieden",
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 17,
+                                "title_number": "03",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "Empyrean Peak",
+                                "artists":
+                                [
+                                    "Saya Yasaki"
+                                ]
+                            },
+                            {
+                                "track_number": 18,
+                                "title_number": "35",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Etched in Memory",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 19,
+                                "title_number": "17",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "The Skyruin",
+                                "artists":
+                                [
+                                    "Saya Yasaki",
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 20,
+                                "title_number": "33",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Dawntrail (Instrumental)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 21,
+                                "title_number": "18",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "track_title": "Emerald under Sapphire",
+                                "artists":
+                                [
+                                    "Daiki Ishikawa"
+                                ]
+                            },
+                            {
+                                "track_number": 22,
+                                "title_number": "31",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Coffee Break",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 23,
+                                "title_number": "04",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Skybound Emerald",
+                                "artists":
+                                [
+                                    "Daiki Ishikawa"
+                                ]
+                            },
+                            {
+                                "track_number": 24,
+                                "title_number": "04",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Lost in the Deep",
+                                "artists":
+                                [
+                                    "Daiki Ishikawa"
+                                ]
+                            },
+                            {
+                                "track_number": 25,
+                                "title_number": "04",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Pathmaker",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 26,
+                                "title_number": "04",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "track_title": "Morrow's Magic",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 27,
+                                "title_number": "04",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "Ceruleum Smoke at High Noon",
+                                "artists":
+                                [
+                                    "Takafumi Imamura"
+                                ]
+                            },
+                            {
+                                "track_number": 28,
+                                "title_number": "04",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "track_title": "Desertwalkers",
+                                "artists":
+                                [
+                                    "Shoya Sunakawa"
+                                ]
+                            },
+                            {
+                                "track_number": 29,
+                                "title_number": "04",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "track_title": "Ceruleum Embers by Dusk",
+                                "artists":
+                                [
+                                    "Takafumi Imamura"
+                                ]
+                            },
+                            {
+                                "track_number": 30,
+                                "title_number": "05",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Cast Stones in Shadow",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 31,
+                                "title_number": "05",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Hearts Tread and Trampled",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 32,
+                                "title_number": "06",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "In Fulgur and Fire",
+                                "artists":
+                                [
+                                    "Takafumi Imamura"
+                                ]
+                            },
+                            {
+                                "track_number": 33,
+                                "title_number": "06",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Flash in the Dark",
+                                "artists":
+                                [
+                                    "Shoya Sunakawa"
+                                ]
+                            },
+                            {
+                                "track_number": 34,
+                                "title_number": "07",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Prima Vista Orchestra",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 35,
+                                "title_number": "07",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Tantalus's Theme (Dawntrail)",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 36,
+                                "title_number": "08",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Crash in the Dark",
+                                "artists":
+                                [
+                                    "Shoya Sunakawa"
+                                ]
+                            },
+                            {
+                                "track_number": 37,
+                                "title_number": "08",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Starless Skyline",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 38,
+                                "title_number": "09",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Thy Warmth",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 39,
+                                "title_number": "09",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Endwalker - Footfalls (Extended)",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 40,
+                                "title_number": "10",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Anatomy of Existence",
+                                "artists":
+                                [
+                                    "Shoya Sunakawa"
+                                ]
+                            },
+                            {
+                                "track_number": 41,
+                                "title_number": "10",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Seeking Purpose",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 42,
+                                "title_number": "10",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Bygone Serenity",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 43,
+                                "title_number": "11",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Broken Spell, Healed Hearts",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 44,
+                                "title_number": "11",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "In Dawn's Embrace",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 45,
+                                "title_number": "11",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Fleeting Life",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 46,
+                                "title_number": "11",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "track_title": "The Fateful Hour",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 47,
+                                "title_number": "11",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "Sword of Fury",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 48,
+                                "title_number": "11",
+                                "chapter_numbers":
+                                [
+                                    5
+                                ],
+                                "track_title": "Something to Protect",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 49,
+                                "title_number": "11",
+                                "chapter_numbers":
+                                [
+                                    6
+                                ],
+                                "track_title": "Unforgettable Sorrow",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 50,
+                                "title_number": "12",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "A Trail Unending",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 51,
+                                "title_number": "12",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Paved in Solitude",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 52,
+                                "title_number": "12",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Paved with Resolve",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 53,
+                                "title_number": "13",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Fond Farewells",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 54,
+                                "title_number": "13",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Smile",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 55,
+                                "title_number": "13",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Open Sky - The Theme from Dawntrail",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 56,
+                                "title_number": "18",
+                                "chapter_numbers":
+                                [
+                                    11
+                                ],
+                                "track_title": "Echoes of Memory",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 57,
+                                "title_number": "29",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Battle 1 from FINAL FANTASY IX",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 58,
+                                "title_number": "14",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "Faerie Battle",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 59,
+                                "title_number": "14",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Blessings on the Bluffs",
+                                "artists":
+                                [
+                                    "Takafumi Imamura"
+                                ]
+                            },
+                            {
+                                "track_number": 60,
+                                "title_number": "14",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Court Jesters (Dawntrail)",
+                                "artists":
+                                [
+                                    "Nobuo Uematsu"
+                                ]
+                            },
+                            {
+                                "track_number": 61,
+                                "title_number": "28",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "The Ring's Reprieve",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 62,
+                                "title_number": "15",
+                                "chapter_numbers":
+                                [
+                                    0
+                                ],
+                                "track_title": "It's Showtime!",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 63,
+                                "title_number": "15",
+                                "chapter_numbers":
+                                [
+                                    1
+                                ],
+                                "track_title": "Bee My Honey",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 64,
+                                "title_number": "15",
+                                "chapter_numbers":
+                                [
+                                    2
+                                ],
+                                "track_title": "Burning Souls",
+                                "artists":
+                                [
+                                    "Justin Frieden",
+                                    "Saya Yasaki"
+                                ]
+                            },
+                            {
+                                "track_number": 65,
+                                "title_number": "15",
+                                "chapter_numbers":
+                                [
+                                    3
+                                ],
+                                "track_title": "Give It All",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            },
+                            {
+                                "track_number": 66,
+                                "title_number": "15",
+                                "chapter_numbers":
+                                [
+                                    4
+                                ],
+                                "track_title": "A Risky Bet",
+                                "artists":
+                                [
+                                    "Masayoshi Soken"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "disc_volume_key_sha1": "1fe6b57001afb9ade248a76b66669eaeabb1b0b8",
         "bluray_title": "Death Unto Dawn: FINAL FANTASY XIV Original Soundtrack",
         "makemkv_prefix": "Death Unto Dawn- FINAL FANTASY XIV Original Soundtrack",
